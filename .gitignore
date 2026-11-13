@@ -11,6 +11,11 @@ data/raw/*
 !data/raw/.gitkeep
 !data/raw/hkdir.xlsx
 !data/raw/nav_all.csv
+!data/raw/esco/
+data/raw/esco/*
+!data/raw/esco/occupations_no.csv
+!data/raw/esco/occupationSkillRelations_no.csv
+!data/raw/esco/skills_no.csv
 
 data/processed/*
 !data/processed/.gitkeep
