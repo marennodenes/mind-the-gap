@@ -9,6 +9,8 @@ venv/
 
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/hkdir.xlsx
+!data/raw/nav_all.csv
 
 data/processed/*
 !data/processed/.gitkeep
