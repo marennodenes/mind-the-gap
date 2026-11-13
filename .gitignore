@@ -14,5 +14,8 @@ data/raw/*
 
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/hkdir.csv
+!data/processed/nav_health.csv
+!data/processed/demand_by_programme.csv
 
 .DS_Store
