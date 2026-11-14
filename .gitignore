@@ -11,6 +11,7 @@ data/raw/*
 !data/raw/.gitkeep
 !data/raw/hkdir.xlsx
 !data/raw/nav_all.csv
+!data/raw/nav_history.csv
 !data/raw/esco/
 data/raw/esco/*
 !data/raw/esco/occupations_no.csv
@@ -22,5 +23,6 @@ data/processed/*
 !data/processed/hkdir.csv
 !data/processed/nav_health.csv
 !data/processed/demand_by_programme.csv
+!data/processed/demand_history_by_programme.csv
 
 .DS_Store
