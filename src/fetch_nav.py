@@ -105,8 +105,9 @@ def read_feed(headers, days):
 def fetch_posting(entry, headers):
     """Fetch one posting and return the fields we need."""
     try:
-        ad = requests.get(BASE + entry["url"], headers=headers, timeout=20).json()
-    except Exception:
+        ad = get_json(BASE + entry["url"], headers)
+    except RuntimeError:
+        print(f"  skipped {entry['uuid']} after retries", flush=True)
         return None
     ad = ad.get("ad_content", ad)
     occ = (ad.get("occupationCategories") or [{}])[0]

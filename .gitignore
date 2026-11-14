@@ -25,5 +25,6 @@ data/processed/*
 !data/processed/demand_by_programme.csv
 !data/processed/demand_history_by_programme.csv
 !data/processed/supply_by_programme.csv
+!data/processed/gap_by_programme.csv
 
 .DS_Store

@@ -1,13 +1,13 @@
-programme,postings_title,postings_estimated,share_title,precision,recall,correction,snapshot_level2,snapshot_title
-Sykepleie,10658,13482.0,0.564,0.929,0.734,1.265,858,678
-Medisin,3497,4280.0,0.185,0.973,0.795,1.224,366,299
-Vernepleie,1153,1960.0,0.061,0.888,0.522,1.7,136,80
-Psykologi (profesjonsstudium),1125,1353.0,0.06,1.0,0.831,1.203,71,59
-Fysioterapi,669,824.0,0.035,1.0,0.812,1.231,48,39
-Bioingeniør,446,562.0,0.024,0.87,0.69,1.261,29,23
-Odontologi,438,420.0,0.023,0.939,0.979,0.959,47,49
-Ergoterapi,371,474.0,0.02,1.0,0.783,1.278,23,18
-Radiografi / audiografi,199,235.0,0.011,0.955,0.808,1.182,26,22
-Tannpleie,140,140.0,0.007,1.0,1.0,1.0,17,17
-Audiografi / logopedi,132,143.0,0.007,1.0,0.923,1.083,13,12
-Klinisk ernæring,63,105.0,0.003,1.0,0.6,1.667,5,3
+programme,postings_title,postings_estimated,precision,recall,correction,snapshot_level2,snapshot_title
+Sykepleie,10658,13482.0,0.929,0.734,1.265,858,678
+Medisin,3497,4280.0,0.973,0.795,1.224,366,299
+Vernepleie,1153,1960.0,0.888,0.522,1.7,136,80
+Psykologi (profesjonsstudium),1125,1353.0,1.0,0.831,1.203,71,59
+Fysioterapi,669,824.0,1.0,0.812,1.231,48,39
+Bioingeniør,446,562.0,0.87,0.69,1.261,29,23
+Odontologi,438,420.0,0.939,0.979,0.959,47,49
+Ergoterapi,371,474.0,1.0,0.783,1.278,23,18
+Radiografi / audiografi,199,235.0,0.955,0.808,1.182,26,22
+Tannpleie,140,140.0,1.0,1.0,1.0,17,17
+Audiografi / logopedi,132,143.0,1.0,0.923,1.083,13,12
+Klinisk ernæring,63,105.0,1.0,0.6,1.667,5,3

@@ -1,0 +1,12 @@
+rank,programme,postings,study_places,postings_per_place,first_choice_per_place,share_fulltime,share_temporary,n_snapshot
+1,Medisin,4280,900,4.76,4.33,0.89,0.25,366
+2,Psykologi (profesjonsstudium),1353,462,2.93,12.76,0.94,0.04,71
+3,Odontologi,420,163,2.58,4.57,0.81,0.17,47
+4,Sykepleie,13482,5630,2.39,2.34,0.78,0.18,858
+5,Fysioterapi,824,460,1.79,5.71,0.81,0.23,48
+6,Vernepleie,1960,1195,1.64,2.37,0.82,0.12,136
+7,Ergoterapi,474,297,1.6,1.86,0.74,0.13,23
+8,Bioingeniør,562,427,1.32,2.5,1.0,0.07,27
+9,Tannpleie,140,110,1.27,4.07,0.82,0.24,17
+10,Klinisk ernæring,105,92,1.14,1.75,0.6,0.0,5
+11,Radiografi / audiografi,235,230,1.02,4.94,0.96,0.27,26

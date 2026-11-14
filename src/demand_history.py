@@ -112,10 +112,9 @@ def main():
     total = hist.groupby("programme").size().rename("postings_title").reset_index()
     total = total.merge(calib, on="programme", how="left")
     total["postings_estimated"] = (total["postings_title"] * total["correction"]).round()
-    total["share_title"] = (total["postings_title"] / total["postings_title"].sum()).round(3)
     total = total.sort_values("postings_title", ascending=False)
     total = total[[
-        "programme", "postings_title", "postings_estimated", "share_title",
+        "programme", "postings_title", "postings_estimated",
         "precision", "recall", "correction", "snapshot_level2", "snapshot_title",
     ]]
     total.to_csv(TOTAL_PATH, index=False)
