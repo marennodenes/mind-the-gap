@@ -26,5 +26,7 @@ data/processed/*
 !data/processed/demand_history_by_programme.csv
 !data/processed/supply_by_programme.csv
 !data/processed/gap_by_programme.csv
+!data/processed/skills_by_programme.csv
+!data/processed/esco_coverage_by_programme.csv
 
 .DS_Store

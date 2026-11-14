@@ -25,6 +25,7 @@ python src/filter_health.py
 python src/demand_history.py
 python src/build_supply.py
 python src/build_gap.py
+python src/build_skills.py
 ```
 
 Each script describes its input and output at the top of the file.
@@ -40,6 +41,11 @@ Each script describes its input and output at the top of the file.
   over all institutions, campuses and part-time variants.
 - **Gap** is postings per study place. First-choice applicants per place show
   whether more places would actually be filled.
+- **Skills** are found by searching the posting texts for the Norwegian names
+  of ESCO skills. Each programme is linked to its closest ESCO occupations
+  (`PROGRAMME_TO_ESCO` in `src/build_skills.py`), so mentioned skills can be
+  compared with the skills ESCO lists as essential or optional. Exact name
+  matching misses paraphrases, so mention shares are a lower bound.
 
 ## Setup
 

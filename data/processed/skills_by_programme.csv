@@ -1,0 +1,1793 @@
+programme,skill,skill_type,reuse_level,esco_relation,n_postings,share_postings
+Audiografi / logopedi,kommunikasjon,knowledge,cross-sector,none,8,0.615
+Audiografi / logopedi,høreapparater,knowledge,cross-sector,optional,5,0.385
+Audiografi / logopedi,logopedi,knowledge,occupation-specific,essential,5,0.385
+Audiografi / logopedi,norsk,knowledge,transversal,none,5,0.385
+Audiografi / logopedi,audiologi,knowledge,sector-specific,essential,4,0.308
+Audiografi / logopedi,arbeide selvstendig,skill/competence,transversal,none,2,0.154
+Audiografi / logopedi,audiometri,knowledge,sector-specific,essential,2,0.154
+Audiografi / logopedi,planlegge,skill/competence,cross-sector,none,2,0.154
+Audiografi / logopedi,psykologi,knowledge,cross-sector,essential,2,0.154
+Audiografi / logopedi,rehabilitering,knowledge,cross-sector,none,2,0.154
+Audiografi / logopedi,hjelpemidler,knowledge,cross-sector,none,1,0.077
+Audiografi / logopedi,nevrologi,knowledge,cross-sector,essential,1,0.077
+Audiografi / logopedi,ortopedi,knowledge,cross-sector,none,1,0.077
+Audiografi / logopedi,utvise troverdighet,skill/competence,transversal,none,1,0.077
+Audiografi / logopedi,administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,akustikk,knowledge,cross-sector,optional,0,0.0
+Audiografi / logopedi,anbefale høreapparater,skill/competence,occupation-specific,optional,0,0.0
+Audiografi / logopedi,ansiktsgymnastikk,knowledge,occupation-specific,essential,0,0.0
+Audiografi / logopedi,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Audiografi / logopedi,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,atferdsnevrologi,knowledge,occupation-specific,essential,0,0.0
+Audiografi / logopedi,autisme,knowledge,sector-specific,optional,0,0.0
+Audiografi / logopedi,behandle svelgeforstyrrelser,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,behandle taleforstyrrelser,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,bestille forsyninger for audiologitjenester,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,bevegelsesteknikker,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,bistå audiografer med screening,skill/competence,occupation-specific,optional,0,0.0
+Audiografi / logopedi,bobath-terapi,knowledge,sector-specific,optional,0,0.0
+Audiografi / logopedi,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Audiografi / logopedi,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,bruke spesialiserte instrumenter innen otorinolaryngologi,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,bruke spesielt høreutstyr for testing,skill/competence,cross-sector,optional,0,0.0
+Audiografi / logopedi,bruke teknikker for å øke pasientenes motivasjon,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,diagnostisere taleforstyrrelser,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,evaluere den psykologiske effekten av talevansker,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,faglig dokumentasjon i helsevesenet,knowledge,sector-specific,essential,0,0.0
+Audiografi / logopedi,fonetikk,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,foniatri,knowledge,occupation-specific,essential,0,0.0
+Audiografi / logopedi,formulere en kasuskonseptualiseringsmodell for terapi,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,forske på talerelaterte emner,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,fremme gode vaner for å unngå kommunikasjonsvansker,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,føre registre over kundenes resepter,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,førstehjelp,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,geriatri,knowledge,cross-sector,optional,0,0.0
+Audiografi / logopedi,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,gi kunder informasjon om høreapparater,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,gi råd om kommunikasjonsforstyrrelser,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,gjennomføre klinisk revisjon,skill/competence,sector-specific,optional,0,0.0
+Audiografi / logopedi,gjennomføre polysomnografi,skill/competence,sector-specific,optional,0,0.0
+Audiografi / logopedi,gjennomføre terapitimer,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,"helse-, sikkerhets- og hygienelovgivning",knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,helselovgivning,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,henvise brukere av helsetjenester,skill/competence,sector-specific,optional,0,0.0
+Audiografi / logopedi,hygiene i helsevesenet,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,håndtere nevropsykiatriske sekveler etter slag,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,hørselsfysiologi,knowledge,sector-specific,optional,0,0.0
+Audiografi / logopedi,hørselstap,knowledge,sector-specific,essential,0,0.0
+Audiografi / logopedi,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,informere pasienter om muligheter for å forbedre tale,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,klargjøre audiologipasienter for vurderinger,skill/competence,occupation-specific,optional,0,0.0
+Audiografi / logopedi,kommunikasjon knyttet til hørselsnedsettelse,knowledge,cross-sector,optional,0,0.0
+Audiografi / logopedi,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,lage avtrykk for øreavstøpninger,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,leppelesing,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,levere slagrehabiliteringstjenester,skill/competence,sector-specific,optional,0,0.0
+Audiografi / logopedi,lingvistikk,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,lære kommunikasjonsmetoder,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,medisinsk informatikk,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,medisinsk terminologi,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,menneskets anatomi,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,menneskets fysiologi,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,menneskeøre,knowledge,cross-sector,optional,0,0.0
+Audiografi / logopedi,motivere helsetjenestebrukerens egenkontroll,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,nevropsykologi,knowledge,occupation-specific,essential,0,0.0
+Audiografi / logopedi,organisere forebygging av tilbakefall,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,otorinolaryngologiske tilstander,knowledge,occupation-specific,essential,0,0.0
+Audiografi / logopedi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,overholde organisatoriske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,overvåke pasienters fremgang knyttet til behandling,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,patologi,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,pedagogikk,knowledge,cross-sector,optional,0,0.0
+Audiografi / logopedi,pediatri,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,psykiatri,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,psykoakustikk,knowledge,sector-specific,optional,0,0.0
+Audiografi / logopedi,psykolingvistikk,knowledge,sector-specific,optional,0,0.0
+Audiografi / logopedi,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,registrere helsetjenestebrukernes fremgang relatert til behandling,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,reparere høreapparater,skill/competence,occupation-specific,essential,0,0.0
+Audiografi / logopedi,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,spesialundervisning,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,tale med støttesignaler,knowledge,occupation-specific,optional,0,0.0
+Audiografi / logopedi,taleteknikker,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,tegnspråk,knowledge,cross-sector,essential,0,0.0
+Audiografi / logopedi,tilpasse høreapparater,skill/competence,sector-specific,optional,0,0.0
+Audiografi / logopedi,tilpasse hørselstester,skill/competence,sector-specific,optional,0,0.0
+Audiografi / logopedi,tolke diagnostiske tester innen otorinolaryngologi,skill/competence,sector-specific,optional,0,0.0
+Audiografi / logopedi,typer audiologisk utstyr,knowledge,sector-specific,essential,0,0.0
+Audiografi / logopedi,utføre tekniske oppgaver nøyaktig,skill/competence,sector-specific,essential,0,0.0
+Audiografi / logopedi,utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,utvise tålmodighet,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,vedlikeholde laboratorieutstyr,skill/competence,cross-sector,essential,0,0.0
+Audiografi / logopedi,veilede tale- og språkteamet,skill/competence,occupation-specific,optional,0,0.0
+Audiografi / logopedi,yrkesspesifikk etikk innen helsevesen,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,kommunikasjon,knowledge,cross-sector,none,15,0.556
+Bioingeniør,norsk,knowledge,transversal,none,14,0.519
+Bioingeniør,kjemi,knowledge,cross-sector,essential,8,0.296
+Bioingeniør,immunhematologi,knowledge,sector-specific,essential,6,0.222
+Bioingeniør,immunologi,knowledge,cross-sector,essential,6,0.222
+Bioingeniør,patologi,knowledge,cross-sector,essential,4,0.148
+Bioingeniør,arbeide selvstendig,skill/competence,transversal,none,3,0.111
+Bioingeniør,engelsk,knowledge,transversal,none,3,0.111
+Bioingeniør,farmakologi,knowledge,cross-sector,none,3,0.111
+Bioingeniør,pasientsikkerhetsteorier,knowledge,sector-specific,none,3,0.111
+Bioingeniør,arbeide i team,skill/competence,transversal,none,2,0.074
+Bioingeniør,biologi,knowledge,cross-sector,essential,2,0.074
+Bioingeniør,dansk,knowledge,transversal,none,2,0.074
+Bioingeniør,massespektrometri,knowledge,sector-specific,none,2,0.074
+Bioingeniør,protein,knowledge,occupation-specific,none,2,0.074
+Bioingeniør,svensk,knowledge,transversal,none,2,0.074
+Bioingeniør,tenke helhetlig,skill/competence,transversal,none,2,0.074
+Bioingeniør,biomedisin,knowledge,sector-specific,none,1,0.037
+Bioingeniør,ernæring,knowledge,sector-specific,none,1,0.037
+Bioingeniør,gasskromatografi,knowledge,cross-sector,none,1,0.037
+Bioingeniør,genetikk,knowledge,sector-specific,none,1,0.037
+Bioingeniør,håndtere stressende situasjoner på arbeidsplassen,skill/competence,cross-sector,none,1,0.037
+Bioingeniør,kirurgi,knowledge,sector-specific,none,1,0.037
+Bioingeniør,kryopreservering,knowledge,sector-specific,optional,1,0.037
+Bioingeniør,laboratorieutstyr,knowledge,sector-specific,none,1,0.037
+Bioingeniør,legemidler,knowledge,cross-sector,none,1,0.037
+Bioingeniør,logistikk,knowledge,cross-sector,none,1,0.037
+Bioingeniør,medisinsk genetikk,knowledge,cross-sector,essential,1,0.037
+Bioingeniør,ortopedi,knowledge,cross-sector,none,1,0.037
+Bioingeniør,personvernforordningen,knowledge,sector-specific,none,1,0.037
+Bioingeniør,produksjonsprosess,knowledge,cross-sector,none,1,0.037
+Bioingeniør,stamceller,knowledge,sector-specific,none,1,0.037
+Bioingeniør,statistisk kvalitetskontroll,knowledge,sector-specific,none,1,0.037
+Bioingeniør,vedlikeholde maskiner,skill/competence,cross-sector,none,1,0.037
+Bioingeniør,administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,administrere helsetjenestepersonell,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,analysere cellekulturer,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,analysere kroppsvæsker,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,analytiske metoder i biomedisinsk vitenskap,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Bioingeniør,anvende god klinisk praksis,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,anvende sikkerhetsprosedyrer i laboratoriet,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,automatiserte analysatorer i det medisinske laboratoriet,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,bioetikk,knowledge,occupation-specific,essential,0,0.0
+Bioingeniør,biofysikk,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,biologisk hematologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,biologisk kjemi,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,biomedisinsk vitenskap,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,biomedisinske forskeres rolle i helsevesenet,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,biomedisinske teknikker,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,biosikkerhet i biomedisinsk laboratorium,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,biostatistikk,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,bistå i å produsere laboratoriedokumentasjon,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,blodoverføring,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Bioingeniør,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,bruke regneferdigheter,skill/competence,cross-sector,optional,0,0.0
+Bioingeniør,bruke vitenskapelige metoder,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,densiometri,knowledge,occupation-specific,essential,0,0.0
+Bioingeniør,dermapatologi,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,diagnostisere lidelser i urogenitalsystemet,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,diagnostiske metoder på medisinsk laboratorium,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,drive opplæring i biomedisinsk utstyr,skill/competence,cross-sector,optional,0,0.0
+Bioingeniør,elektroencefalografi,knowledge,sector-specific,optional,0,0.0
+Bioingeniør,embryologi,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,epidemiologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,faglig dokumentasjon i helsevesenet,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,finne løsninger på problemer,skill/competence,cross-sector,optional,0,0.0
+Bioingeniør,forklare det molekylære grunnlaget til en sykdom for pasienter,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,forske på nye behandlinger for blodrelaterte lidelser,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,førstehjelp,knowledge,cross-sector,optional,0,0.0
+Bioingeniør,gi behandlingsstrategier for utfordringer relatert til menneskelig helse,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,gjennomføre helserelatert forskning,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,gjennomføre rutinemessige blodprøver,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,gjennomføre toksikologiske studier,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,helselovgivning,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,hepatologi,knowledge,sector-specific,optional,0,0.0
+Bioingeniør,histologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,histopatologi,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,holde seg oppdatert på diagnostiske innovasjoner,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,hygiene i helsevesenet,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,implementere kvalitetskontrollprosedyrer for biomedisinske tester,skill/competence,occupation-specific,essential,0,0.0
+Bioingeniør,imøtekomme helsebrukerens behov,skill/competence,cross-sector,optional,0,0.0
+Bioingeniør,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,intrakraniell hypertensjon,knowledge,sector-specific,optional,0,0.0
+Bioingeniør,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,klinisk biokjemi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,klinisk cytologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,klinisk immunologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,klinisk mikrobiologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,kunne betjene en datamaskin,skill/competence,cross-sector,optional,0,0.0
+Bioingeniør,laboratoriemetoder i biomedisinsk vitenskap,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,lede infeksjonskontroll ved institusjonen,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,levere testresultater til medisinsk personell,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,medisinsk informatikk,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,medisinsk parasittologi,knowledge,sector-specific,optional,0,0.0
+Bioingeniør,medisinsk terminologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,menneskets anatomi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,menneskets fysiologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,merke medisinske laboratorieprøver,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,mikrobiologi-bakteriologi,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,mikroskopiske teknikker,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,molekylær biologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,neoplasi,knowledge,sector-specific,optional,0,0.0
+Bioingeniør,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,overholde organisatoriske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,overvåke biomedisinsk utstyrslager,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,overvåke virkningene av legemidler,skill/competence,occupation-specific,essential,0,0.0
+Bioingeniør,pedagogikk,knowledge,cross-sector,optional,0,0.0
+Bioingeniør,proteomikk,knowledge,sector-specific,optional,0,0.0
+Bioingeniør,rapporteringssystem for feil på medisinsk utstyr,knowledge,occupation-specific,optional,0,0.0
+Bioingeniør,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,registrere data fra biomedisinske prøver,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,samle inn biologiske prøver fra pasienter,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,strålevern,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,støtte blodoverføringstjenester,skill/competence,occupation-specific,essential,0,0.0
+Bioingeniør,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,teknikker for blodprøvetaking,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,toksikologi,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,tolke elektromyogrammer,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,transplantasjon,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,tverrfaglig forskning,knowledge,cross-sector,optional,0,0.0
+Bioingeniør,tverrtilpassede teknikker for blodtransfusjon,knowledge,cross-sector,essential,0,0.0
+Bioingeniør,undersøke prøver innen dermatologi,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,utføre biopsi,skill/competence,occupation-specific,essential,0,0.0
+Bioingeniør,utføre cerebrospinalvæskeanalyse,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,utføre diagnostisk testing for allergier,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,utføre flowcytometri,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,utføre patologikonsultasjoner,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,utføre pcr-test for covid,skill/competence,occupation-specific,essential,0,0.0
+Bioingeniør,utføre rekonstruktiv mikrokirurgi,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,utføre screening for smittsomme sykdommer,skill/competence,occupation-specific,essential,0,0.0
+Bioingeniør,utføre stamcelletransplantasjon,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,utføre virologisk test,skill/competence,sector-specific,optional,0,0.0
+Bioingeniør,utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,validere biomedisinske analyseresultater,skill/competence,sector-specific,essential,0,0.0
+Bioingeniør,vedlikeholde medisinsk laboratorieutstyr,skill/competence,cross-sector,essential,0,0.0
+Bioingeniør,vevscytogenetikk,knowledge,sector-specific,essential,0,0.0
+Bioingeniør,yrkesspesifikk etikk innen helsevesen,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,rehabilitering,knowledge,cross-sector,none,18,0.783
+Ergoterapi,hjelpemidler,knowledge,cross-sector,none,12,0.522
+Ergoterapi,kommunikasjon,knowledge,cross-sector,none,10,0.435
+Ergoterapi,norsk,knowledge,transversal,none,10,0.435
+Ergoterapi,planlegge,skill/competence,cross-sector,none,6,0.261
+Ergoterapi,engelsk,knowledge,transversal,none,5,0.217
+Ergoterapi,fysioterapi,knowledge,sector-specific,none,4,0.174
+Ergoterapi,arbeide selvstendig,skill/competence,transversal,none,3,0.13
+Ergoterapi,geriatri,knowledge,cross-sector,essential,3,0.13
+Ergoterapi,eldrepleie,skill/competence,sector-specific,none,2,0.087
+Ergoterapi,ergonomi,knowledge,cross-sector,essential,2,0.087
+Ergoterapi,konsultasjon,knowledge,cross-sector,none,2,0.087
+Ergoterapi,metoder innen ikt-prosjektledelse,knowledge,sector-specific,none,2,0.087
+Ergoterapi,nevrologi,knowledge,cross-sector,essential,2,0.087
+Ergoterapi,barnevern,knowledge,cross-sector,none,1,0.043
+Ergoterapi,digitalisering,knowledge,cross-sector,none,1,0.043
+Ergoterapi,etikk,knowledge,cross-sector,none,1,0.043
+Ergoterapi,folkehelse,knowledge,cross-sector,optional,1,0.043
+Ergoterapi,kirurgi,knowledge,sector-specific,none,1,0.043
+Ergoterapi,motivere andre,skill/competence,transversal,none,1,0.043
+Ergoterapi,offentlig forvaltning,knowledge,sector-specific,none,1,0.043
+Ergoterapi,ortopedi,knowledge,cross-sector,essential,1,0.043
+Ergoterapi,pasientsikkerhetsteorier,knowledge,sector-specific,none,1,0.043
+Ergoterapi,refleksjon,knowledge,sector-specific,none,1,0.043
+Ergoterapi,revmatologi,knowledge,sector-specific,none,1,0.043
+Ergoterapi,svangerskap,knowledge,sector-specific,none,1,0.043
+Ergoterapi,tenke helhetlig,skill/competence,transversal,none,1,0.043
+Ergoterapi,tilpasse seg endringer,skill/competence,transversal,none,1,0.043
+Ergoterapi,veilede studenter,skill/competence,cross-sector,none,1,0.043
+Ergoterapi,vise initiativ,skill/competence,transversal,none,1,0.043
+Ergoterapi,administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,administrere yrkesterapistudenter,skill/competence,occupation-specific,optional,0,0.0
+Ergoterapi,aktivitetsvitenskap,knowledge,sector-specific,essential,0,0.0
+Ergoterapi,allmennmedisin,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Ergoterapi,anvende teknikker for yrkesterapi,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,bevegelsesteknikker,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,bistå i utførelse av fysiske øvelser,skill/competence,sector-specific,optional,0,0.0
+Ergoterapi,bobath-terapi,knowledge,sector-specific,optional,0,0.0
+Ergoterapi,bruke dataprogrammer til å forbedre pasienters ferdigheter,skill/competence,occupation-specific,essential,0,0.0
+Ergoterapi,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Ergoterapi,bruke kliniske vurderingsteknikker,skill/competence,sector-specific,optional,0,0.0
+Ergoterapi,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,bruke teknikker for å øke pasientenes motivasjon,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,faglig dokumentasjon i helsevesenet,knowledge,sector-specific,essential,0,0.0
+Ergoterapi,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,fysikalsk medisin,knowledge,sector-specific,essential,0,0.0
+Ergoterapi,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,førstehjelp,knowledge,cross-sector,optional,0,0.0
+Ergoterapi,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,gi pleieråd om helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,gi råd om miljømessige endringer,skill/competence,occupation-specific,essential,0,0.0
+Ergoterapi,gi råd til brukere av helsetjenester om yrkesmessig helse,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,helselovgivning,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,hjelpe barn med spesielle behov i utdanningssammenhenger,skill/competence,sector-specific,optional,0,0.0
+Ergoterapi,hjelpe brukere av helsetjenester med å oppnå selvstendighet,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,hygiene i helsevesenet,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,identifisere forskningstemaer,skill/competence,sector-specific,optional,0,0.0
+Ergoterapi,identifisere helsetjenestebrukerens personlige kapasitet,skill/competence,occupation-specific,essential,0,0.0
+Ergoterapi,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,instruere om bruk av spesialutstyr for daglige aktiviteter,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,lage individuelle behandlingsopplegg,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,levere slagrehabiliteringstjenester,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,lidelser som påvirker selvbevissthet,knowledge,sector-specific,optional,0,0.0
+Ergoterapi,lokalbasert rehabilitering,knowledge,sector-specific,essential,0,0.0
+Ergoterapi,medisinsk informatikk,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,medisinsk terminologi,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,mekanoterapi,knowledge,sector-specific,optional,0,0.0
+Ergoterapi,menneskets anatomi,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,menneskets fysiologi,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,motivere helsetjenestebrukerens egenkontroll,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,nevropsykologi,knowledge,occupation-specific,optional,0,0.0
+Ergoterapi,oppfølging av personer,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,osteopati,knowledge,sector-specific,optional,0,0.0
+Ergoterapi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,overvåke pasienters fremgang knyttet til behandling,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,patologi,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,pedagogikk,knowledge,cross-sector,optional,0,0.0
+Ergoterapi,pediatri,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,psykiatri,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,psykologi,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,psykoterapiprinsipper,knowledge,cross-sector,optional,0,0.0
+Ergoterapi,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,registrere helsetjenestebrukernes fremgang relatert til behandling,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,sosiologi,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,sørge for tidlig intervensjonsterapi for spedbarn,skill/competence,occupation-specific,optional,0,0.0
+Ergoterapi,utbedre helsetjenestebrukerens evner til å gjennomføre oppgavene på jobb,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,utføre helsetjenesteundersøkelse,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,utføre pasientaktivitetsanalyser,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,utføre yrkesanalyser,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,utstyre personer med hjelpeteknologi,skill/competence,occupation-specific,essential,0,0.0
+Ergoterapi,utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,utvikle et rehabiliteringsprogram,skill/competence,cross-sector,essential,0,0.0
+Ergoterapi,vurdere risikoer for eldre,skill/competence,sector-specific,essential,0,0.0
+Ergoterapi,yrkesfysiologi,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,yrkeshygiene,knowledge,sector-specific,essential,0,0.0
+Ergoterapi,yrkesrettet rehabilitering,knowledge,sector-specific,essential,0,0.0
+Ergoterapi,yrkesspesifikk etikk innen helsevesen,knowledge,cross-sector,essential,0,0.0
+Ergoterapi,yrkesterapiteorier,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,fysioterapi,knowledge,sector-specific,none,31,0.646
+Fysioterapi,rehabilitering,knowledge,cross-sector,essential,31,0.646
+Fysioterapi,kommunikasjon,knowledge,cross-sector,none,29,0.604
+Fysioterapi,norsk,knowledge,transversal,none,22,0.458
+Fysioterapi,hjelpemidler,knowledge,cross-sector,none,13,0.271
+Fysioterapi,planlegge,skill/competence,cross-sector,none,8,0.167
+Fysioterapi,svangerskap,knowledge,sector-specific,none,7,0.146
+Fysioterapi,engelsk,knowledge,transversal,none,6,0.125
+Fysioterapi,vise engasjement,skill/competence,transversal,none,5,0.104
+Fysioterapi,ergonomi,knowledge,cross-sector,none,4,0.083
+Fysioterapi,nevrologi,knowledge,cross-sector,essential,4,0.083
+Fysioterapi,dansk,knowledge,transversal,none,3,0.062
+Fysioterapi,folkehelse,knowledge,cross-sector,none,3,0.062
+Fysioterapi,geriatri,knowledge,cross-sector,essential,3,0.062
+Fysioterapi,motivere andre,skill/competence,transversal,none,3,0.062
+Fysioterapi,ortopedi,knowledge,cross-sector,essential,3,0.062
+Fysioterapi,svensk,knowledge,transversal,none,3,0.062
+Fysioterapi,arbeide selvstendig,skill/competence,transversal,none,2,0.042
+Fysioterapi,digitalisering,knowledge,cross-sector,none,2,0.042
+Fysioterapi,drive pr,skill/competence,cross-sector,none,2,0.042
+Fysioterapi,eldrepleie,skill/competence,sector-specific,none,2,0.042
+Fysioterapi,ernæring,knowledge,sector-specific,none,2,0.042
+Fysioterapi,refleksjon,knowledge,sector-specific,none,2,0.042
+Fysioterapi,tenke innovativt,skill/competence,transversal,none,2,0.042
+Fysioterapi,barnevern,knowledge,cross-sector,none,1,0.021
+Fysioterapi,biomekanikk,knowledge,cross-sector,essential,1,0.021
+Fysioterapi,boliglån,knowledge,cross-sector,none,1,0.021
+Fysioterapi,fysikalsk medisin,knowledge,sector-specific,none,1,0.021
+Fysioterapi,gi informasjon,skill/competence,cross-sector,none,1,0.021
+Fysioterapi,gi veiledning,skill/competence,cross-sector,none,1,0.021
+Fysioterapi,handlekraftig,knowledge,sector-specific,none,1,0.021
+Fysioterapi,helselovgivning,knowledge,cross-sector,none,1,0.021
+Fysioterapi,helseopplysning,knowledge,cross-sector,none,1,0.021
+Fysioterapi,helsevesen,knowledge,cross-sector,none,1,0.021
+Fysioterapi,kirurgi,knowledge,sector-specific,essential,1,0.021
+Fysioterapi,konsultasjon,knowledge,cross-sector,none,1,0.021
+Fysioterapi,logistikk,knowledge,cross-sector,none,1,0.021
+Fysioterapi,oppfølging av personer,knowledge,cross-sector,none,1,0.021
+Fysioterapi,pasientsikkerhetsteorier,knowledge,sector-specific,none,1,0.021
+Fysioterapi,psykiatri,knowledge,cross-sector,essential,1,0.021
+Fysioterapi,tilpasse seg endringer,skill/competence,transversal,none,1,0.021
+Fysioterapi,veilede annet helsepersonell,skill/competence,occupation-specific,none,1,0.021
+Fysioterapi,vise initiativ,skill/competence,transversal,none,1,0.021
+Fysioterapi,yrkeshygiene,knowledge,sector-specific,optional,1,0.021
+Fysioterapi,administrere et helseenhetsbudsjett,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,administrere fysioterapipersonell,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,administrere helsetjenestepersonell,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,administrere klinisk risiko,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,akuttkirurgi,knowledge,sector-specific,essential,0,0.0
+Fysioterapi,allmennmedisin,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,analysere informasjon om egen fysisk form,skill/competence,sector-specific,optional,0,0.0
+Fysioterapi,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Fysioterapi,anvende kognitive atferdsbehandlingsteknikker,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,bidra i rehabiliteringsprosessen,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,bidra til kvalitetsforbedringer på fysioterapitjenester,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,bruke akupunktur,skill/competence,sector-specific,optional,0,0.0
+Fysioterapi,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Fysioterapi,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,bruke massasjeterapi,skill/competence,cross-sector,optional,0,0.0
+Fysioterapi,bruke ulike kommunikasjonskanaler,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,engasjere seg i fysioterapiforskning,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,farmakologi,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,finne løsninger på problemer,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,foreskrive helseprodukter,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,foreskrive legemidler,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,foreskrive tester for fysioterapi,skill/competence,occupation-specific,essential,0,0.0
+Fysioterapi,formulere en behandlingsplan,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,fremme helse,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,fremme helse- og sikkerhetsretningslinjer innen helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,fysikk,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,førstehjelp,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,gi behandlingsstrategier for utfordringer relatert til menneskelig helse,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,gi informasjon om virkningene av fysioterapi,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,gi lærestøtte innen helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,gi støtte til selvstyring,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,gjennomføre fysioterapivurdering,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,gjennomføre helserelatert forskning,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,henvise brukere av helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,hydroterapi,knowledge,sector-specific,optional,0,0.0
+Fysioterapi,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,idretts- og mosjonsmedisin,knowledge,cross-sector,optional,0,0.0
+Fysioterapi,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,intensivmedisin,knowledge,sector-specific,essential,0,0.0
+Fysioterapi,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,kinetikk,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,korrigere potensielt skadelige bevegelser,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,levere slagrehabiliteringstjenester,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,manuell ortopedisk fysioterapi,knowledge,occupation-specific,essential,0,0.0
+Fysioterapi,medisinsk informatikk,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,medisinsk terminologi,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,menneskets anatomi,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,menneskets fysiologi,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,måle effektiviteten til tjenestetilbudet,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,obstetrikk og gynekologi,knowledge,sector-specific,essential,0,0.0
+Fysioterapi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,overholde organisatoriske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,"overholde retningslinjer for helse, trivsel og sikkerhet",skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,pediatri,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,prioritere klienter,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,prioritere klienter for fysioterapi,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,psykologi,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,registrere helsetjenestebrukernes fremgang relatert til behandling,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,respiratorisk terapi,knowledge,sector-specific,essential,0,0.0
+Fysioterapi,ryggkirurgi,knowledge,occupation-specific,optional,0,0.0
+Fysioterapi,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,samle inn helsetjenestebrukerens generelle data,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,sosiologi,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,stille fysioterapidiagnose,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,terapeutisk massasje,knowledge,cross-sector,essential,0,0.0
+Fysioterapi,tilpasse fysioterapiintervensjoner,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,tilrettelegg for avansert klinisk praksis innen fysioterapi,skill/competence,occupation-specific,essential,0,0.0
+Fysioterapi,tolke medisinske resultater,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,utvikle fysioterapitjenester,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,utvikle planer knyttet til klientutskriving,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,utvikle planer knyttet til overføring av behandling,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,utvikle strategiske planer for fysioterapitjenester,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,utvikle terapeutiske relasjoner,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,vedlikeholde fysioterapiutstyr,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,veilede fysioterapeutassistenter,skill/competence,sector-specific,essential,0,0.0
+Fysioterapi,veilede fysioterapistudenter,skill/competence,cross-sector,essential,0,0.0
+Fysioterapi,vurdere kunders fysiske tilstand,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,ernæring,knowledge,sector-specific,none,4,0.8
+Klinisk ernæring,engelsk,knowledge,transversal,none,2,0.4
+Klinisk ernæring,kommunikasjon,knowledge,cross-sector,none,2,0.4
+Klinisk ernæring,norsk,knowledge,transversal,none,2,0.4
+Klinisk ernæring,barnevern,knowledge,cross-sector,none,1,0.2
+Klinisk ernæring,fremme helse,skill/competence,sector-specific,none,1,0.2
+Klinisk ernæring,matvitenskap,knowledge,sector-specific,essential,1,0.2
+Klinisk ernæring,pediatri,knowledge,cross-sector,essential,1,0.2
+Klinisk ernæring,planlegge,skill/competence,cross-sector,none,1,0.2
+Klinisk ernæring,produksjonsprosess,knowledge,cross-sector,none,1,0.2
+Klinisk ernæring,produksjonsprosesser,knowledge,cross-sector,none,1,0.2
+Klinisk ernæring,samarbeide med kolleger,skill/competence,cross-sector,none,1,0.2
+Klinisk ernæring,tenke innovativt,skill/competence,transversal,none,1,0.2
+Klinisk ernæring,utvikle nye produkter,skill/competence,sector-specific,none,1,0.2
+Klinisk ernæring,veilede ansatte,skill/competence,cross-sector,none,1,0.2
+Klinisk ernæring,administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,administrere klinisk risiko,skill/competence,cross-sector,optional,0,0.0
+Klinisk ernæring,allmennmedisin,knowledge,cross-sector,optional,0,0.0
+Klinisk ernæring,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Klinisk ernæring,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,beregning av matenergi,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,bidra til offentlige helsekampanjer,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,biologisk kjemi,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Klinisk ernæring,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,dietetikk,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,epidemiologi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,ernæringsmessig tilstrekkelighet av matinntak,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,faglig dokumentasjon i helsevesenet,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,farmakologi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,fedme,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,folkehelse,knowledge,cross-sector,optional,0,0.0
+Klinisk ernæring,foreskrive legemidler,skill/competence,sector-specific,optional,0,0.0
+Klinisk ernæring,foreslå tiltak for å bedre personers kosthold,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,formidle diettisk intervensjon,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,fremme etisk kosthold,skill/competence,sector-specific,optional,0,0.0
+Klinisk ernæring,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,friske personers ernæring,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,følge opp en ernæringsomsorgsplan,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,førstehjelp,knowledge,cross-sector,optional,0,0.0
+Klinisk ernæring,geriatri,knowledge,cross-sector,optional,0,0.0
+Klinisk ernæring,gi behandlingsstrategier for utfordringer relatert til menneskelig helse,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,gi helsetjenestebrukere informasjon om ernæring,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,gi råd om diettrelaterte problemstillinger,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,gi råd om tilberedning av diettmat,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,gjennomføre ernæringsforskning,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,helselovgivning,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,henvise brukere av helsetjenester,skill/competence,sector-specific,optional,0,0.0
+Klinisk ernæring,holde gruppetimer om ernæring,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,hygiene i helsevesenet,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,identifisere de helsemessige fordelene ved ernæringsmessige endringer,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,identifisere ernæringsmessige egenskaper ved mat,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,identifisere kvaliteten på profesjonell dietetisk omsorg,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,identifisere årsaken til ernæringsmessig ubalanse,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,intensivmedisin,knowledge,sector-specific,optional,0,0.0
+Klinisk ernæring,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,kjemi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,kliniske undersøkelser i dietetikk,knowledge,occupation-specific,essential,0,0.0
+Klinisk ernæring,komme med anbefalinger om ernæring til offentlige retningslinjeutformere,skill/competence,occupation-specific,optional,0,0.0
+Klinisk ernæring,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,kommunisere med medier,skill/competence,sector-specific,optional,0,0.0
+Klinisk ernæring,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,lære opp medisinsk personell innen ernæring,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,matallergier,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,matetiketter,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,mathygieneregler,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,medisinsk informatikk,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,medisinsk terminologi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,menneskets anatomi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,menneskets fysiologi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,måle pasienters ernæringsmessige helsestatus,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,næringsmiddelautentisering,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,næringsmiddellovgivning,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,oppfølging av personer,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,overholde organisatoriske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,overvåke barns fysiske utvikling,skill/competence,cross-sector,optional,0,0.0
+Klinisk ernæring,overvåke ernæringstilstand for individer,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,overvåke mat i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,patologi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,pedagogikk,knowledge,cross-sector,optional,0,0.0
+Klinisk ernæring,prinsipper for forretningsadministrering,knowledge,cross-sector,optional,0,0.0
+Klinisk ernæring,psykiatri,knowledge,cross-sector,optional,0,0.0
+Klinisk ernæring,psykologi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,registrere helsetjenestebrukernes betalingsinformasjon,skill/competence,cross-sector,optional,0,0.0
+Klinisk ernæring,rehabilitering,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,rådgivingsmetoder,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,sammensetning av dietter,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,sosiologi,knowledge,cross-sector,essential,0,0.0
+Klinisk ernæring,spiseforstyrrelser,knowledge,sector-specific,essential,0,0.0
+Klinisk ernæring,still dietetisk diagnose,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,støtte enkeltpersoner i ernæringsendringer,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,ta opp folkehelsespørsmål,skill/competence,cross-sector,optional,0,0.0
+Klinisk ernæring,utarbeide markedsføringsmateriell om ernæring,skill/competence,occupation-specific,essential,0,0.0
+Klinisk ernæring,utføre bibliografisk arbeid,skill/competence,sector-specific,optional,0,0.0
+Klinisk ernæring,utføre ernæringsanalyse,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,utvikle retningslinjer for ernæringsprogrammer,skill/competence,cross-sector,essential,0,0.0
+Klinisk ernæring,vedlikeholde medisinsk utstyr,skill/competence,cross-sector,optional,0,0.0
+Klinisk ernæring,veiled idrettsutøvere innen diett,skill/competence,occupation-specific,optional,0,0.0
+Klinisk ernæring,veilede næringsmiddelindustrien,skill/competence,sector-specific,essential,0,0.0
+Klinisk ernæring,yrkesspesifikk etikk innen helsevesen,knowledge,cross-sector,essential,0,0.0
+Medisin,norsk,knowledge,transversal,none,241,0.658
+Medisin,kommunikasjon,knowledge,cross-sector,none,227,0.62
+Medisin,allmennmedisin,knowledge,cross-sector,optional,88,0.24
+Medisin,psykiatri,knowledge,cross-sector,optional,80,0.219
+Medisin,akuttmedisin,knowledge,sector-specific,optional,47,0.128
+Medisin,kirurgi,knowledge,sector-specific,none,41,0.112
+Medisin,pasientsikkerhetsteorier,knowledge,sector-specific,none,41,0.112
+Medisin,rehabilitering,knowledge,cross-sector,none,40,0.109
+Medisin,arbeide selvstendig,skill/competence,transversal,none,35,0.096
+Medisin,konsultasjon,knowledge,cross-sector,none,33,0.09
+Medisin,nevrologi,knowledge,cross-sector,optional,31,0.085
+Medisin,ortopedi,knowledge,cross-sector,optional,24,0.066
+Medisin,dansk,knowledge,transversal,none,23,0.063
+Medisin,engelsk,knowledge,transversal,none,23,0.063
+Medisin,geriatri,knowledge,cross-sector,optional,23,0.063
+Medisin,svensk,knowledge,transversal,none,23,0.063
+Medisin,planlegge,skill/competence,cross-sector,none,16,0.044
+Medisin,kardiologi,knowledge,sector-specific,optional,14,0.038
+Medisin,radiologi,knowledge,sector-specific,optional,14,0.038
+Medisin,vise engasjement,skill/competence,transversal,none,14,0.038
+Medisin,gastroenterologi,knowledge,sector-specific,optional,13,0.036
+Medisin,personvernforordningen,knowledge,sector-specific,none,13,0.036
+Medisin,nevrofysiologi,knowledge,cross-sector,none,12,0.033
+Medisin,pediatri,knowledge,cross-sector,optional,12,0.033
+Medisin,urologi,knowledge,sector-specific,optional,12,0.033
+Medisin,barnevern,knowledge,cross-sector,none,10,0.027
+Medisin,helsevesen,knowledge,cross-sector,none,10,0.027
+Medisin,refleksjon,knowledge,sector-specific,none,10,0.027
+Medisin,fysikalsk medisin,knowledge,sector-specific,none,9,0.025
+Medisin,tenke innovativt,skill/competence,transversal,none,9,0.025
+Medisin,endokrinologi,knowledge,sector-specific,optional,8,0.022
+Medisin,ernæring,knowledge,sector-specific,none,8,0.022
+Medisin,generell kirurgi,knowledge,sector-specific,optional,8,0.022
+Medisin,klinisk nevrofysiologi,knowledge,occupation-specific,optional,8,0.022
+Medisin,patologi,knowledge,cross-sector,none,8,0.022
+Medisin,revmatologi,knowledge,sector-specific,optional,8,0.022
+Medisin,smittevern,knowledge,cross-sector,none,7,0.019
+Medisin,endoskopi,knowledge,occupation-specific,none,6,0.016
+Medisin,spiseforstyrrelser,knowledge,sector-specific,none,6,0.016
+Medisin,svangerskap,knowledge,sector-specific,none,6,0.016
+Medisin,arbeide i team,skill/competence,transversal,none,5,0.014
+Medisin,arbeidsrett,knowledge,sector-specific,none,5,0.014
+Medisin,samfunnsmedisin,knowledge,occupation-specific,optional,5,0.014
+Medisin,folkehelse,knowledge,cross-sector,none,4,0.011
+Medisin,fysioterapi,knowledge,sector-specific,optional,4,0.011
+Medisin,gi råd,skill/competence,transversal,none,4,0.011
+Medisin,histologi,knowledge,cross-sector,none,4,0.011
+Medisin,medisinsk utstyr,knowledge,cross-sector,none,4,0.011
+Medisin,oftalmologi,knowledge,sector-specific,optional,4,0.011
+Medisin,psykologi,knowledge,cross-sector,none,4,0.011
+Medisin,ryggkirurgi,knowledge,occupation-specific,optional,4,0.011
+Medisin,ungdomsmedisin,knowledge,cross-sector,none,4,0.011
+Medisin,atferdsterapi,knowledge,sector-specific,none,3,0.008
+Medisin,bygge tillit,skill/competence,cross-sector,none,3,0.008
+Medisin,eldrepleie,skill/competence,sector-specific,none,3,0.008
+Medisin,elektronisk kommunikasjon,knowledge,cross-sector,none,3,0.008
+Medisin,farmakologi,knowledge,cross-sector,optional,3,0.008
+Medisin,gi veiledning,skill/competence,cross-sector,none,3,0.008
+Medisin,helselovgivning,knowledge,cross-sector,none,3,0.008
+Medisin,immunologi,knowledge,cross-sector,optional,3,0.008
+Medisin,litteratur,knowledge,cross-sector,none,3,0.008
+Medisin,metoder innen ikt-prosjektledelse,knowledge,sector-specific,none,3,0.008
+Medisin,transplantasjon,knowledge,sector-specific,none,3,0.008
+Medisin,akuttbehandling,knowledge,sector-specific,none,2,0.005
+Medisin,"anvende kunnskap innen vitenskap, teknologi og ingeniørfag",skill/competence,transversal,none,2,0.005
+Medisin,autisme,knowledge,sector-specific,none,2,0.005
+Medisin,delegere ansvar,skill/competence,transversal,none,2,0.005
+Medisin,digitale systemer,knowledge,cross-sector,none,2,0.005
+Medisin,e-læring,knowledge,sector-specific,none,2,0.005
+Medisin,farger,knowledge,cross-sector,none,2,0.005
+Medisin,gastroenterologisk kirurgi,knowledge,occupation-specific,optional,2,0.005
+Medisin,hjelpemidler,knowledge,cross-sector,none,2,0.005
+Medisin,intensivmedisin,knowledge,sector-specific,none,2,0.005
+Medisin,legemidler,knowledge,cross-sector,none,2,0.005
+Medisin,logistikk,knowledge,cross-sector,none,2,0.005
+Medisin,nevropsykiatri,knowledge,sector-specific,optional,2,0.005
+Medisin,nevropsykologi,knowledge,occupation-specific,none,2,0.005
+Medisin,nukleærmedisin,knowledge,cross-sector,optional,2,0.005
+Medisin,obstetrikk og gynekologi,knowledge,sector-specific,optional,2,0.005
+Medisin,oral kirurgi,knowledge,cross-sector,none,2,0.005
+Medisin,samarbeide med kolleger,skill/competence,cross-sector,none,2,0.005
+Medisin,ta avgjørelser,skill/competence,transversal,none,2,0.005
+Medisin,vise initiativ,skill/competence,transversal,none,2,0.005
+Medisin,vitenskapelig litteratur,knowledge,cross-sector,none,2,0.005
+Medisin,akuttkirurgi,knowledge,sector-specific,none,1,0.003
+Medisin,allergologi,knowledge,sector-specific,optional,1,0.003
+Medisin,analysere musikk,skill/competence,sector-specific,none,1,0.003
+Medisin,arbeide effektivt,skill/competence,transversal,none,1,0.003
+Medisin,barnepsykiatri,knowledge,occupation-specific,optional,1,0.003
+Medisin,boliglån,knowledge,cross-sector,none,1,0.003
+Medisin,database,knowledge,cross-sector,none,1,0.003
+Medisin,delta på møter,skill/competence,sector-specific,none,1,0.003
+Medisin,dermatologi,knowledge,sector-specific,optional,1,0.003
+Medisin,digitalisering,knowledge,cross-sector,none,1,0.003
+Medisin,drive pr,skill/competence,cross-sector,none,1,0.003
+Medisin,elektroencefalografi,knowledge,sector-specific,essential,1,0.003
+Medisin,empirisk analyse,knowledge,cross-sector,none,1,0.003
+Medisin,ergonomi,knowledge,cross-sector,none,1,0.003
+Medisin,familierett,knowledge,cross-sector,none,1,0.003
+Medisin,familieterapi,knowledge,sector-specific,none,1,0.003
+Medisin,fotball,knowledge,occupation-specific,none,1,0.003
+Medisin,fotpleie,knowledge,sector-specific,none,1,0.003
+Medisin,fotproblemer,knowledge,sector-specific,none,1,0.003
+Medisin,gi informasjon,skill/competence,cross-sector,none,1,0.003
+Medisin,handlekraftig,knowledge,sector-specific,none,1,0.003
+Medisin,helseopplysning,knowledge,cross-sector,none,1,0.003
+Medisin,holografi,knowledge,sector-specific,none,1,0.003
+Medisin,immunhematologi,knowledge,sector-specific,none,1,0.003
+Medisin,kjemi,knowledge,cross-sector,none,1,0.003
+Medisin,klinisk immunologi,knowledge,cross-sector,none,1,0.003
+Medisin,kognitiv atferdsterapi,knowledge,sector-specific,none,1,0.003
+Medisin,koordinere behandling,skill/competence,sector-specific,none,1,0.003
+Medisin,kriseintervensjon,knowledge,cross-sector,none,1,0.003
+Medisin,likhet,knowledge,occupation-specific,none,1,0.003
+Medisin,medisinsk onkologi,knowledge,sector-specific,none,1,0.003
+Medisin,meteorologi,knowledge,cross-sector,none,1,0.003
+Medisin,migrasjon,knowledge,cross-sector,none,1,0.003
+Medisin,neonatologi,knowledge,sector-specific,none,1,0.003
+Medisin,nevrovitenskap,knowledge,sector-specific,none,1,0.003
+Medisin,rettspsykiatri,knowledge,sector-specific,optional,1,0.003
+Medisin,statistikk,knowledge,cross-sector,none,1,0.003
+Medisin,sykepleievitenskap,knowledge,cross-sector,none,1,0.003
+Medisin,takle usikkerhet,skill/competence,transversal,none,1,0.003
+Medisin,tenke helhetlig,skill/competence,transversal,none,1,0.003
+Medisin,toksikologi,knowledge,cross-sector,none,1,0.003
+Medisin,urogynekologi,knowledge,sector-specific,essential,1,0.003
+Medisin,utføre ultralyd,skill/competence,occupation-specific,none,1,0.003
+Medisin,veilede studenter,skill/competence,cross-sector,none,1,0.003
+Medisin,økonomistyring,knowledge,cross-sector,none,1,0.003
+Medisin,administrere akutte onkologipasienter,skill/competence,sector-specific,essential,0,0.0
+Medisin,administrere behandling for hiv-smittede pasienter,skill/competence,occupation-specific,essential,0,0.0
+Medisin,"administrere data, informasjon og digitalt innhold",skill/competence,cross-sector,optional,0,0.0
+Medisin,administrere et helseenhetsbudsjett,skill/competence,cross-sector,optional,0,0.0
+Medisin,administrere et tverrfaglig team involvert i pasientbehandling,skill/competence,sector-specific,optional,0,0.0
+Medisin,administrere forskningsdata,skill/competence,cross-sector,essential,0,0.0
+Medisin,"administrere gjenfinnbare, tilgjengelige, interoperable og gjenbrukbare data",skill/competence,cross-sector,optional,0,0.0
+Medisin,administrere immaterielle rettigheter,skill/competence,sector-specific,optional,0,0.0
+Medisin,administrere immunterapi,skill/competence,occupation-specific,optional,0,0.0
+Medisin,administrere publikasjoner med åpen tilgang,skill/competence,cross-sector,optional,0,0.0
+Medisin,analysere røntgenbilder,skill/competence,sector-specific,optional,0,0.0
+Medisin,anestetika,knowledge,sector-specific,optional,0,0.0
+Medisin,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Medisin,behandle endokrine forstyrrelser,skill/competence,sector-specific,essential,0,0.0
+Medisin,behandle medisinske tilstander hos eldre personer,skill/competence,sector-specific,optional,0,0.0
+Medisin,behandle store skader gjennom kirurgiske inngrep,skill/competence,sector-specific,essential,0,0.0
+Medisin,beskytte helse og velvære under bruk av digitale teknologier,skill/competence,cross-sector,optional,0,0.0
+Medisin,beskytte personopplysninger og personvern,skill/competence,cross-sector,optional,0,0.0
+Medisin,bidra til offentlige helsekampanjer,skill/competence,cross-sector,optional,0,0.0
+Medisin,biologisk hematologi,knowledge,cross-sector,optional,0,0.0
+Medisin,biologisk kjemi,knowledge,sector-specific,optional,0,0.0
+Medisin,bistå i epilepsikirurgi,skill/competence,sector-specific,optional,0,0.0
+Medisin,bistå i nyretransplantasjon,skill/competence,sector-specific,optional,0,0.0
+Medisin,"bla gjennom, søke i, og filtrere data, informasjon og digitalt innhold",skill/competence,cross-sector,optional,0,0.0
+Medisin,bruke blandet læring,skill/competence,cross-sector,optional,0,0.0
+Medisin,bruke fotodynamisk terapi for kreft,skill/competence,occupation-specific,essential,0,0.0
+Medisin,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Medisin,bruke laserterapi for hudsykdommer,skill/competence,sector-specific,essential,0,0.0
+Medisin,bruke obstetrisk sonografi,skill/competence,sector-specific,essential,0,0.0
+Medisin,bruke oftalmiske instrumenter,skill/competence,occupation-specific,essential,0,0.0
+Medisin,bruke prinsipper for vitenskapelig integritet og etikk i forskningsaktiviteter,skill/competence,cross-sector,optional,0,0.0
+Medisin,bruke spesialiserte instrumenter innen otorinolaryngologi,skill/competence,sector-specific,essential,0,0.0
+Medisin,delegere akuttbehandling,skill/competence,sector-specific,essential,0,0.0
+Medisin,demonstrere disiplinær ekspertise,skill/competence,cross-sector,essential,0,0.0
+Medisin,demonstrere tekniske ferdigheter under nevrologisk kirurgi,skill/competence,sector-specific,essential,0,0.0
+Medisin,dermapatologi,knowledge,sector-specific,essential,0,0.0
+Medisin,dermato-venerologi,knowledge,sector-specific,optional,0,0.0
+Medisin,diagnostisere hjernedød,skill/competence,occupation-specific,essential,0,0.0
+Medisin,diagnostisere hjertesykdommer,skill/competence,sector-specific,optional,0,0.0
+Medisin,diagnostisere lidelser i urogenitalsystemet,skill/competence,sector-specific,essential,0,0.0
+Medisin,diagnostisere respirasjonssykdommer,skill/competence,sector-specific,optional,0,0.0
+Medisin,diagnostisere revmatiske sykdommer,skill/competence,sector-specific,essential,0,0.0
+Medisin,diagnostisere sykdommer i det vaskulære systemet,skill/competence,sector-specific,optional,0,0.0
+Medisin,"diagnostisere sykdommer i øre, nese og hals",skill/competence,sector-specific,optional,0,0.0
+Medisin,diagnostisere tropiske sykdommer,skill/competence,sector-specific,optional,0,0.0
+Medisin,diagnostisk radiologi,knowledge,cross-sector,optional,0,0.0
+Medisin,"evaluere data, informasjon og digitalt innhold",skill/competence,cross-sector,optional,0,0.0
+Medisin,evaluere forskningsaktiviteter,skill/competence,cross-sector,optional,0,0.0
+Medisin,fastslå øyesykdomsforløp,skill/competence,sector-specific,optional,0,0.0
+Medisin,forklare det molekylære grunnlaget til en sykdom for pasienter,skill/competence,sector-specific,optional,0,0.0
+Medisin,forklare typer av koagulasjonsforstyrrelser,skill/competence,sector-specific,optional,0,0.0
+Medisin,formidle vitenskapelige funn,skill/competence,cross-sector,optional,0,0.0
+Medisin,forske på reproduktiv medisin,skill/competence,occupation-specific,essential,0,0.0
+Medisin,forske på tvers av disipliner,skill/competence,cross-sector,optional,0,0.0
+Medisin,frem åpen innovasjon innen forskning,skill/competence,cross-sector,optional,0,0.0
+Medisin,fremme offentlighetens deltakelse i forskning,skill/competence,cross-sector,optional,0,0.0
+Medisin,fremme overføring av kunnskap,skill/competence,cross-sector,optional,0,0.0
+Medisin,følge opp pasienter med hjerteinfarkt,skill/competence,sector-specific,essential,0,0.0
+Medisin,generell hematologi,knowledge,sector-specific,optional,0,0.0
+Medisin,gi medisinsk behandling mot kreft,skill/competence,sector-specific,essential,0,0.0
+Medisin,gi pasienter råd om smittsomme sykdommer på reise,skill/competence,occupation-specific,optional,0,0.0
+Medisin,gi råd om forgiftningshendelser,skill/competence,sector-specific,optional,0,0.0
+Medisin,gi råd om risikosvangerskap,skill/competence,sector-specific,optional,0,0.0
+Medisin,gi teammedlemmer kliniske råd,skill/competence,sector-specific,essential,0,0.0
+Medisin,gjennomføre føtal ante partum-overvåking,skill/competence,occupation-specific,essential,0,0.0
+Medisin,gjennomføre helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Medisin,gjennomføre kreftscreening,skill/competence,sector-specific,essential,0,0.0
+Medisin,gjennomføre lapptesting,skill/competence,occupation-specific,optional,0,0.0
+Medisin,gjennomføre polysomnografi,skill/competence,sector-specific,optional,0,0.0
+Medisin,gjennomføre preoperative undersøkelser,skill/competence,sector-specific,essential,0,0.0
+Medisin,hepatologi,knowledge,sector-specific,optional,0,0.0
+Medisin,håndtere bivirkninger av legemidler,skill/competence,sector-specific,essential,0,0.0
+Medisin,håndtere flere pasienter samtidig,skill/competence,sector-specific,optional,0,0.0
+Medisin,håndtere infeksjoner oppstått på sykehus,skill/competence,sector-specific,essential,0,0.0
+Medisin,håndtere kunnskap for å påvirke politiske avgjørelser,skill/competence,cross-sector,optional,0,0.0
+Medisin,håndtere nevropsykiatriske sekveler etter slag,skill/competence,occupation-specific,essential,0,0.0
+Medisin,håndtere smittsom sykdom,skill/competence,sector-specific,essential,0,0.0
+Medisin,identifisere gap innen digital kompetanse,skill/competence,cross-sector,optional,0,0.0
+Medisin,informere pasienter om fertilitetsbehandlinger,skill/competence,occupation-specific,essential,0,0.0
+Medisin,integrer kjønnsdimensjoner i forskningsarbeidet,skill/competence,cross-sector,optional,0,0.0
+Medisin,intrakraniell hypertensjon,knowledge,sector-specific,essential,0,0.0
+Medisin,klinisk biologi,knowledge,sector-specific,optional,0,0.0
+Medisin,kreftrisiko,knowledge,sector-specific,essential,0,0.0
+Medisin,legge til rette for personlig faglig utvikling,skill/competence,cross-sector,essential,0,0.0
+Medisin,levere helsetjenester til pasienter innen spesialisert medisin,skill/competence,occupation-specific,essential,0,0.0
+Medisin,levere helsetjenester til pasienter under behandling hos allmennpraktiserende lege,skill/competence,occupation-specific,essential,0,0.0
+Medisin,levere omsorgstjenester til en bestemt pasientgruppe,skill/competence,sector-specific,optional,0,0.0
+Medisin,maksillofacial kirurgi,knowledge,occupation-specific,optional,0,0.0
+Medisin,"maksillofacial, muntlig og dental kirurgi",knowledge,occupation-specific,optional,0,0.0
+Medisin,mikrobiologi-bakteriologi,knowledge,sector-specific,optional,0,0.0
+Medisin,neoplasi,knowledge,sector-specific,essential,0,0.0
+Medisin,nevrologisk kirurgi,knowledge,sector-specific,optional,0,0.0
+Medisin,nyresykdommer,knowledge,sector-specific,optional,0,0.0
+Medisin,operere pasienter med torakssykdommer,skill/competence,sector-specific,essential,0,0.0
+Medisin,otorinolaryngologi,knowledge,sector-specific,optional,0,0.0
+Medisin,overvåke barns fysiske utvikling,skill/competence,cross-sector,essential,0,0.0
+Medisin,patologisk anatomi,knowledge,sector-specific,optional,0,0.0
+Medisin,pediatrisk kirurgi,knowledge,sector-specific,optional,0,0.0
+Medisin,plastisk kirurgi,knowledge,sector-specific,optional,0,0.0
+Medisin,publisere akademisk forskning,skill/competence,cross-sector,optional,0,0.0
+Medisin,radioterapi,knowledge,sector-specific,optional,0,0.0
+Medisin,respiratorisk medisin,knowledge,sector-specific,optional,0,0.0
+Medisin,rettlede individer,skill/competence,cross-sector,optional,0,0.0
+Medisin,samhandle gjennom digitale teknologier,skill/competence,cross-sector,optional,0,0.0
+Medisin,samhandle i forskningsmiljøer og profesjonelle miljøer,skill/competence,cross-sector,essential,0,0.0
+Medisin,sette sammen informasjon,skill/competence,cross-sector,essential,0,0.0
+Medisin,skrive vitenskapelige publikasjoner,skill/competence,cross-sector,optional,0,0.0
+Medisin,smittsomme sykdommer,knowledge,cross-sector,optional,0,0.0
+Medisin,snakke ulike språk,skill/competence,cross-sector,optional,0,0.0
+Medisin,spre resultater i det vitenskapelige miljøet,skill/competence,cross-sector,optional,0,0.0
+Medisin,stomatologi,knowledge,sector-specific,optional,0,0.0
+Medisin,søke om forskningsstøtte,skill/competence,cross-sector,optional,0,0.0
+Medisin,sørge for omfattende omsorg for pasienter med kirurgiske tilstander,skill/competence,sector-specific,optional,0,0.0
+Medisin,ta opp sidevirkninger av overgangsalder,skill/competence,sector-specific,optional,0,0.0
+Medisin,tenke abstrakt,skill/competence,cross-sector,essential,0,0.0
+Medisin,tilby brakyterapibehandlinger,skill/competence,sector-specific,essential,0,0.0
+Medisin,tolke diagnostiske prosedyrer for vaskulær kirurgi,skill/competence,occupation-specific,essential,0,0.0
+Medisin,tolke diagnostiske tester innen otorinolaryngologi,skill/competence,sector-specific,essential,0,0.0
+Medisin,tolke elektromyogrammer,skill/competence,sector-specific,essential,0,0.0
+Medisin,tolke urologidiagnostiske tester,skill/competence,sector-specific,essential,0,0.0
+Medisin,torakskirurgi,knowledge,sector-specific,optional,0,0.0
+Medisin,tropisk medisin,knowledge,sector-specific,optional,0,0.0
+Medisin,undervise i en akademisk eller yrkesfaglig kontekst,skill/competence,cross-sector,optional,0,0.0
+Medisin,undervise i medisin,skill/competence,sector-specific,optional,0,0.0
+Medisin,urolitiase i urinveiene,knowledge,sector-specific,essential,0,0.0
+Medisin,utarbeid forskningsartikler og teknisk dokumentasjon,skill/competence,cross-sector,optional,0,0.0
+Medisin,utføre bronkoskopi,skill/competence,sector-specific,essential,0,0.0
+Medisin,utføre endoskopi,skill/competence,occupation-specific,essential,0,0.0
+Medisin,utføre forskningsarbeid,skill/competence,cross-sector,optional,0,0.0
+Medisin,utføre gastroskopi,skill/competence,occupation-specific,essential,0,0.0
+Medisin,utføre gynekologisk undersøkelse,skill/competence,occupation-specific,essential,0,0.0
+Medisin,utføre hudkirurgi,skill/competence,occupation-specific,essential,0,0.0
+Medisin,utføre intraoperativ nevromonitorering,skill/competence,occupation-specific,essential,0,0.0
+Medisin,utføre patologikonsultasjoner,skill/competence,sector-specific,essential,0,0.0
+Medisin,utføre pediatrisk kirurgi,skill/competence,occupation-specific,optional,0,0.0
+Medisin,utføre prosjektledelse,skill/competence,cross-sector,essential,0,0.0
+Medisin,utføre rekonstruktiv mikrokirurgi,skill/competence,sector-specific,essential,0,0.0
+Medisin,utføre rekonstruktiv oralkirurgi,skill/competence,sector-specific,essential,0,0.0
+Medisin,utføre rekonstruktiv plastisk kirurgi,skill/competence,occupation-specific,essential,0,0.0
+Medisin,utføre stamcelletransplantasjon,skill/competence,sector-specific,optional,0,0.0
+Medisin,utføre terapeutiske prosedyrer innen vaskulær kirurgi,skill/competence,sector-specific,essential,0,0.0
+Medisin,utføre vats (videoassistert torakoskopisk kirurgi),skill/competence,sector-specific,optional,0,0.0
+Medisin,utføre øyekirurgi,skill/competence,occupation-specific,essential,0,0.0
+Medisin,utvikle et profesjonelt nettverk med forskere,skill/competence,cross-sector,optional,0,0.0
+Medisin,utvikle langvarig behandlingsløp for forstyrrelser i kjertelsystemet,skill/competence,sector-specific,essential,0,0.0
+Medisin,utvikle programvare med åpen kildekode,skill/competence,sector-specific,essential,0,0.0
+Medisin,vaskulær kirurgi,knowledge,sector-specific,optional,0,0.0
+Medisin,veilede fastboende medisinsk personell,skill/competence,sector-specific,optional,0,0.0
+Medisin,venereologi,knowledge,sector-specific,optional,0,0.0
+Medisin,vurdere kunders fysiske tilstand,skill/competence,cross-sector,essential,0,0.0
+Medisin,yrkeshygiene,knowledge,sector-specific,optional,0,0.0
+Medisin,yrkesmedisin,knowledge,occupation-specific,optional,0,0.0
+Odontologi,norsk,knowledge,transversal,none,42,0.894
+Odontologi,kommunikasjon,knowledge,cross-sector,none,23,0.489
+Odontologi,folkehelse,knowledge,cross-sector,none,8,0.17
+Odontologi,akuttbehandling,knowledge,sector-specific,none,3,0.064
+Odontologi,pasientsikkerhetsteorier,knowledge,sector-specific,none,3,0.064
+Odontologi,barnevern,knowledge,cross-sector,none,2,0.043
+Odontologi,engelsk,knowledge,transversal,none,2,0.043
+Odontologi,helsevesen,knowledge,cross-sector,none,2,0.043
+Odontologi,kirurgi,knowledge,sector-specific,essential,2,0.043
+Odontologi,refleksjon,knowledge,sector-specific,none,2,0.043
+Odontologi,svangerskap,knowledge,sector-specific,none,2,0.043
+Odontologi,vise initiativ,skill/competence,transversal,none,2,0.043
+Odontologi,arbeide selvstendig,skill/competence,transversal,none,1,0.021
+Odontologi,bygge tillit,skill/competence,cross-sector,none,1,0.021
+Odontologi,"markedsføre ideer, produkter eller tjenester",skill/competence,transversal,none,1,0.021
+Odontologi,oral kirurgi,knowledge,cross-sector,optional,1,0.021
+Odontologi,ortopedi,knowledge,cross-sector,none,1,0.021
+Odontologi,planlegge,skill/competence,cross-sector,none,1,0.021
+Odontologi,sensorer,knowledge,cross-sector,none,1,0.021
+Odontologi,smittevern,knowledge,cross-sector,none,1,0.021
+Odontologi,vise engasjement,skill/competence,transversal,none,1,0.021
+Odontologi,administrere dental nødhjelp,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Odontologi,administrere helsetjenestepersonell,knowledge,cross-sector,optional,0,0.0
+Odontologi,analysere røntgenbilder,skill/competence,sector-specific,optional,0,0.0
+Odontologi,anestetika,knowledge,sector-specific,essential,0,0.0
+Odontologi,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Odontologi,anvende lokalbedøvelse i tannbehandling,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Odontologi,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Odontologi,arbeidsmarkedsrett,knowledge,cross-sector,optional,0,0.0
+Odontologi,behandle eksponering av tannmarg,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,behandle snorkeproblemer,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,behandle tannråte,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,behandle tilfeller av malokklusjon,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Odontologi,bidra til å implementere innovasjon innen helsevesenet,skill/competence,sector-specific,optional,0,0.0
+Odontologi,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Odontologi,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Odontologi,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Odontologi,bruke ortodontiske verktøy,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,bygge lokalsamfunnsrelasjoner,skill/competence,cross-sector,optional,0,0.0
+Odontologi,diagnostisere abnormaliteter i tann-ansiktsstrukturer,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,drøfte tannbehandlingsalternativer med pasienten,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,evaluere kliniske utfall av tannhygienetiltak,skill/competence,occupation-specific,optional,0,0.0
+Odontologi,fremme helse- og sikkerhetsretningslinjer innen helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Odontologi,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Odontologi,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Odontologi,føre registre for tannproteser,skill/competence,sector-specific,essential,0,0.0
+Odontologi,gi behandlingsstrategier for utfordringer relatert til menneskelig helse,skill/competence,sector-specific,essential,0,0.0
+Odontologi,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Odontologi,gi instruksjoner innen ortodontiske prosedyrer,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Odontologi,gi periodontal behandling,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,gi råd om ernæring og dens innvirkning på oral helse,skill/competence,sector-specific,essential,0,0.0
+Odontologi,gjennomføre helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Odontologi,gjennomføre klinisk revisjon,skill/competence,sector-specific,essential,0,0.0
+Odontologi,gjennomføre workshops for videre faglig utvikling,skill/competence,cross-sector,optional,0,0.0
+Odontologi,gjenopprette tennenes naturlige farge,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Odontologi,henvise brukere av helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Odontologi,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Odontologi,håndtere betalinger innen tannlegearbeid,skill/competence,sector-specific,optional,0,0.0
+Odontologi,håndtere bivirkninger av anestesi,skill/competence,sector-specific,essential,0,0.0
+Odontologi,håndtere okklusjon,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,håndtere pasienters angst,skill/competence,sector-specific,essential,0,0.0
+Odontologi,håndtere tannløse pasienter,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Odontologi,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,optional,0,0.0
+Odontologi,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Odontologi,klargjøre pasienter for tannbehandling,skill/competence,occupation-specific,optional,0,0.0
+Odontologi,kliniske disipliner i odontologi,knowledge,sector-specific,essential,0,0.0
+Odontologi,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Odontologi,korrigere dentofaciale misdannelser,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,korrigere temporomandibulære leddabnormiteter,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,kosmetisk tannbehandling,knowledge,cross-sector,essential,0,0.0
+Odontologi,lede infeksjonskontroll ved institusjonen,skill/competence,cross-sector,essential,0,0.0
+Odontologi,lede tannlegeteamet,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Odontologi,lære opp ansatte,skill/competence,cross-sector,optional,0,0.0
+Odontologi,medisinsk-biologisk vitenskap og medisinsk vitenskap knyttet til tannbehandling,knowledge,sector-specific,essential,0,0.0
+Odontologi,minimere yrkesrisiko innen tannlegepraksis,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,munnanatomi,knowledge,sector-specific,essential,0,0.0
+Odontologi,observere pasienten under tannbehandling,skill/competence,occupation-specific,optional,0,0.0
+Odontologi,organisere offentlige oralhelseprogrammer,skill/competence,sector-specific,optional,0,0.0
+Odontologi,ortodonti,knowledge,sector-specific,optional,0,0.0
+Odontologi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Odontologi,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Odontologi,pedagogikk,knowledge,cross-sector,optional,0,0.0
+Odontologi,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Odontologi,registrere helsetjenestebrukernes betalingsinformasjon,skill/competence,cross-sector,optional,0,0.0
+Odontologi,rehabilitere slitt dentisjon,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Odontologi,skille mellom maksillofaciale vev,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,skrive resepter for legemidler innen tannlegepraksis,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,sosiale sammenhengers innvirkning på helse,knowledge,cross-sector,optional,0,0.0
+Odontologi,stille oralhelsediagnose,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Odontologi,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Odontologi,tannbehandlingsvitenskap,knowledge,cross-sector,essential,0,0.0
+Odontologi,tilpasse dentale anordninger,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,tolke funn fra medisinske undersøkelser,skill/competence,sector-specific,essential,0,0.0
+Odontologi,undersøke tannmodeller og -avtrykk,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,undervise i tannbehandling,skill/competence,occupation-specific,optional,0,0.0
+Odontologi,utføre dental kartlegging,skill/competence,sector-specific,optional,0,0.0
+Odontologi,utføre dentalhygieneintervensjoner,skill/competence,occupation-specific,optional,0,0.0
+Odontologi,utføre flere oppgaver samtidig,skill/competence,cross-sector,essential,0,0.0
+Odontologi,utføre rekonstruktiv oralkirurgi,skill/competence,sector-specific,essential,0,0.0
+Odontologi,utføre tannklinisk undersøkelse,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Odontologi,vedlikeholde dental stasjon og operasjonsområde,skill/competence,occupation-specific,optional,0,0.0
+Odontologi,veilede dentalpersonell,skill/competence,occupation-specific,essential,0,0.0
+Odontologi,veilede tannteknikerpersonell,skill/competence,occupation-specific,optional,0,0.0
+Odontologi,velge materialer for ortodontiinnretninger,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),norsk,knowledge,transversal,none,45,0.634
+Psykologi (profesjonsstudium),kommunikasjon,knowledge,cross-sector,none,40,0.563
+Psykologi (profesjonsstudium),psykologi,knowledge,cross-sector,essential,20,0.282
+Psykologi (profesjonsstudium),psykiatri,knowledge,cross-sector,essential,15,0.211
+Psykologi (profesjonsstudium),barnevern,knowledge,cross-sector,none,10,0.141
+Psykologi (profesjonsstudium),arbeide selvstendig,skill/competence,transversal,none,8,0.113
+Psykologi (profesjonsstudium),konsultasjon,knowledge,cross-sector,essential,8,0.113
+Psykologi (profesjonsstudium),pasientsikkerhetsteorier,knowledge,sector-specific,none,7,0.099
+Psykologi (profesjonsstudium),pedagogikk,knowledge,cross-sector,none,7,0.099
+Psykologi (profesjonsstudium),planlegge,skill/competence,cross-sector,none,6,0.085
+Psykologi (profesjonsstudium),vise engasjement,skill/competence,transversal,none,6,0.085
+Psykologi (profesjonsstudium),engelsk,knowledge,transversal,none,5,0.07
+Psykologi (profesjonsstudium),rehabilitering,knowledge,cross-sector,none,4,0.056
+Psykologi (profesjonsstudium),dansk,knowledge,transversal,none,3,0.042
+Psykologi (profesjonsstudium),refleksjon,knowledge,sector-specific,none,3,0.042
+Psykologi (profesjonsstudium),rettspsykiatri,knowledge,sector-specific,optional,3,0.042
+Psykologi (profesjonsstudium),støtte ledere,skill/competence,cross-sector,none,3,0.042
+Psykologi (profesjonsstudium),svensk,knowledge,transversal,none,3,0.042
+Psykologi (profesjonsstudium),arbeidsrett,knowledge,sector-specific,none,2,0.028
+Psykologi (profesjonsstudium),atferdsterapi,knowledge,sector-specific,none,2,0.028
+Psykologi (profesjonsstudium),autisme,knowledge,sector-specific,none,2,0.028
+Psykologi (profesjonsstudium),bygge tillit,skill/competence,cross-sector,essential,2,0.028
+Psykologi (profesjonsstudium),digitale systemer,knowledge,cross-sector,none,2,0.028
+Psykologi (profesjonsstudium),familieterapi,knowledge,sector-specific,none,2,0.028
+Psykologi (profesjonsstudium),folkehelse,knowledge,cross-sector,none,2,0.028
+Psykologi (profesjonsstudium),gi råd,skill/competence,transversal,none,2,0.028
+Psykologi (profesjonsstudium),kognitiv atferdsterapi,knowledge,sector-specific,none,2,0.028
+Psykologi (profesjonsstudium),kriseintervensjon,knowledge,cross-sector,essential,2,0.028
+Psykologi (profesjonsstudium),personvernforordningen,knowledge,sector-specific,none,2,0.028
+Psykologi (profesjonsstudium),psykopatologi,knowledge,sector-specific,essential,2,0.028
+Psykologi (profesjonsstudium),spiseforstyrrelser,knowledge,sector-specific,none,2,0.028
+Psykologi (profesjonsstudium),utviklingspsykologi,knowledge,cross-sector,none,2,0.028
+Psykologi (profesjonsstudium),veilede ansatte,skill/competence,cross-sector,none,2,0.028
+Psykologi (profesjonsstudium),arbeide effektivt,skill/competence,transversal,none,1,0.014
+Psykologi (profesjonsstudium),arbeide i team,skill/competence,transversal,none,1,0.014
+Psykologi (profesjonsstudium),boliglån,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),digitalisering,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),e-læring,knowledge,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),eldrepleie,skill/competence,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),ernæring,knowledge,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),finsk,knowledge,transversal,none,1,0.014
+Psykologi (profesjonsstudium),fysikalsk medisin,knowledge,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),handlekraftig,knowledge,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),helsepsykologi,knowledge,sector-specific,essential,1,0.014
+Psykologi (profesjonsstudium),helsevesen,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),historie,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),logopedi,knowledge,occupation-specific,none,1,0.014
+Psykologi (profesjonsstudium),matematikk,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),nevrologi,knowledge,cross-sector,essential,1,0.014
+Psykologi (profesjonsstudium),nevropsykiatri,knowledge,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),nevropsykologi,knowledge,occupation-specific,none,1,0.014
+Psykologi (profesjonsstudium),offentlig forvaltning,knowledge,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),oppfølging av personer,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),prosjektledelse,knowledge,sector-specific,none,1,0.014
+Psykologi (profesjonsstudium),psykiatriske lidelser,knowledge,cross-sector,optional,1,0.014
+Psykologi (profesjonsstudium),samfunnsfag,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),tenke helhetlig,skill/competence,transversal,none,1,0.014
+Psykologi (profesjonsstudium),tilpasse seg endringer,skill/competence,transversal,none,1,0.014
+Psykologi (profesjonsstudium),veilede annet helsepersonell,skill/competence,occupation-specific,none,1,0.014
+Psykologi (profesjonsstudium),vise initiativ,skill/competence,transversal,none,1,0.014
+Psykologi (profesjonsstudium),voksenopplæring,knowledge,cross-sector,none,1,0.014
+Psykologi (profesjonsstudium),administrasjon av legemiddelinteraksjon,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),administrere forskningsdata,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),"administrere gjenfinnbare, tilgjengelige, interoperable og gjenbrukbare data",skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),administrere immaterielle rettigheter,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),administrere publikasjoner med åpen tilgang,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),akuttpsykologi,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Psykologi (profesjonsstudium),anvende klinisk psykologisk behandling,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),anvende kognitive atferdsbehandlingsteknikker,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),anvende psykoanalyse,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),anvende psykologiske intervensjonsstrategier,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),anvende psykoterapeutiske intervensjoner,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),anvende systemisk terapi,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),arbeide med helsetjenestebrukere under medisinering,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),arbeide med helsetjenestebrukernes sosiale nettverk,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),arbeide med mønstre av psykologisk atferd,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),arbeide med psykosomatiske problemer,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),arbeide med virkningene av mishandling,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),atferdsforstyrrelser,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),avgi forklaring i rettshøringer,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),bestemme en psykoterapeutisk tilnærming,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),bruke blandet læring,skill/competence,cross-sector,optional,0,0.0
+Psykologi (profesjonsstudium),bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Psykologi (profesjonsstudium),bruke hypno-psykoterapi,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),bruke kliniske vurderingsteknikker,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),bruke prinsipper for vitenskapelig integritet og etikk i forskningsaktiviteter,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),bruke psykoedukasjon,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),bruke teknikker for å øke pasientenes motivasjon,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),demonstrere disiplinær ekspertise,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),diagnostisere psykiatriske symptomer,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),diagnostisere psykiske lidelser,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),diagnostisering av problemer relatert til mental helse,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),drive psykologisk forskning,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),eksperimentell psykologi,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),eksperttjenester i klinisk psykologi,knowledge,occupation-specific,essential,0,0.0
+Psykologi (profesjonsstudium),evaluere forskningsaktiviteter,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),evaluere kliniske psykologiske tiltak,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),evaluering av psykologisk ytelse,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),foreskrive legemidler,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),foreskrive psykoterapeutisk behandling,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),foreta en klinisk psykologisk vurdering,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),formidle vitenskapelige funn,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),formulere en kasuskonseptualiseringsmodell for terapi,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),forske på tvers av disipliner,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),forskningsdesign,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),frem åpen innovasjon innen forskning,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),fremme kunnskap om psykososial helse,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),fremme mental helse,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),fremme offentlighetens deltakelse i forskning,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),fremme overføring av kunnskap,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),førstehjelp,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),gi behandlingsstrategier for utfordringer relatert til menneskelig helse,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gi klinisk psykologisk rådgivning,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),gi klinisk psykologisk støtte i krisesituasjoner,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gi kliniske psykologiske ekspertuttalelser,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),gi psykologiske intervensjoner til kronisk syke personer,skill/competence,occupation-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gi rådgivning til klienter,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),gi strategier for differensialdiagnose,skill/competence,occupation-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gi teammedlemmer kliniske råd,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),gjennomføre psykiatrisk vurdering av et barn,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gjennomføre psykologisk vurdering,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gjennomføre rettstekniske evalueringer,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),gjennomføre terapitimer,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),henvise brukere av helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),hjelpe brukere av helsetjenester med å oppnå sosial innsikt,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),hjelpe pasienter med å forstå tilstandene sine,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),håndtere kunnskap for å påvirke politiske avgjørelser,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),håndtere pasienttraumer,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),håndtere psykoterapeutiske relasjoner,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),identifisere problemer med mental helse,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),idrettspsykologi,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),integrer kjønnsdimensjoner i forskningsarbeidet,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),klientsentrert rådgivning,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),klinisk psykologisk behandling,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),klinisk sosialt arbeid,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),kliniske rapporter,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),kroppsspråk,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),legge til rette for personlig faglig utvikling,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),metoder for differensialdiagnose,knowledge,occupation-specific,essential,0,0.0
+Psykologi (profesjonsstudium),nevrovitenskap,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),organisere forebygging av tilbakefall,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),overholde organisatoriske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),overvåke terapeutisk fremgang,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),pasientens historie med psykoterapeutiske problemer,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),primæromsorg,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),psykiatrisk diagnostisering,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),psykofarmakologi,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),psykolingvistikk,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),psykologisk diagnostisering,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),psykologiske behandlingstiltak,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),psykologiske helsetjenester,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),psykologiske intervensjoner,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),psykologiske rådgivningsmetoder,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),psykosomatikk,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),publisere akademisk forskning,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),registrere helsetjenestebrukernes fremgang relatert til behandling,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),registrere utfallet av psykoterapi,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),respondere på helsetjenestebrukernes ekstreme følelser,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),rettlede individer,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),rådgivingsmetoder,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),samhandle i forskningsmiljøer og profesjonelle miljøer,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),seksuelle forstyrrelser,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),sette sammen informasjon,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),skape et psykoterapeutisk miljø,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),skrive vitenskapelige publikasjoner,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),snakke ulike språk,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),spre resultater i det vitenskapelige miljøet,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),søke om forskningsstøtte,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),teknikker for personlig refleksjon basert på tilbakemeldinger,knowledge,cross-sector,optional,0,0.0
+Psykologi (profesjonsstudium),tenke abstrakt,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),terapi i helsevesenet,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),teste adferdsmønster,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),teste følelsemessige mønstre,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),tolke psykologiske tester,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),tverrfaglig samarbeid innen helsevesenet,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),undervise i en akademisk eller yrkesfaglig kontekst,skill/competence,cross-sector,optional,0,0.0
+Psykologi (profesjonsstudium),utarbeid forskningsartikler og teknisk dokumentasjon,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),utføre forskningsarbeid,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),utføre pasientporteføljeadministrering,skill/competence,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),utføre prosjektledelse,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),utvikle et profesjonelt nettverk med forskere,skill/competence,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),utvikle programvare med åpen kildekode,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),utvikling av kliniske psykologiske meninger,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),vilkår for profesjonell utøvelse av klinisk psykologi,knowledge,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),vitenskapelig litteratur,knowledge,cross-sector,essential,0,0.0
+Psykologi (profesjonsstudium),vurdere helsetjenestebrukernes risiko for skade,skill/competence,sector-specific,essential,0,0.0
+Psykologi (profesjonsstudium),yrkeshygiene,knowledge,sector-specific,optional,0,0.0
+Psykologi (profesjonsstudium),yrkesspesifikk etikk innen helsevesen,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,norsk,knowledge,transversal,none,18,0.692
+Radiografi / audiografi,kommunikasjon,knowledge,cross-sector,none,14,0.538
+Radiografi / audiografi,radiologi,knowledge,sector-specific,none,14,0.538
+Radiografi / audiografi,nukleærmedisin,knowledge,cross-sector,none,8,0.308
+Radiografi / audiografi,arbeide selvstendig,skill/competence,transversal,none,6,0.231
+Radiografi / audiografi,pasientsikkerhetsteorier,knowledge,sector-specific,none,3,0.115
+Radiografi / audiografi,planlegge,skill/competence,cross-sector,none,3,0.115
+Radiografi / audiografi,dansk,knowledge,transversal,none,2,0.077
+Radiografi / audiografi,engelsk,knowledge,transversal,none,2,0.077
+Radiografi / audiografi,strålevern,knowledge,cross-sector,essential,2,0.077
+Radiografi / audiografi,svangerskap,knowledge,sector-specific,none,2,0.077
+Radiografi / audiografi,svensk,knowledge,transversal,none,2,0.077
+Radiografi / audiografi,cybersikkerhet,knowledge,sector-specific,none,1,0.038
+Radiografi / audiografi,elektronisk kommunikasjon,knowledge,cross-sector,none,1,0.038
+Radiografi / audiografi,gi råd,skill/competence,transversal,none,1,0.038
+Radiografi / audiografi,handlekraftig,knowledge,sector-specific,none,1,0.038
+Radiografi / audiografi,helsevesen,knowledge,cross-sector,none,1,0.038
+Radiografi / audiografi,historie,knowledge,cross-sector,none,1,0.038
+Radiografi / audiografi,kameraer,knowledge,cross-sector,none,1,0.038
+Radiografi / audiografi,kirurgi,knowledge,sector-specific,none,1,0.038
+Radiografi / audiografi,ortopedi,knowledge,cross-sector,optional,1,0.038
+Radiografi / audiografi,personvernforordningen,knowledge,sector-specific,none,1,0.038
+Radiografi / audiografi,prosjektledelse,knowledge,sector-specific,none,1,0.038
+Radiografi / audiografi,radiofarmaka,knowledge,occupation-specific,none,1,0.038
+Radiografi / audiografi,smittevern,knowledge,cross-sector,none,1,0.038
+Radiografi / audiografi,statistisk kvalitetskontroll,knowledge,sector-specific,none,1,0.038
+Radiografi / audiografi,urologi,knowledge,sector-specific,none,1,0.038
+Radiografi / audiografi,veilede studenter,skill/competence,cross-sector,none,1,0.038
+Radiografi / audiografi,vise engasjement,skill/competence,transversal,none,1,0.038
+Radiografi / audiografi,administrere helsetjenestebrukernes data,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,administrere kontrastmedier,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,administrere radiofarmaka,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,administrere radiologisk informasjonssystem,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,analysere røntgenbilder,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Radiografi / audiografi,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,anvende prosedyrer for strålingsbeskyttelse,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,anvende radiologisk helsevitenskap,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,beregne eksponering for stråling,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,bestemme diagnostisk egnethet av medisinske bilder,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,bestemme hvilke avbildningsteknikker som skal utføres,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,bestemme pasientens eksponeringsfaktorer,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,betjene medisinsk avbildningsutstyr,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Radiografi / audiografi,bruke kjernefysiske medisinske teknikker,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,bruke obstetrisk sonografi,skill/competence,sector-specific,optional,0,0.0
+Radiografi / audiografi,elektroencefalografi,knowledge,sector-specific,optional,0,0.0
+Radiografi / audiografi,epidemiologi,knowledge,cross-sector,optional,0,0.0
+Radiografi / audiografi,etterbehandle medisinske bilder,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,evidensbasert radiografipraksis,knowledge,sector-specific,essential,0,0.0
+Radiografi / audiografi,farmakologi,knowledge,cross-sector,optional,0,0.0
+Radiografi / audiografi,farmasøytiske produkter,knowledge,sector-specific,essential,0,0.0
+Radiografi / audiografi,forberede leksjonsinnhold,skill/competence,cross-sector,optional,0,0.0
+Radiografi / audiografi,forberede miljøet for nukleærmedisinske prosedyrer,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,forberede radiofarmasi,skill/competence,occupation-specific,optional,0,0.0
+Radiografi / audiografi,foreta gjøremål i etterkant av medisinsk undersøkelser,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,førstehjelp,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,optional,0,0.0
+Radiografi / audiografi,gi informasjon,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,optional,0,0.0
+Radiografi / audiografi,gi psykologisk støtte til pasienter,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,gi strålebehandling,skill/competence,sector-specific,optional,0,0.0
+Radiografi / audiografi,gjennomføre helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Radiografi / audiografi,gjennomføre kreftscreening,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,gjennomføre videotelemetri,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,helselovgivning,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,holde foredrag,skill/competence,sector-specific,optional,0,0.0
+Radiografi / audiografi,hygiene i helsevesenet,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,håndtere radiofarmaka,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,identifisere sykdomsprogresjon,skill/competence,sector-specific,optional,0,0.0
+Radiografi / audiografi,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,optional,0,0.0
+Radiografi / audiografi,klargjøre pasienter for avbildningsprosedyrer,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,lage databasert kart over strålingsbehandling,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,medisinsk onkologi,knowledge,sector-specific,essential,0,0.0
+Radiografi / audiografi,medisinsk terminologi,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,medisinske kontrastmidler,knowledge,sector-specific,essential,0,0.0
+Radiografi / audiografi,menneskets anatomi,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,menneskets fysiologi,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,overholde organisatoriske etiske retningslinjer,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,patologi,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,pedagogikk,knowledge,cross-sector,optional,0,0.0
+Radiografi / audiografi,pediatri,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,psykologi,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,radiobiologi,knowledge,sector-specific,essential,0,0.0
+Radiografi / audiografi,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,samhandle med leverandører av helsetjenester,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,sikre overholdelse av strålevernforskrifter,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,strålingsfysikk i helsevesenet,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,systemer for helsetjenestedata,knowledge,occupation-specific,essential,0,0.0
+Radiografi / audiografi,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Radiografi / audiografi,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,tilby brakyterapibehandlinger,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,tolke diagnostiske prosedyrer for vaskulær kirurgi,skill/competence,occupation-specific,optional,0,0.0
+Radiografi / audiografi,tolke forespørsler om avbildningsundersøkelser,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,tolke medisinske bilder,skill/competence,sector-specific,optional,0,0.0
+Radiografi / audiografi,utføre klinisk forskning innen radiografi,skill/competence,sector-specific,optional,0,0.0
+Radiografi / audiografi,utføre nukleærmedisinske prosedyrer,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,utvikle nye avbildningsteknikker,skill/competence,occupation-specific,essential,0,0.0
+Radiografi / audiografi,utviklingstrender innen radiografi,knowledge,sector-specific,optional,0,0.0
+Radiografi / audiografi,vedlikeholde fotoutstyr,skill/competence,sector-specific,essential,0,0.0
+Radiografi / audiografi,vitenskapelig forskningsmetodikk,knowledge,cross-sector,essential,0,0.0
+Radiografi / audiografi,yrkesspesifikk etikk innen helsevesen,knowledge,cross-sector,essential,0,0.0
+Sykepleie,norsk,knowledge,transversal,none,482,0.562
+Sykepleie,kommunikasjon,knowledge,cross-sector,none,429,0.5
+Sykepleie,rehabilitering,knowledge,cross-sector,none,126,0.147
+Sykepleie,pasientsikkerhetsteorier,knowledge,sector-specific,optional,117,0.136
+Sykepleie,arbeide selvstendig,skill/competence,transversal,none,100,0.117
+Sykepleie,psykiatri,knowledge,cross-sector,essential,97,0.113
+Sykepleie,planlegge,skill/competence,cross-sector,none,95,0.111
+Sykepleie,geriatri,knowledge,cross-sector,essential,77,0.09
+Sykepleie,eldrepleie,skill/competence,sector-specific,none,66,0.077
+Sykepleie,refleksjon,knowledge,sector-specific,none,64,0.075
+Sykepleie,ernæring,knowledge,sector-specific,none,58,0.068
+Sykepleie,akuttmedisin,knowledge,sector-specific,none,46,0.054
+Sykepleie,vise engasjement,skill/competence,transversal,none,46,0.054
+Sykepleie,engelsk,knowledge,transversal,none,45,0.052
+Sykepleie,kirurgi,knowledge,sector-specific,essential,44,0.051
+Sykepleie,svangerskap,knowledge,sector-specific,none,41,0.048
+Sykepleie,ortopedi,knowledge,cross-sector,none,40,0.047
+Sykepleie,utføre sykepleie,skill/competence,sector-specific,essential,33,0.038
+Sykepleie,nevrologi,knowledge,cross-sector,none,29,0.034
+Sykepleie,barnevern,knowledge,cross-sector,none,21,0.024
+Sykepleie,dansk,knowledge,transversal,none,21,0.024
+Sykepleie,e-læring,knowledge,sector-specific,none,20,0.023
+Sykepleie,smittevern,knowledge,cross-sector,essential,20,0.023
+Sykepleie,svensk,knowledge,transversal,none,19,0.022
+Sykepleie,legemidler,knowledge,cross-sector,none,18,0.021
+Sykepleie,evaluere sykepleie,skill/competence,sector-specific,essential,17,0.02
+Sykepleie,konsultasjon,knowledge,cross-sector,none,17,0.02
+Sykepleie,vise initiativ,skill/competence,transversal,none,17,0.02
+Sykepleie,tenke innovativt,skill/competence,transversal,none,16,0.019
+Sykepleie,digitalisering,knowledge,cross-sector,none,15,0.017
+Sykepleie,arbeide i team,skill/competence,transversal,none,14,0.016
+Sykepleie,endokrinologi,knowledge,sector-specific,none,12,0.014
+Sykepleie,fysioterapi,knowledge,sector-specific,none,12,0.014
+Sykepleie,urologi,knowledge,sector-specific,none,12,0.014
+Sykepleie,gi råd,skill/competence,transversal,none,11,0.013
+Sykepleie,handlekraftig,knowledge,sector-specific,none,11,0.013
+Sykepleie,logistikk,knowledge,cross-sector,none,10,0.012
+Sykepleie,gastroenterologi,knowledge,sector-specific,none,9,0.01
+Sykepleie,hjelpemidler,knowledge,cross-sector,none,9,0.01
+Sykepleie,tenke helhetlig,skill/competence,transversal,none,9,0.01
+Sykepleie,veilede studenter,skill/competence,cross-sector,none,9,0.01
+Sykepleie,delegere ansvar,skill/competence,transversal,none,8,0.009
+Sykepleie,helsevesen,knowledge,cross-sector,none,8,0.009
+Sykepleie,kardiologi,knowledge,sector-specific,none,8,0.009
+Sykepleie,personvernforordningen,knowledge,sector-specific,none,8,0.009
+Sykepleie,spiseforstyrrelser,knowledge,sector-specific,none,8,0.009
+Sykepleie,oppfølging av personer,knowledge,cross-sector,none,7,0.008
+Sykepleie,allmennmedisin,knowledge,cross-sector,essential,6,0.007
+Sykepleie,folkehelse,knowledge,cross-sector,essential,6,0.007
+Sykepleie,generell kirurgi,knowledge,sector-specific,none,6,0.007
+Sykepleie,medisinsk utstyr,knowledge,cross-sector,none,6,0.007
+Sykepleie,rettspsykiatri,knowledge,sector-specific,none,6,0.007
+Sykepleie,revmatologi,knowledge,sector-specific,none,6,0.007
+Sykepleie,datateknologi,knowledge,cross-sector,none,5,0.006
+Sykepleie,farmakologi,knowledge,cross-sector,essential,5,0.006
+Sykepleie,førstehjelp,knowledge,cross-sector,essential,5,0.006
+Sykepleie,gi veiledning,skill/competence,cross-sector,none,5,0.006
+Sykepleie,helseopplysning,knowledge,cross-sector,none,5,0.006
+Sykepleie,miljøstyringsstandarder,knowledge,cross-sector,none,5,0.006
+Sykepleie,motivere andre,skill/competence,transversal,none,5,0.006
+Sykepleie,pediatri,knowledge,cross-sector,essential,5,0.006
+Sykepleie,psykologi,knowledge,cross-sector,essential,5,0.006
+Sykepleie,autisme,knowledge,sector-specific,none,4,0.005
+Sykepleie,fremme helse,skill/competence,sector-specific,none,4,0.005
+Sykepleie,gi informasjon,skill/competence,cross-sector,none,4,0.005
+Sykepleie,historie,knowledge,cross-sector,none,4,0.005
+Sykepleie,konflikthåndtering,knowledge,cross-sector,none,4,0.005
+Sykepleie,personalledelse,knowledge,cross-sector,none,4,0.005
+Sykepleie,samarbeide med kolleger,skill/competence,cross-sector,none,4,0.005
+Sykepleie,takle stress,skill/competence,transversal,none,4,0.005
+Sykepleie,veilede ansatte,skill/competence,cross-sector,none,4,0.005
+Sykepleie,akuttbehandling,knowledge,sector-specific,essential,3,0.003
+Sykepleie,bygge nettverk,skill/competence,transversal,none,3,0.003
+Sykepleie,bygge tillit,skill/competence,cross-sector,none,3,0.003
+Sykepleie,fotpleie,knowledge,sector-specific,none,3,0.003
+Sykepleie,immunterapi,knowledge,occupation-specific,none,3,0.003
+Sykepleie,metoder innen ikt-prosjektledelse,knowledge,sector-specific,none,3,0.003
+Sykepleie,migrasjon,knowledge,cross-sector,none,3,0.003
+Sykepleie,patologi,knowledge,cross-sector,essential,3,0.003
+Sykepleie,psykiatriske lidelser,knowledge,cross-sector,none,3,0.003
+Sykepleie,"anvende kunnskap innen vitenskap, teknologi og ingeniørfag",skill/competence,transversal,none,2,0.002
+Sykepleie,arbeidsmarked,knowledge,cross-sector,none,2,0.002
+Sykepleie,atferdsterapi,knowledge,sector-specific,none,2,0.002
+Sykepleie,audiometri,knowledge,sector-specific,none,2,0.002
+Sykepleie,boliglån,knowledge,cross-sector,none,2,0.002
+Sykepleie,demografi,knowledge,cross-sector,none,2,0.002
+Sykepleie,endoskopi,knowledge,occupation-specific,none,2,0.002
+Sykepleie,etikk,knowledge,cross-sector,none,2,0.002
+Sykepleie,familieterapi,knowledge,sector-specific,none,2,0.002
+Sykepleie,fysikalsk medisin,knowledge,sector-specific,none,2,0.002
+Sykepleie,gastroenterologisk kirurgi,knowledge,occupation-specific,none,2,0.002
+Sykepleie,kulturhistorie,knowledge,sector-specific,none,2,0.002
+Sykepleie,lære opp ansatte,skill/competence,cross-sector,none,2,0.002
+Sykepleie,nyresykdommer,knowledge,sector-specific,none,2,0.002
+Sykepleie,ryggkirurgi,knowledge,occupation-specific,none,2,0.002
+Sykepleie,seksualundervisning,knowledge,cross-sector,none,2,0.002
+Sykepleie,skape lagånd,skill/competence,transversal,none,2,0.002
+Sykepleie,amming,knowledge,occupation-specific,none,1,0.001
+Sykepleie,arbeide effektivt,skill/competence,transversal,none,1,0.001
+Sykepleie,avskrivning,knowledge,sector-specific,none,1,0.001
+Sykepleie,behandle søknader,skill/competence,occupation-specific,none,1,0.001
+Sykepleie,bioteknologi,knowledge,cross-sector,none,1,0.001
+Sykepleie,bistå ved påkledning,skill/competence,sector-specific,none,1,0.001
+Sykepleie,database,knowledge,cross-sector,none,1,0.001
+Sykepleie,digitale systemer,knowledge,cross-sector,none,1,0.001
+Sykepleie,drive pr,skill/competence,cross-sector,none,1,0.001
+Sykepleie,familierett,knowledge,cross-sector,none,1,0.001
+Sykepleie,farger,knowledge,cross-sector,none,1,0.001
+Sykepleie,finsk,knowledge,transversal,none,1,0.001
+Sykepleie,flytte gjenstander,skill/competence,transversal,none,1,0.001
+Sykepleie,fotball,knowledge,occupation-specific,none,1,0.001
+Sykepleie,fysikk,knowledge,cross-sector,none,1,0.001
+Sykepleie,geografiske områder,knowledge,cross-sector,none,1,0.001
+Sykepleie,helseledelse,knowledge,sector-specific,none,1,0.001
+Sykepleie,håndtere stressende situasjoner på arbeidsplassen,skill/competence,cross-sector,none,1,0.001
+Sykepleie,håndverk,knowledge,occupation-specific,none,1,0.001
+Sykepleie,immunologi,knowledge,cross-sector,none,1,0.001
+Sykepleie,intensivmedisin,knowledge,sector-specific,none,1,0.001
+Sykepleie,klinisk nevrofysiologi,knowledge,occupation-specific,none,1,0.001
+Sykepleie,klinisk sosialt arbeid,knowledge,sector-specific,none,1,0.001
+Sykepleie,kognitiv atferdsterapi,knowledge,sector-specific,none,1,0.001
+Sykepleie,kriseintervensjon,knowledge,cross-sector,none,1,0.001
+Sykepleie,kundeservice,knowledge,sector-specific,none,1,0.001
+Sykepleie,likhet,knowledge,occupation-specific,none,1,0.001
+Sykepleie,litteratur,knowledge,cross-sector,none,1,0.001
+Sykepleie,løse konflikter,skill/competence,transversal,none,1,0.001
+Sykepleie,løse problemer,skill/competence,transversal,none,1,0.001
+Sykepleie,nevrofysiologi,knowledge,cross-sector,none,1,0.001
+Sykepleie,nevropsykiatri,knowledge,sector-specific,none,1,0.001
+Sykepleie,offentlig forvaltning,knowledge,sector-specific,none,1,0.001
+Sykepleie,oftalmologi,knowledge,sector-specific,none,1,0.001
+Sykepleie,oral kirurgi,knowledge,cross-sector,none,1,0.001
+Sykepleie,ortopediske tilstander,knowledge,sector-specific,none,1,0.001
+Sykepleie,pedagogikk,knowledge,cross-sector,essential,1,0.001
+Sykepleie,politikk,knowledge,cross-sector,none,1,0.001
+Sykepleie,prosjektledelse,knowledge,sector-specific,none,1,0.001
+Sykepleie,radiologi,knowledge,sector-specific,none,1,0.001
+Sykepleie,samarbeide med ledere,skill/competence,cross-sector,none,1,0.001
+Sykepleie,samfunnsfag,knowledge,cross-sector,none,1,0.001
+Sykepleie,spark,knowledge,sector-specific,none,1,0.001
+Sykepleie,stamceller,knowledge,sector-specific,none,1,0.001
+Sykepleie,statistikk,knowledge,cross-sector,none,1,0.001
+Sykepleie,strafferett,knowledge,cross-sector,none,1,0.001
+Sykepleie,støtte ledere,skill/competence,cross-sector,none,1,0.001
+Sykepleie,tegnspråk,knowledge,cross-sector,none,1,0.001
+Sykepleie,tenke kreativt,skill/competence,transversal,none,1,0.001
+Sykepleie,transplantasjon,knowledge,sector-specific,none,1,0.001
+Sykepleie,utendørsaktiviteter,knowledge,sector-specific,none,1,0.001
+Sykepleie,utføre sårbehandling,skill/competence,sector-specific,none,1,0.001
+Sykepleie,utlevering av medisiner,skill/competence,cross-sector,none,1,0.001
+Sykepleie,utvise troverdighet,skill/competence,transversal,none,1,0.001
+Sykepleie,veilede annet helsepersonell,skill/competence,occupation-specific,none,1,0.001
+Sykepleie,yrkesmedisin,knowledge,occupation-specific,none,1,0.001
+Sykepleie,økonomistyring,knowledge,cross-sector,none,1,0.001
+Sykepleie,administrere immunterapi,skill/competence,occupation-specific,optional,0,0.0
+Sykepleie,administrere informasjon innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,analysere kvaliteten på sykepleie,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,anvende bærekraftsprinsipper i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,anvende fremmedspråk for helserelatert forskning,skill/competence,cross-sector,optional,0,0.0
+Sykepleie,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,anvende personsentrert behandling,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,behandle endokrine forstyrrelser,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,behandle medisinske tilstander hos eldre personer,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,behandle store skader gjennom kirurgiske inngrep,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,bidra til fremskritt innen spesialisert sykepleie,skill/competence,occupation-specific,essential,0,0.0
+Sykepleie,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,biologisk kjemi,knowledge,sector-specific,essential,0,0.0
+Sykepleie,bistå i epilepsikirurgi,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,bistå i nyretransplantasjon,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,borgernes engasjement i helsevesenet,knowledge,occupation-specific,essential,0,0.0
+Sykepleie,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Sykepleie,bruke kliniske resonnementer,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,bruke sykepleie i langsiktig behandling,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,delegere akuttbehandling,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,delta i helsepersonellopplæring,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,diagnostisere sykepleie,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,dietetikk,knowledge,sector-specific,essential,0,0.0
+Sykepleie,evaluering innen spesialisert sykepleie,skill/competence,occupation-specific,essential,0,0.0
+Sykepleie,evidensbasert sykepleie,knowledge,occupation-specific,essential,0,0.0
+Sykepleie,foreskrive legemidler,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,fremme et positivt bilde av sykepleie,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,fremme helse innen spesialisert omsorg,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,fremme menneskerettigheter,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,følge opp pasienter med hjerteinfarkt,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,gi behandlingsstrategier for utfordringer relatert til menneskelig helse,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,gi helsepleie utenfor sykehus,skill/competence,occupation-specific,optional,0,0.0
+Sykepleie,gi helsetjenestebrukere råd om informert samtykke,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,gi medisinsk behandling mot kreft,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,gi opplæring om forebygging av sykdom,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,gi pasienter råd om smittsomme sykdommer på reise,skill/competence,occupation-specific,optional,0,0.0
+Sykepleie,gi pleieråd om helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,gi profesjonell omsorg innen sykepleie,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,gi råd om sunn livsstil,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,gi smertestillende omsorg,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,gjennomføre lapptesting,skill/competence,occupation-specific,optional,0,0.0
+Sykepleie,gjennomføre polysomnografi,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,gjennomføre preoperative undersøkelser,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,gjennomføre sykepleierledet utskriving,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,gjenoppliving,knowledge,cross-sector,essential,0,0.0
+Sykepleie,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,helselovgivning,knowledge,cross-sector,essential,0,0.0
+Sykepleie,henvise brukere av helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,hygiene i helsevesenet,knowledge,cross-sector,essential,0,0.0
+Sykepleie,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,håndtere bivirkninger av legemidler,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,håndtere flere pasienter samtidig,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,håndtere infeksjoner oppstått på sykehus,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,håndtere problemer kritisk,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,håndtere smittsom sykdom,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,implementere grunnleggende omsorgsprinsipper,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,implementere vitenskapelige beslutningsprosesser innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,initiere livsbevarende tiltak,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,innovasjon innen omsorgstjenester,knowledge,cross-sector,essential,0,0.0
+Sykepleie,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,kommunisere innen spesialisert sykepleie,skill/competence,occupation-specific,essential,0,0.0
+Sykepleie,koordinere behandling,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,kunne betjene en datamaskin,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,lederskap i sykepleie,knowledge,occupation-specific,essential,0,0.0
+Sykepleie,legge til rette for personlig faglig utvikling,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,levere slagrehabiliteringstjenester,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,løse problemer i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,menneskets anatomi,knowledge,cross-sector,essential,0,0.0
+Sykepleie,menneskets fysiologi,knowledge,cross-sector,essential,0,0.0
+Sykepleie,nyfødtomsorg,knowledge,cross-sector,essential,0,0.0
+Sykepleie,overholde kvalitetsstandarder knyttet til helsevesenpraksis,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,overholde organisatoriske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,palliativ pleie,knowledge,sector-specific,essential,0,0.0
+Sykepleie,pasients selvstendighet,knowledge,occupation-specific,essential,0,0.0
+Sykepleie,personsentrert pleie,knowledge,sector-specific,essential,0,0.0
+Sykepleie,planlegge sykepleie,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,pleie av uføre,knowledge,sector-specific,essential,0,0.0
+Sykepleie,primæromsorg,knowledge,cross-sector,essential,0,0.0
+Sykepleie,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,sette venøs kanyle,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,sikker håndtering av legemidler,knowledge,sector-specific,essential,0,0.0
+Sykepleie,simuleringsbasert klinisk utdanning,knowledge,sector-specific,optional,0,0.0
+Sykepleie,sosiale sammenhengers innvirkning på helse,knowledge,cross-sector,essential,0,0.0
+Sykepleie,sosiologi,knowledge,cross-sector,essential,0,0.0
+Sykepleie,spesialistsykepleie,knowledge,occupation-specific,essential,0,0.0
+Sykepleie,"styrke enkeltpersoner, familier og grupper",skill/competence,sector-specific,essential,0,0.0
+Sykepleie,sykepleieprinsipper,knowledge,cross-sector,essential,0,0.0
+Sykepleie,sykepleievitenskap,knowledge,cross-sector,essential,0,0.0
+Sykepleie,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,sørge for omfattende omsorg for pasienter med kirurgiske tilstander,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,ta opp sidevirkninger av overgangsalder,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,tilpasse lederstil i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,ungdomsmedisin,knowledge,cross-sector,essential,0,0.0
+Sykepleie,utføre bronkoskopi,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,utføre diagnostisk testing for allergier,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,utføre endoskopi,skill/competence,occupation-specific,optional,0,0.0
+Sykepleie,utføre invasive kardiovaskulære prosedyrer,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,utføre terapeutiske prosedyrer innen vaskulær kirurgi,skill/competence,sector-specific,essential,0,0.0
+Sykepleie,utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Sykepleie,veilede enkeltpersoner i spesialisert sykepleie,skill/competence,occupation-specific,essential,0,0.0
+Sykepleie,veilede fastboende medisinsk personell,skill/competence,sector-specific,optional,0,0.0
+Sykepleie,vitenskapelig forskningsmetodikk,knowledge,cross-sector,essential,0,0.0
+Sykepleie,vurdere kunders fysiske tilstand,skill/competence,cross-sector,optional,0,0.0
+Tannpleie,norsk,knowledge,transversal,none,16,0.941
+Tannpleie,kommunikasjon,knowledge,cross-sector,none,14,0.824
+Tannpleie,folkehelse,knowledge,cross-sector,none,11,0.647
+Tannpleie,gi råd,skill/competence,transversal,none,7,0.412
+Tannpleie,vise initiativ,skill/competence,transversal,none,2,0.118
+Tannpleie,barnevern,knowledge,cross-sector,none,1,0.059
+Tannpleie,fotball,knowledge,occupation-specific,none,1,0.059
+Tannpleie,smittevern,knowledge,cross-sector,none,1,0.059
+Tannpleie,svangerskap,knowledge,sector-specific,none,1,0.059
+Tannpleie,anvende organisatoriske teknikker,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,arbeide i tverrfaglige helseteam,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,bidra til kontinuitet i helsevesenet,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,bruke antibakterielt stoff på tennene,skill/competence,occupation-specific,essential,0,0.0
+Tannpleie,bruke e-helse og mobil helseteknologi,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,bruke fremmedspråk i pasientpleie,skill/competence,cross-sector,optional,0,0.0
+Tannpleie,bruke kontekstspesifikk klinisk kompetanse,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,bruke teknisk utstyr for sterilisering,skill/competence,cross-sector,optional,0,0.0
+Tannpleie,evaluere kliniske utfall av tannhygienetiltak,skill/competence,occupation-specific,essential,0,0.0
+Tannpleie,"fjerne kalkulus, plakk og flekker",skill/competence,occupation-specific,essential,0,0.0
+Tannpleie,fremme helse- og sikkerhetsretningslinjer innen helsetjenester,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,fremme inkludering,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,følge kliniske retningslinjer,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,følge tannlegens instruksjoner,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,føre registre for tannproteser,skill/competence,sector-specific,optional,0,0.0
+Tannpleie,gi informasjon om oral helse og sykdomsforebygging,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,gi råd om ernæring og dens innvirkning på oral helse,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,håndtere akutte behandlingssituasjoner,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,håndtere pasienters angst,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,imøtekomme helsebrukerens behov,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,informere beslutningstakere om helserelaterte utfordringer,skill/competence,cross-sector,optional,0,0.0
+Tannpleie,jobbe i et flerkulturelt miljø i helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,kommunisere innen helsepleie,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,lede infeksjonskontroll ved institusjonen,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,overholde lovgivning knyttet til helsevesen,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,pusse dentale restaureringer,skill/competence,occupation-specific,essential,0,0.0
+Tannpleie,reagere på skiftende situasjoner innen helsevesenet,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,samhandle med brukere av helsetjenester,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,sørge for helseopplysning,skill/competence,cross-sector,essential,0,0.0
+Tannpleie,sørge for sikkerheten til helsetjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,ta dentale røntgenbilder,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,utføre dental kartlegging,skill/competence,sector-specific,essential,0,0.0
+Tannpleie,utføre dentalhygieneintervensjoner,skill/competence,occupation-specific,essential,0,0.0
+Tannpleie,utvikle en terapeutisk samarbeidsrelasjon,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,kommunikasjon,knowledge,cross-sector,none,76,0.559
+Vernepleie,norsk,knowledge,transversal,none,66,0.485
+Vernepleie,refleksjon,knowledge,sector-specific,none,25,0.184
+Vernepleie,psykiatri,knowledge,cross-sector,none,17,0.125
+Vernepleie,barnevern,knowledge,cross-sector,none,14,0.103
+Vernepleie,planlegge,skill/competence,cross-sector,none,14,0.103
+Vernepleie,arbeide selvstendig,skill/competence,transversal,none,13,0.096
+Vernepleie,rehabilitering,knowledge,cross-sector,none,11,0.081
+Vernepleie,autisme,knowledge,sector-specific,none,9,0.066
+Vernepleie,ernæring,knowledge,sector-specific,none,8,0.059
+Vernepleie,legemidler,knowledge,cross-sector,none,6,0.044
+Vernepleie,e-læring,knowledge,sector-specific,none,5,0.037
+Vernepleie,pasientsikkerhetsteorier,knowledge,sector-specific,none,5,0.037
+Vernepleie,tenke innovativt,skill/competence,transversal,none,5,0.037
+Vernepleie,vise initiativ,skill/competence,transversal,none,5,0.037
+Vernepleie,boliglån,knowledge,cross-sector,none,4,0.029
+Vernepleie,klinisk sosialt arbeid,knowledge,sector-specific,none,4,0.029
+Vernepleie,svangerskap,knowledge,sector-specific,none,4,0.029
+Vernepleie,veilede ansatte,skill/competence,cross-sector,none,4,0.029
+Vernepleie,vise engasjement,skill/competence,transversal,none,4,0.029
+Vernepleie,engelsk,knowledge,transversal,none,3,0.022
+Vernepleie,fysioterapi,knowledge,sector-specific,none,3,0.022
+Vernepleie,helsevesen,knowledge,cross-sector,none,3,0.022
+Vernepleie,hjelpemidler,knowledge,cross-sector,none,3,0.022
+Vernepleie,motivere andre,skill/competence,transversal,none,3,0.022
+Vernepleie,smittevern,knowledge,cross-sector,none,3,0.022
+Vernepleie,tenke helhetlig,skill/competence,transversal,none,3,0.022
+Vernepleie,bygge tillit,skill/competence,cross-sector,none,2,0.015
+Vernepleie,eldrepleie,skill/competence,sector-specific,none,2,0.015
+Vernepleie,geriatri,knowledge,cross-sector,none,2,0.015
+Vernepleie,gi råd,skill/competence,transversal,none,2,0.015
+Vernepleie,gi veiledning,skill/competence,cross-sector,none,2,0.015
+Vernepleie,handlekraftig,knowledge,sector-specific,none,2,0.015
+Vernepleie,historie,knowledge,cross-sector,none,2,0.015
+Vernepleie,psykologi,knowledge,cross-sector,essential,2,0.015
+Vernepleie,tegnspråk,knowledge,cross-sector,none,2,0.015
+Vernepleie,allmennmedisin,knowledge,cross-sector,none,1,0.007
+Vernepleie,arbeide i team,skill/competence,transversal,none,1,0.007
+Vernepleie,atferdsterapi,knowledge,sector-specific,none,1,0.007
+Vernepleie,atferdsvitenskap,knowledge,cross-sector,none,1,0.007
+Vernepleie,dansk,knowledge,transversal,none,1,0.007
+Vernepleie,delegere ansvar,skill/competence,transversal,none,1,0.007
+Vernepleie,delta på møter,skill/competence,sector-specific,none,1,0.007
+Vernepleie,etikk,knowledge,cross-sector,none,1,0.007
+Vernepleie,familieterapi,knowledge,sector-specific,none,1,0.007
+Vernepleie,filosofi,knowledge,cross-sector,none,1,0.007
+Vernepleie,kognitiv atferdsterapi,knowledge,sector-specific,none,1,0.007
+Vernepleie,konflikthåndtering,knowledge,cross-sector,none,1,0.007
+Vernepleie,kroppsspråk,knowledge,cross-sector,none,1,0.007
+Vernepleie,likhet,knowledge,occupation-specific,none,1,0.007
+Vernepleie,logistikk,knowledge,cross-sector,none,1,0.007
+Vernepleie,migrasjon,knowledge,cross-sector,none,1,0.007
+Vernepleie,oppfølging av personer,knowledge,cross-sector,essential,1,0.007
+Vernepleie,pedagogikk,knowledge,cross-sector,essential,1,0.007
+Vernepleie,personalledelse,knowledge,cross-sector,none,1,0.007
+Vernepleie,smittsomme sykdommer,knowledge,cross-sector,none,1,0.007
+Vernepleie,spark,knowledge,sector-specific,none,1,0.007
+Vernepleie,spesialundervisning,knowledge,cross-sector,optional,1,0.007
+Vernepleie,støtte ledere,skill/competence,cross-sector,none,1,0.007
+Vernepleie,svensk,knowledge,transversal,none,1,0.007
+Vernepleie,ta blodprøver,skill/competence,sector-specific,none,1,0.007
+Vernepleie,tilpasse seg endringer,skill/competence,transversal,none,1,0.007
+Vernepleie,anvende kvalitetsstandarder i sosialtjenester,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,anvende personsentrert behandling,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,anvende sosialt rettferdige arbeidsprinsipper,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,bruke en helhetlig tilnærming innenfor sosialtjenester,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,bruke fremmedspråk i sosialtjenester,skill/competence,cross-sector,optional,0,0.0
+Vernepleie,bruke læringsstrategier,skill/competence,cross-sector,optional,0,0.0
+Vernepleie,bruke pedagogiske strategier for kreativitet,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,forberede ungdom for voksenlivet,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,forholde seg empatisk,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,fremme ivaretakelse av unge mennesker,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,fremme sosial endring,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,følge helse- og sikkerhetsforholdsregler innen sosialomsorgpraksis,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,føre registre over arbeid med tjenestebrukere,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,gjennomføre kontinuerlig faglig utvikling i sosialarbeid,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,gjennomføre pedagogiske aktiviteter,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,gjøre barnevernsvedtak,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,godta egen ansvarlighet,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,helseopplysning,knowledge,cross-sector,essential,0,0.0
+Vernepleie,hjelpe barn med spesielle behov i utdanningssammenhenger,skill/competence,sector-specific,optional,0,0.0
+Vernepleie,håndtere sosial krise,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,håndtere stress på arbeidsplassen,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,jobbe for offentlig inkludering,skill/competence,cross-sector,optional,0,0.0
+Vernepleie,juridiske krav i sosialsektoren,knowledge,cross-sector,essential,0,0.0
+Vernepleie,kommunisere med barn og ungdommer,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,kommunisere med brukere av sosialtjenester,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,kommunisere om ungdommers velferd,skill/competence,cross-sector,optional,0,0.0
+Vernepleie,kommunisere profesjonelt med kolleger i andre felt,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,kommunisere ved hjelp av tolketjenester,skill/competence,sector-specific,optional,0,0.0
+Vernepleie,levere sosialtjenester i ulike kulturelle fellesskap,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,lytte aktivt,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,opplæring av lokalsamfunnet,knowledge,cross-sector,optional,0,0.0
+Vernepleie,overvåke barns fysiske utvikling,skill/competence,cross-sector,optional,0,0.0
+Vernepleie,planlegge ungdomsaktiviteter,skill/competence,sector-specific,optional,0,0.0
+Vernepleie,pleie av uføre,knowledge,sector-specific,optional,0,0.0
+Vernepleie,psykologiske teorier,knowledge,cross-sector,essential,0,0.0
+Vernepleie,rapportere informasjon om sosial utvikling,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,rådgivingsmetoder,knowledge,cross-sector,essential,0,0.0
+Vernepleie,samarbeide med fagfolk,skill/competence,sector-specific,optional,0,0.0
+Vernepleie,samarbeide på tverrfaglig nivå,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,samfunnsfag,knowledge,cross-sector,essential,0,0.0
+Vernepleie,sosial mekling,knowledge,sector-specific,optional,0,0.0
+Vernepleie,sosial rettferdighet,knowledge,cross-sector,essential,0,0.0
+Vernepleie,sosial utvikling,knowledge,sector-specific,essential,0,0.0
+Vernepleie,sosialpedagogikk,knowledge,cross-sector,essential,0,0.0
+Vernepleie,"styrke enkeltpersoner, familier og grupper",skill/competence,sector-specific,essential,0,0.0
+Vernepleie,støtte idrettsaktiviteter i utdanning,skill/competence,sector-specific,optional,0,0.0
+Vernepleie,støtte sosialtjenestebrukere slik at de skal kunne bo hjemme,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,støtte traumatiserte barn,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,teaterpedagogikk,knowledge,occupation-specific,optional,0,0.0
+Vernepleie,ulike type uførhet,knowledge,cross-sector,optional,0,0.0
+Vernepleie,understøtte barns trivsel,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,understøtte positiviteten til barn og ungdommer,skill/competence,cross-sector,essential,0,0.0
+Vernepleie,ungdommers psykologiske utvikling,knowledge,cross-sector,essential,0,0.0
+Vernepleie,vise lederskap i sosialtjenestetilfeller,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,vurdere situasjonen til brukere av sosialtjenester,skill/competence,sector-specific,essential,0,0.0
+Vernepleie,vurdere utviklingen til barn og ungdommer,skill/competence,sector-specific,essential,0,0.0
