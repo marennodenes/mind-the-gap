@@ -1,0 +1,10 @@
+question,description,spearman,top3_same,top3_first,top3_second,largest_rank_change
+decision_change,rank by number of postings (baseline) vs. by postings per study place (method),0.736,1,"Sykepleie, Medisin, Vernepleie","Medisin, Psykologi (profesjonsstudium), Odontologi",5
+robustness_method,"method: main demand vs. title rules only, no correction",0.9,3,"Medisin, Psykologi (profesjonsstudium), Odontologi","Medisin, Odontologi, Psykologi (profesjonsstudium)",3
+robustness_method,method: main demand vs. current postings only,0.655,2,"Medisin, Psykologi (profesjonsstudium), Odontologi","Medisin, Odontologi, Tannpleie",6
+robustness_method,method: main demand vs. temporary postings removed,0.964,3,"Medisin, Psykologi (profesjonsstudium), Odontologi","Medisin, Psykologi (profesjonsstudium), Odontologi",2
+robustness_method,method: main demand vs. full-time postings only,0.982,3,"Medisin, Psykologi (profesjonsstudium), Odontologi","Medisin, Psykologi (profesjonsstudium), Odontologi",1
+robustness_baseline,"baseline: main demand vs. title rules only, no correction",0.991,3,"Sykepleie, Medisin, Vernepleie","Sykepleie, Medisin, Vernepleie",1
+robustness_baseline,baseline: main demand vs. current postings only,0.955,3,"Sykepleie, Medisin, Vernepleie","Sykepleie, Medisin, Vernepleie",2
+robustness_baseline,baseline: main demand vs. temporary postings removed,1.0,3,"Sykepleie, Medisin, Vernepleie","Sykepleie, Medisin, Vernepleie",0
+robustness_baseline,baseline: main demand vs. full-time postings only,1.0,3,"Sykepleie, Medisin, Vernepleie","Sykepleie, Medisin, Vernepleie",0
