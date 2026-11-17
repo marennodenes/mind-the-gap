@@ -69,10 +69,16 @@ def baseline_predictions(ids):
     """Run the baseline matcher from build_skills.py on the given postings."""
     health = pd.read_csv(HEALTH_PATH, usecols=["id", "programme", "description_clean"])
     health = health[health["id"].isin(ids)].reset_index(drop=True)
-    labels = load_labels(pd.read_csv(os.path.join(ESCO, "skills_no.csv")))
+    skills = pd.read_csv(os.path.join(ESCO, "skills_no.csv"))
+    labels = load_labels(skills)
     texts = [NOT_LANGUAGE.sub(" ", t) for t in health["description_clean"].fillna("").str.lower()]
-    health["skill"] = match_skills(texts, labels)
-    return health[["id", "skill"]].explode("skill").dropna()
+    health["skill_uri"] = match_skills(texts, labels)
+    # The matcher returns ESCO URIs; the LLM output and the label sheet use names.
+    uri_to_name = (skills.drop_duplicates("conceptUri").set_index("conceptUri")
+                   ["preferredLabel"].str.strip().str.lower())
+    out = health[["id", "skill_uri"]].explode("skill_uri").dropna()
+    out["skill"] = out["skill_uri"].map(uri_to_name)
+    return out[["id", "skill"]].drop_duplicates()
 
 
 def predictions():

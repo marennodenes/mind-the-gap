@@ -120,7 +120,10 @@ def candidate_lists():
     occupations = pd.read_csv(os.path.join(ESCO, "occupations_no.csv"))
     skills = pd.read_csv(os.path.join(ESCO, "skills_no.csv"))
     relations = pd.read_csv(os.path.join(ESCO, "occupationSkillRelations_no.csv"))
-    profile = esco_profiles(occupations, relations, skills)
+    profile = esco_profiles(occupations, relations)  # skill URIs -> names below
+    uri_to_name = (skills.drop_duplicates("conceptUri").set_index("conceptUri")
+                   ["preferredLabel"].str.strip().str.lower())
+    profile["skill"] = profile["skill_uri"].map(uri_to_name)
 
     baseline = pd.read_csv(SKILLS_PATH)
     common = baseline[baseline["n_postings"] >= MIN_BASELINE_POSTINGS]
