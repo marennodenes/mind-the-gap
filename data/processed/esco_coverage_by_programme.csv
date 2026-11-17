@@ -1,13 +1,13 @@
-programme,profile_skills,profile_skills_mentioned,share_profile_mentioned,other_skills_mentioned,postings,postings_with_any_skill,esco_occupations
-Sykepleie,132,16,0.121,138,858,794,"2221.2, 2221.3"
-Medisin,183,31,0.169,98,366,359,"2211.1, 2212.1"
-Vernepleie,60,4,0.067,58,136,125,2635.2
-Psykologi (profesjonsstudium),161,10,0.062,51,71,64,"2634.2, 2634.2.1"
-Fysioterapi,103,8,0.078,36,48,48,"2264.2, 2264.1"
-Odontologi,95,2,0.021,19,47,46,"2261.1, 2261.2"
-Bioingeniør,127,7,0.055,27,27,26,2269.13
-Radiografi / audiografi,88,2,0.023,27,26,25,"2269.8, 2269.8.2"
-Ergoterapi,86,5,0.058,25,23,23,2269.4
-Tannpleie,36,0,0.0,9,17,17,2261.3
-Audiografi / logopedi,109,6,0.055,8,13,13,"3214.1, 2266.2"
-Klinisk ernæring,103,2,0.019,13,5,5,2265.1
+programme,profile_skills,profile_skills_searchable,profile_skills_mentioned,share_searchable_mentioned,other_skills_mentioned,postings,postings_with_any_skill,esco_occupations
+Sykepleie,132,49,15,0.306,126,858,776,"2221.2, 2221.3"
+Medisin,183,88,30,0.341,87,366,356,"2211.1, 2212.1"
+Vernepleie,60,17,3,0.176,50,136,124,2635.2
+Psykologi (profesjonsstudium),161,53,10,0.189,44,71,63,"2634.2, 2634.2.1"
+Fysioterapi,103,44,8,0.182,30,48,48,"2264.2, 2264.1"
+Odontologi,95,22,2,0.091,14,47,45,"2261.1, 2261.2"
+Bioingeniør,127,59,7,0.119,24,27,26,2269.13
+Radiografi / audiografi,88,36,2,0.056,21,26,25,"2269.8, 2269.8.2"
+Ergoterapi,86,38,5,0.132,20,23,22,2269.4
+Tannpleie,36,3,0,0.0,8,17,16,2261.3
+Audiografi / logopedi,109,52,6,0.115,7,13,13,"3214.1, 2266.2"
+Klinisk ernæring,103,37,2,0.054,9,5,5,2265.1
