@@ -45,7 +45,12 @@ Each script describes its input and output at the top of the file.
   of ESCO skills. Each programme is linked to its closest ESCO occupations
   (`PROGRAMME_TO_ESCO` in `src/build_skills.py`), so mentioned skills can be
   compared with the skills ESCO lists as essential or optional. Exact name
-  matching misses paraphrases, so mention shares are a lower bound.
+  matching misses paraphrases, so mention shares are a lower bound. Most ESCO
+  skill names are long phrases that never occur word for word in a posting, so
+  profile coverage is computed only over skills with a name of at most two
+  words. Compound words that turn a skill into a job title or workplace
+  ("barnevernspedagog", "rehabiliteringssenter") and ESCO alternative names that
+  change the meaning are excluded.
 
 ## Setup
 
