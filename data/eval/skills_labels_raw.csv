@@ -1,0 +1,682 @@
+id,programme,skill,labeler,gold,added
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,arbeide i tverrfaglige helseteam,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,arbeide selvstendig,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,audiologi,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,audiometri,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,høreapparater,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,hørselstap,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,imøtekomme helsebrukerens behov,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,norsk,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,overvåke pasienters fremgang knyttet til behandling,Maren,1,0
+4cc3bfdb-ee5b-41ff-9929-3eaf6743898d,Audiografi / logopedi,rehabilitering,Maren,0,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,arbeide selvstendig,Julie,1,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,audiometri,Julie,1,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,høreapparater,Julie,1,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,norsk,Julie,1,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,registrere helsetjenestebrukernes fremgang relatert til behandling,Julie,1,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,rehabilitering,Julie,1,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,reparere høreapparater,Julie,1,0
+61d8ff9f-127b-4744-bda4-6ef198501cd2,Audiografi / logopedi,utføre tekniske oppgaver nøyaktig,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,analysere kroppsvæsker,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,arbeide i team,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,arbeide selvstendig,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,biologisk hematologi,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,blodoverføring,Julie,0,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,finne løsninger på problemer,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,gjennomføre rutinemessige blodprøver,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,immunhematologi,Julie,0,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,imøtekomme helsebrukerens behov,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,kjemi,Julie,0,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,klinisk biokjemi,Julie,0,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,klinisk mikrobiologi,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,logistikk,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,merke medisinske laboratorieprøver,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,mikrobiologi-bakteriologi,Julie,0,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,mikroskopiske teknikker,Julie,0,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,norsk,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,reagere på skiftende situasjoner innen helsevesenet,Julie,0,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,samle inn biologiske prøver fra pasienter,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,støtte blodoverføringstjenester,Julie,1,0
+75d832e9-32e3-4558-a632-c2f6c780ec9e,Bioingeniør,teknikker for blodprøvetaking,Julie,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,arbeide i tverrfaglige helseteam,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,arbeide selvstendig,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,automatiserte analysatorer i det medisinske laboratoriet,Aleksander,0,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,diagnostiske metoder på medisinsk laboratorium,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,histologi,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,histopatologi,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,implementere kvalitetskontrollprosedyrer for biomedisinske tester,Aleksander,0,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,klinisk cytologi,Aleksander,0,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,kunne betjene en datamaskin,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,neoplasi,Aleksander,0,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,norsk,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,overholde kvalitetsstandarder knyttet til helsevesenpraksis,Aleksander,0,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,patologi,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,reagere på skiftende situasjoner innen helsevesenet,Aleksander,1,0
+a091a006-68b8-40b7-b37c-3b743d921bed,Bioingeniør,vedlikeholde medisinsk laboratorieutstyr,Aleksander,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,administrere yrkesterapistudenter,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,arbeide i tverrfaglige helseteam,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,arbeide selvstendig,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,fysioterapi,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,hjelpemidler,Maren,0,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,identifisere helsetjenestebrukerens personlige kapasitet,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,kirurgi,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,kommunikasjon,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,lage individuelle behandlingsopplegg,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,norsk,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,oppfølging av personer,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,ortopedi,Maren,0,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,pedagogikk,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,rehabilitering,Maren,1,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,revmatologi,Maren,0,0
+bd211af2-ba01-4b48-a5a6-70abee6aa35d,Ergoterapi,utføre helsetjenesteundersøkelse,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,arbeide i tverrfaglige helseteam,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,bidra til kontinuitet i helsevesenet,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,bruke kliniske vurderingsteknikker,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,engelsk,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,geriatri,Maren,0,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,kommunikasjon,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,levere slagrehabiliteringstjenester,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,nevrologi,Maren,0,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,norsk,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,planlegge,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,reagere på skiftende situasjoner innen helsevesenet,Maren,1,0
+dc2bff98-d6cd-4afd-a8d3-5a2ff5776517,Ergoterapi,rehabilitering,Maren,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,arbeide i tverrfaglige helseteam,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,arbeide selvstendig,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,bidra i rehabiliteringsprosessen,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,engelsk,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,fysioterapi,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,gi lærestøtte innen helsevesenet,Julie,0,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,gjennomføre fysioterapivurdering,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,godta egen ansvarlighet,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,kommunikasjon,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,norsk,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,refleksjon,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,rehabilitering,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,samhandle med brukere av helsetjenester,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,utvikle planer knyttet til overføring av behandling,Julie,0,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,veilede fysioterapistudenter,Julie,1,0
+577bc536-632e-4418-bdca-97a5e2c58cd1,Fysioterapi,vise engasjement,Julie,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,arbeide i tverrfaglige helseteam,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,arbeide selvstendig,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,gjennomføre fysioterapivurdering,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,kommunikasjon,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,norsk,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,planlegge,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,reagere på skiftende situasjoner innen helsevesenet,Maren,0,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,rehabilitering,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,samhandle med brukere av helsetjenester,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,sørge for sikkerheten til helsetjenestebrukere,Maren,0,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,utvikle planer knyttet til klientutskriving,Maren,1,0
+8bb711bb-c9d9-402e-b178-9806d031a420,Fysioterapi,vise engasjement,Maren,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,arbeide selvstendig,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,ergonomi,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,fremme helse,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,fysioterapi,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,gi opplæring om forebygging av sykdom,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,gjennomføre fysioterapivurdering,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,kommunikasjon,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,"overholde retningslinjer for helse, trivsel og sikkerhet",Aleksander,0,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,planlegge,Aleksander,1,0
+b5b52b5d-ba0e-4225-9cfa-6c19d9e787ee,Fysioterapi,utvikle fysioterapitjenester,Aleksander,0,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,engelsk,Julie,1,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,ernæring,Julie,1,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,gi råd om diettrelaterte problemstillinger,Julie,1,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,holde gruppetimer om ernæring,Julie,1,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,lære opp medisinsk personell innen ernæring,Julie,1,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,overvåke ernæringstilstand for individer,Julie,0,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,pediatri,Julie,1,0
+30e30f29-4bdc-4665-af8b-376b1721e5a7,Klinisk ernæring,still dietetisk diagnose,Julie,1,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,anvende organisatoriske teknikker,Maren,0,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,ernæring,Maren,1,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,fremme inkludering,Maren,0,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,kommunikasjon,Maren,1,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,matallergier,Maren,1,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,mathygieneregler,Maren,1,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,norsk,Maren,1,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,overholde organisatoriske retningslinjer,Maren,0,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,prinsipper for forretningsadministrering,Maren,0,0
+5ee35fce-cdf3-4de7-a813-5db53b1c362d,Klinisk ernæring,samarbeide med kolleger,Maren,1,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,arbeide i team,Aleksander,1,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,bygge tillit,Aleksander,1,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,demonstrere disiplinær ekspertise,Aleksander,1,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,digitale systemer,Aleksander,0,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,kommunikasjon,Aleksander,1,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,legemidler,Aleksander,1,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,psykiatri,Aleksander,0,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,samarbeide med kolleger,Aleksander,1,0
+07244cff-1110-4d6a-b60f-21c501a812e6,Medisin,tenke innovativt,Aleksander,0,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,akuttbehandling,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,arbeide i team,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,arbeide selvstendig,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,levere helsetjenester til pasienter innen spesialisert medisin,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,norsk,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,personvernforordningen,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,psykiatri,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,samarbeide med kolleger,Maren,1,0
+26c424ff-c2fb-40de-8551-3db274303be8,Medisin,vise initiativ,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,allmennmedisin,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,arbeide i team,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,arbeide selvstendig,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,behandle medisinske tilstander hos eldre personer,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,geriatri,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,gi råd,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,kommunikasjon,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,legemidler,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,levere omsorgstjenester til en bestemt pasientgruppe,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,norsk,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,rehabilitering,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,samarbeide med kolleger,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,samfunnsmedisin,Maren,1,0
+38faed41-9534-409d-b623-b61cfd9f7d6b,Medisin,ta avgjørelser,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,arbeide i team,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,arbeide selvstendig,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,gi veiledning,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,kommunikasjon,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,likhet,Maren,0,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,norsk,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,planlegge,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,psykiatri,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,samarbeide med kolleger,Maren,1,0
+52787135-128d-4a22-91af-fdb5ba89fc65,Medisin,undervise i en akademisk eller yrkesfaglig kontekst,Maren,1,0
+57bde83c-6ec7-45df-b1b1-958fdaf4467e,Medisin,akuttmedisin,Aleksander,1,0
+57bde83c-6ec7-45df-b1b1-958fdaf4467e,Medisin,allmennmedisin,Aleksander,1,0
+57bde83c-6ec7-45df-b1b1-958fdaf4467e,Medisin,arbeide selvstendig,Aleksander,1,0
+57bde83c-6ec7-45df-b1b1-958fdaf4467e,Medisin,levere helsetjenester til pasienter under behandling hos allmennpraktiserende lege,Aleksander,0,0
+57bde83c-6ec7-45df-b1b1-958fdaf4467e,Medisin,samarbeide med kolleger,Aleksander,1,0
+57bde83c-6ec7-45df-b1b1-958fdaf4467e,Medisin,snakke ulike språk,Aleksander,0,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,allmennmedisin,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,arbeide i team,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,arbeide selvstendig,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,bygge tillit,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,helseopplysning,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,levere helsetjenester til pasienter under behandling hos allmennpraktiserende lege,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,norsk,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,samarbeide med kolleger,Maren,1,0
+5cafb258-2994-4214-928b-49a9880a17d5,Medisin,vise initiativ,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,akuttbehandling,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,akuttbehandling,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,akuttmedisin,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,akuttmedisin,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,allmennmedisin,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,allmennmedisin,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,arbeide selvstendig,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,arbeide selvstendig,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,kommunikasjon,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,kommunikasjon,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,konsultasjon,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,konsultasjon,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,levere helsetjenester til pasienter under behandling hos allmennpraktiserende lege,Julie,0,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,levere helsetjenester til pasienter under behandling hos allmennpraktiserende lege,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,norsk,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,norsk,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,samarbeide med kolleger,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,samarbeide med kolleger,Maren,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,ta avgjørelser,Julie,1,0
+75ed7077-6686-4190-bb2c-ca5550783881,Medisin,ta avgjørelser,Maren,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,allmennmedisin,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,arbeide i team,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,arbeide selvstendig,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,bygge tillit,Julie,0,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,fysikalsk medisin,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,levere helsetjenester til pasienter innen spesialisert medisin,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,levere omsorgstjenester til en bestemt pasientgruppe,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,nevrologi,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,norsk,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,pediatri,Julie,0,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,psykiatri,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,rehabilitering,Julie,1,0
+8d1c95e2-8d71-4072-8cd5-e2717eb88de8,Medisin,samarbeide med kolleger,Julie,1,0
+49412647-dbc3-4e94-a25a-c8ce3e949f37,Odontologi,kommunikasjon,Maren,1,0
+49412647-dbc3-4e94-a25a-c8ce3e949f37,Odontologi,norsk,Maren,1,0
+49412647-dbc3-4e94-a25a-c8ce3e949f37,Odontologi,utføre tannklinisk undersøkelse,Maren,1,1
+8f638a9c-8088-4bff-aeeb-e3718b7aea02,Odontologi,arbeide selvstendig,Aleksander,1,1
+8f638a9c-8088-4bff-aeeb-e3718b7aea02,Odontologi,imøtekomme helsebrukerens behov,Aleksander,1,0
+8f638a9c-8088-4bff-aeeb-e3718b7aea02,Odontologi,kommunikasjon,Aleksander,1,0
+8f638a9c-8088-4bff-aeeb-e3718b7aea02,Odontologi,norsk,Aleksander,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,administrere helsetjenestebrukernes data,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,arbeide i tverrfaglige helseteam,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,bidra til å implementere innovasjon innen helsevesenet,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,bruke e-helse og mobil helseteknologi,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,bruke kontekstspesifikk klinisk kompetanse,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,fremme helse- og sikkerhetsretningslinjer innen helsetjenester,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,følge kliniske retningslinjer,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,kommunikasjon,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,norsk,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,overholde lovgivning knyttet til helsevesen,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,reagere på skiftende situasjoner innen helsevesenet,Maren,0,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,samhandle med brukere av helsetjenester,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,sørge for sikkerheten til helsetjenestebrukere,Maren,1,0
+b807422f-356d-4a77-9894-770e17a616ec,Odontologi,utføre tannklinisk undersøkelse,Maren,1,1
+bc9f0d06-5576-4b0c-8405-675e6d16e756,Odontologi,norsk,Julie,1,0
+bc9f0d06-5576-4b0c-8405-675e6d16e756,Odontologi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,Julie,1,0
+bc9f0d06-5576-4b0c-8405-675e6d16e756,Odontologi,samhandle med brukere av helsetjenester,Julie,1,0
+bc9f0d06-5576-4b0c-8405-675e6d16e756,Odontologi,sørge for sikkerheten til helsetjenestebrukere,Julie,1,0
+bc9f0d06-5576-4b0c-8405-675e6d16e756,Odontologi,utføre tannklinisk undersøkelse,Julie,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),anvende psykoterapeutiske intervensjoner,Aleksander,0,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),arbeide i tverrfaglige helseteam,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),bidra til kontinuitet i helsevesenet,Aleksander,0,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),bruke e-helse og mobil helseteknologi,Aleksander,0,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),bruke kliniske vurderingsteknikker,Aleksander,0,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),bruke kontekstspesifikk klinisk kompetanse,Aleksander,0,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),gi råd,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),gjennomføre psykologisk vurdering,Aleksander,0,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),helsepsykologi,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),kommunikasjon,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),konsultasjon,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),psykosomatikk,Aleksander,0,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),tenke helhetlig,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),tverrfaglig samarbeid innen helsevesenet,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),undervise i en akademisk eller yrkesfaglig kontekst,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),utføre forskningsarbeid,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),veilede annet helsepersonell,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),veilede ansatte,Aleksander,1,0
+14cbabfd-9eb9-43f3-ab6a-b0fee1f197ba,Psykologi (profesjonsstudium),vise engasjement,Aleksander,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),arbeide selvstendig,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),atferdsforstyrrelser,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),autisme,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),bygge tillit,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),fremme inkludering,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),gi råd,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),overholde organisatoriske retningslinjer,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),pedagogikk,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),planlegge,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),psykologi,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),undervise i en akademisk eller yrkesfaglig kontekst,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),veilede ansatte,Maren,1,0
+17809434-851a-48cd-8d24-7af3a881e642,Psykologi (profesjonsstudium),vise engasjement,Maren,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),arbeide i tverrfaglige helseteam,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),arbeide selvstendig,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),diagnostisere psykiske lidelser,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),digitale systemer,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),klinisk psykologisk behandling,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),kognitiv atferdsterapi,Julie,0,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),kommunikasjon,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),tverrfaglig samarbeid innen helsevesenet,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),utvikle en terapeutisk samarbeidsrelasjon,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),veilede ansatte,Julie,1,0
+391a9141-4959-450e-9c5b-2b8586cd8977,Psykologi (profesjonsstudium),vilkår for profesjonell utøvelse av klinisk psykologi,Julie,0,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),administrere helsetjenestebrukernes data,Julie,0,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),administrere helsetjenestebrukernes data,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),anvende psykoterapeutiske intervensjoner,Julie,0,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),anvende psykoterapeutiske intervensjoner,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),arbeide i tverrfaglige helseteam,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),arbeide i tverrfaglige helseteam,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),arbeide med helsetjenestebrukernes sosiale nettverk,Julie,0,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),arbeide med helsetjenestebrukernes sosiale nettverk,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),arbeide selvstendig,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),arbeide selvstendig,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),diagnostisere psykiske lidelser,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),diagnostisere psykiske lidelser,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),gjennomføre psykologisk vurdering,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),gjennomføre psykologisk vurdering,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),godta egen ansvarlighet,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),godta egen ansvarlighet,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),kliniske rapporter,Julie,0,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),kliniske rapporter,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),kommunikasjon,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),kommunikasjon,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),norsk,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),norsk,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),psykiatri,Julie,0,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),psykiatri,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),psykologi,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),psykologi,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),psykologiske behandlingstiltak,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),psykologiske behandlingstiltak,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),tverrfaglig samarbeid innen helsevesenet,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),tverrfaglig samarbeid innen helsevesenet,Maren,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),undervise i en akademisk eller yrkesfaglig kontekst,Julie,1,0
+cf757349-d713-44de-bc20-d9b9d0c22d8b,Psykologi (profesjonsstudium),undervise i en akademisk eller yrkesfaglig kontekst,Maren,1,0
+067138fb-c93f-442b-9eb4-c614dc98fa0f,Radiografi / audiografi,arbeide selvstendig,Aleksander,1,0
+067138fb-c93f-442b-9eb4-c614dc98fa0f,Radiografi / audiografi,betjene medisinsk avbildningsutstyr,Aleksander,1,0
+067138fb-c93f-442b-9eb4-c614dc98fa0f,Radiografi / audiografi,kommunikasjon,Aleksander,1,0
+067138fb-c93f-442b-9eb4-c614dc98fa0f,Radiografi / audiografi,norsk,Aleksander,1,0
+067138fb-c93f-442b-9eb4-c614dc98fa0f,Radiografi / audiografi,personvernforordningen,Aleksander,0,0
+067138fb-c93f-442b-9eb4-c614dc98fa0f,Radiografi / audiografi,radiologi,Aleksander,1,0
+067138fb-c93f-442b-9eb4-c614dc98fa0f,Radiografi / audiografi,tolke forespørsler om avbildningsundersøkelser,Aleksander,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,arbeide i tverrfaglige helseteam,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,arbeide selvstendig,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,betjene medisinsk avbildningsutstyr,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,bruke kjernefysiske medisinske teknikker,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,forberede radiofarmasi,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,fremme inkludering,Maren,0,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,håndtere radiofarmaka,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,kameraer,Maren,0,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,norsk,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,nukleærmedisin,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,overholde kvalitetsstandarder knyttet til helsevesenpraksis,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,reagere på skiftende situasjoner innen helsevesenet,Maren,0,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,samhandle med brukere av helsetjenester,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,strålevern,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,sørge for sikkerheten til helsetjenestebrukere,Maren,1,0
+65f99e0c-1265-42b2-a6a9-53ce891abf9d,Radiografi / audiografi,utføre nukleærmedisinske prosedyrer,Maren,1,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,arbeide i tverrfaglige helseteam,Julie,0,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,betjene medisinsk avbildningsutstyr,Julie,1,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,kommunikasjon,Julie,1,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,norsk,Julie,1,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,nukleærmedisin,Julie,0,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,radiologi,Julie,1,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,reagere på skiftende situasjoner innen helsevesenet,Julie,1,0
+a4c8e6a9-2856-4015-a362-61f95b605bcf,Radiografi / audiografi,samhandle med brukere av helsetjenester,Julie,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,arbeide i tverrfaglige helseteam,Aleksander,0,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,arbeide selvstendig,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Aleksander,0,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,fremme helse,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,gi opplæring om forebygging av sykdom,Aleksander,0,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,gi veiledning,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,godta egen ansvarlighet,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,kunne betjene en datamaskin,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,norsk,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,oppfølging av personer,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,samhandle med brukere av helsetjenester,Aleksander,1,0
+17ab3773-51d5-4deb-9b1f-e0d9c20ba1be,Sykepleie,vise engasjement,Aleksander,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,akuttmedisin,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,arbeide i team,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,arbeide i tverrfaglige helseteam,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,arbeide selvstendig,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,dansk,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,følge opp pasienter med hjerteinfarkt,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,kardiologi,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,kommunikasjon,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,kunne betjene en datamaskin,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,legemidler,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,medisinsk utstyr,Julie,0,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,norsk,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,reagere på skiftende situasjoner innen helsevesenet,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,samarbeide med kolleger,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,spesialistsykepleie,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,svensk,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,utføre sykepleie,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,veilede studenter,Julie,1,0
+1bc253f7-7f64-466f-9604-5d0b1630f82f,Sykepleie,vise engasjement,Julie,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,arbeide i team,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,arbeide i tverrfaglige helseteam,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,arbeide selvstendig,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,dansk,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,familieterapi,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,gi veiledning,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,kommunikasjon,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,motivere andre,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,norsk,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,psykiatri,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,samarbeide med kolleger,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,sikker håndtering av legemidler,Aleksander,1,0
+36c3448a-5c73-4df9-a25d-9dbb8acd285a,Sykepleie,svensk,Aleksander,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,administrere informasjon innen helsevesenet,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,akuttbehandling,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,arbeide i tverrfaglige helseteam,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,delegere ansvar,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,etikk,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,geriatri,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,gi informasjon,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,gi veiledning,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,håndtere akutte behandlingssituasjoner,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,håndtere flere pasienter samtidig,Julie,0,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,implementere grunnleggende omsorgsprinsipper,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,kommunikasjon,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,kunne betjene en datamaskin,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,lederskap i sykepleie,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,norsk,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,oppfølging av personer,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,overholde organisatoriske retningslinjer,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,personsentrert pleie,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,reagere på skiftende situasjoner innen helsevesenet,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,refleksjon,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,samarbeide med kolleger,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,sikker håndtering av legemidler,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,utføre sykepleie,Julie,1,0
+3d23ff55-162d-440b-a2f1-5c240bf9a9aa,Sykepleie,veilede studenter,Julie,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,arbeide i team,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,arbeide i tverrfaglige helseteam,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,arbeide selvstendig,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,evaluere sykepleie,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,gi helsepleie utenfor sykehus,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,imøtekomme helsebrukerens behov,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,kommunikasjon,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,kunne betjene en datamaskin,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,legemidler,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,medisinsk utstyr,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,norsk,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,overholde kvalitetsstandarder knyttet til helsevesenpraksis,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,overholde lovgivning knyttet til helsevesen,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,overholde organisatoriske retningslinjer,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,palliativ pleie,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,planlegge sykepleie,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,sikker håndtering av legemidler,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,utføre sykepleie,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,veilede ansatte,Aleksander,1,0
+4d2137a7-b758-415b-a311-00ac1d7b3bcf,Sykepleie,veilede studenter,Aleksander,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,akuttbehandling,Julie,0,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,arbeide i tverrfaglige helseteam,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,arbeide selvstendig,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,eldrepleie,Julie,0,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,ernæring,Julie,0,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,geriatri,Julie,0,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,gi veiledning,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,kommunikasjon,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,kunne betjene en datamaskin,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,løse problemer i helsevesenet,Julie,0,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,nevrologi,Julie,0,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,norsk,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,oppfølging av personer,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,rehabilitering,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,samhandle med brukere av helsetjenester,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,sørge for sikkerheten til helsetjenestebrukere,Julie,0,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,tenke helhetlig,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,utføre sykepleie,Julie,1,0
+59bdde33-7fd2-4894-b534-7881ecb23db3,Sykepleie,veilede studenter,Julie,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,akuttbehandling,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,akuttmedisin,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,arbeide i team,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,arbeide i tverrfaglige helseteam,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Aleksander,0,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,delta i helsepersonellopplæring,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,godta egen ansvarlighet,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,håndtere akutte behandlingssituasjoner,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,håndtere problemer kritisk,Aleksander,0,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,initiere livsbevarende tiltak,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,kommunikasjon,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,løse problemer i helsevesenet,Aleksander,0,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,norsk,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,reagere på skiftende situasjoner innen helsevesenet,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,samarbeide med kolleger,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,utføre sykepleie,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,veilede studenter,Aleksander,1,0
+74858487-2b92-44fe-91dc-29cbaaebc331,Sykepleie,vise engasjement,Aleksander,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,arbeide i tverrfaglige helseteam,Julie,0,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,arbeide selvstendig,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,engelsk,Julie,0,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,implementere grunnleggende omsorgsprinsipper,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,kommunikasjon,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,koordinere behandling,Julie,0,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,kunne betjene en datamaskin,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,lære opp ansatte,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,norsk,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,psykiatri,Julie,0,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,psykiatriske lidelser,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,samarbeide med kolleger,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,sikker håndtering av legemidler,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,spiseforstyrrelser,Julie,0,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,sørge for sikkerheten til helsetjenestebrukere,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,tenke helhetlig,Julie,1,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,utvikle en terapeutisk samarbeidsrelasjon,Julie,0,0
+7c612384-7c5b-48b2-bf47-40a67ae2913c,Sykepleie,veilede studenter,Julie,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,arbeide i tverrfaglige helseteam,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,fremme inkludering,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,gi helsepleie utenfor sykehus,Aleksander,0,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,kommunikasjon,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,lederskap i sykepleie,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,løse problemer i helsevesenet,Aleksander,0,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,motivere andre,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,norsk,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,personalledelse,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,planlegge,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,samarbeide med kolleger,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,sørge for sikkerheten til helsetjenestebrukere,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,tilpasse lederstil i helsevesenet,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,utføre sykepleie,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,veilede ansatte,Aleksander,1,0
+8b29d3b9-52a5-4086-9e94-55c69faf8d8f,Sykepleie,vise engasjement,Aleksander,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,arbeide i team,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,arbeide i tverrfaglige helseteam,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,arbeide selvstendig,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,bruke kliniske resonnementer,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,gi helsepleie utenfor sykehus,Julie,0,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,handlekraftig,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,håndtere akutte behandlingssituasjoner,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,kunne betjene en datamaskin,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,norsk,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,oppfølging av personer,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,reagere på skiftende situasjoner innen helsevesenet,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,samarbeide med kolleger,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,samhandle med brukere av helsetjenester,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,sikker håndtering av legemidler,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,sørge for sikkerheten til helsetjenestebrukere,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,utføre sykepleie,Julie,1,0
+9684ae62-7e6a-4e33-9958-b055db33a4bc,Sykepleie,veilede ansatte,Julie,1,0
+a0d990f6-552f-495c-8840-bb2ed21b92ce,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Aleksander,0,0
+a0d990f6-552f-495c-8840-bb2ed21b92ce,Sykepleie,evidensbasert sykepleie,Aleksander,0,0
+a0d990f6-552f-495c-8840-bb2ed21b92ce,Sykepleie,norsk,Aleksander,1,0
+a0d990f6-552f-495c-8840-bb2ed21b92ce,Sykepleie,personsentrert pleie,Aleksander,1,0
+a0d990f6-552f-495c-8840-bb2ed21b92ce,Sykepleie,samarbeide med kolleger,Aleksander,0,0
+a0d990f6-552f-495c-8840-bb2ed21b92ce,Sykepleie,utføre sykepleie,Aleksander,1,0
+a0d990f6-552f-495c-8840-bb2ed21b92ce,Sykepleie,vise engasjement,Aleksander,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,arbeide i team,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,arbeide selvstendig,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,diagnostisere sykepleie,Julie,0,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,imøtekomme helsebrukerens behov,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,kommunikasjon,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,kunne betjene en datamaskin,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,norsk,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,overholde organisatoriske retningslinjer,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,palliativ pleie,Julie,0,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,personsentrert pleie,Julie,0,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,planlegge,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,reagere på skiftende situasjoner innen helsevesenet,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,rehabilitering,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,samarbeide med kolleger,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,sikker håndtering av legemidler,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,sørge for sikkerheten til helsetjenestebrukere,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,tenke innovativt,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,utføre sykepleie,Julie,1,0
+a5ef6aca-c779-47b6-bf99-10c50483c76c,Sykepleie,vise initiativ,Julie,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,arbeide i team,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,arbeide i tverrfaglige helseteam,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,arbeide selvstendig,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,bruke kliniske resonnementer,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,evaluere sykepleie,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,evidensbasert sykepleie,Aleksander,0,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,geriatri,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,gi profesjonell omsorg innen sykepleie,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,gi veiledning,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,imøtekomme helsebrukerens behov,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,løse problemer i helsevesenet,Aleksander,0,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,motivere andre,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,norsk,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,palliativ pleie,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,planlegge sykepleie,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,psykiatri,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,rehabilitering,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,samarbeide med kolleger,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,samhandle med brukere av helsetjenester,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,skape lagånd,Aleksander,0,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,tenke innovativt,Aleksander,0,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,utføre sykepleie,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,veilede ansatte,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,veilede studenter,Aleksander,1,0
+ef9565be-2e3a-43b3-93d9-fb1fb46304c6,Sykepleie,vise initiativ,Aleksander,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,arbeide i team,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,arbeide selvstendig,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,bruke e-helse og mobil helseteknologi,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,bruke elektroniske pasientjournaler innen sykepleie,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,bruke kliniske resonnementer,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,ernæring,Julie,0,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,gi helsepleie utenfor sykehus,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,gi veiledning,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,håndtere akutte behandlingssituasjoner,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,håndtere flere pasienter samtidig,Julie,0,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,kommunikasjon,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,kunne betjene en datamaskin,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,løse problemer i helsevesenet,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,norsk,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,oppfølging av personer,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,palliativ pleie,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,reagere på skiftende situasjoner innen helsevesenet,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,samarbeide med kolleger,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,samhandle med brukere av helsetjenester,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,sikker håndtering av legemidler,Julie,0,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,sørge for sikkerheten til helsetjenestebrukere,Julie,1,0
+f76b29b9-325c-4235-ab53-868da1e28e19,Sykepleie,utføre sykepleie,Julie,1,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,arbeide i tverrfaglige helseteam,Aleksander,0,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,arbeide selvstendig,Aleksander,1,1
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,barnevern,Aleksander,0,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,bruke e-helse og mobil helseteknologi,Aleksander,0,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,bruke teknisk utstyr for sterilisering,Aleksander,1,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,folkehelse,Aleksander,1,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,kommunikasjon,Aleksander,1,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,norsk,Aleksander,1,0
+10659b44-af71-4834-97f1-79095d4c39a5,Tannpleie,overholde lovgivning knyttet til helsevesen,Aleksander,0,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,arbeide i tverrfaglige helseteam,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,bruke e-helse og mobil helseteknologi,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,"fjerne kalkulus, plakk og flekker",Julie,0,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,følge kliniske retningslinjer,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,gi informasjon om oral helse og sykdomsforebygging,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,gi råd,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,imøtekomme helsebrukerens behov,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,kommunikasjon,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,kommunisere innen helsepleie,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,norsk,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,samhandle med brukere av helsetjenester,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,ta dentale røntgenbilder,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,utføre dental kartlegging,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,utføre dentalhygieneintervensjoner,Julie,1,0
+467a4925-c3f0-46a6-8fde-e865bfcd855b,Tannpleie,vise initiativ,Julie,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,anvende kvalitetsstandarder i sosialtjenester,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,autisme,Aleksander,0,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,e-læring,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,føre registre over arbeid med tjenestebrukere,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,gi veiledning,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,juridiske krav i sosialsektoren,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,norsk,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,psykologi,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,samarbeide på tverrfaglig nivå,Aleksander,1,0
+1b114f6c-5b37-49fc-ad91-9e486ecef7ec,Vernepleie,veilede ansatte,Aleksander,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,anvende personsentrert behandling,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,arbeide selvstendig,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,geriatri,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,gi veiledning,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,godta egen ansvarlighet,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,kommunikasjon,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,legemidler,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,norsk,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,rehabilitering,Julie,0,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,samarbeide med fagfolk,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,samarbeide på tverrfaglig nivå,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,tenke helhetlig,Julie,1,0
+2c2e4f92-4674-45f2-b1fc-56cfc195ec3d,Vernepleie,vise engasjement,Julie,1,0
+549b7566-763c-460e-b669-3f35adec451d,Vernepleie,gi veiledning,Julie,1,0
+549b7566-763c-460e-b669-3f35adec451d,Vernepleie,gjennomføre kontinuerlig faglig utvikling i sosialarbeid,Julie,1,0
+549b7566-763c-460e-b669-3f35adec451d,Vernepleie,norsk,Julie,1,0
+549b7566-763c-460e-b669-3f35adec451d,Vernepleie,oppfølging av personer,Julie,0,0
+549b7566-763c-460e-b669-3f35adec451d,Vernepleie,planlegge,Julie,1,0
+549b7566-763c-460e-b669-3f35adec451d,Vernepleie,samarbeide med fagfolk,Julie,1,0
+549b7566-763c-460e-b669-3f35adec451d,Vernepleie,veilede ansatte,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,arbeide selvstendig,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,bruke en helhetlig tilnærming innenfor sosialtjenester,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,bygge tillit,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,forholde seg empatisk,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,håndtere stress på arbeidsplassen,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,norsk,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,oppfølging av personer,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,psykiatri,Julie,0,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,samarbeide med fagfolk,Julie,1,0
+b13165b1-6975-43f9-aba3-cb61153798c3,Vernepleie,samarbeide på tverrfaglig nivå,Julie,1,0
