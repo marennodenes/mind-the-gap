@@ -1,0 +1,27 @@
+method,programme,precision,recall,f1,tp,fp,fn
+baseline,ALL,0.872,0.245,0.382,136,20,420
+baseline,Audiografi / logopedi,1.0,0.235,0.381,4,0,13
+baseline,Bioingeniør,0.75,0.125,0.214,3,1,21
+baseline,Ergoterapi,0.636,0.304,0.412,7,4,16
+baseline,Fysioterapi,1.0,0.281,0.439,9,0,23
+baseline,Klinisk ernæring,1.0,0.462,0.632,6,0,7
+baseline,Medisin,0.897,0.361,0.515,26,3,46
+baseline,Odontologi,1.0,0.231,0.375,6,0,20
+baseline,Psykologi (profesjonsstudium),1.0,0.24,0.387,12,0,38
+baseline,Radiografi / audiografi,0.727,0.32,0.444,8,3,17
+baseline,Sykepleie,0.87,0.183,0.302,40,6,179
+baseline,Tannpleie,0.857,0.316,0.462,6,1,13
+baseline,Vernepleie,0.818,0.25,0.383,9,2,27
+llm,ALL,0.862,0.957,0.907,532,85,24
+llm,Audiografi / logopedi,0.941,0.941,0.941,16,1,1
+llm,Bioingeniør,0.676,0.958,0.793,23,11,1
+llm,Ergoterapi,0.913,0.913,0.913,21,2,2
+llm,Fysioterapi,0.842,1.0,0.914,32,6,0
+llm,Klinisk ernæring,0.688,0.846,0.759,11,5,2
+llm,Medisin,0.932,0.944,0.938,68,5,4
+llm,Odontologi,0.958,0.885,0.92,23,1,3
+llm,Psykologi (profesjonsstudium),0.836,0.92,0.876,46,9,4
+llm,Radiografi / audiografi,0.889,0.96,0.923,24,3,1
+llm,Sykepleie,0.861,0.986,0.919,216,35,3
+llm,Tannpleie,0.818,0.947,0.878,18,4,1
+llm,Vernepleie,0.919,0.944,0.932,34,3,2

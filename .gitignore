@@ -28,5 +28,8 @@ data/processed/*
 !data/processed/gap_by_programme.csv
 !data/processed/skills_by_programme.csv
 !data/processed/esco_coverage_by_programme.csv
+!data/processed/llm_skills_raw.jsonl
+!data/processed/skills_by_posting_llm.csv
+!data/processed/skills_by_programme_llm.csv
 
 .DS_Store

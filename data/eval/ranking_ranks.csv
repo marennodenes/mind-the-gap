@@ -1,0 +1,12 @@
+programme,postings,study_places,postings_per_place,rank_baseline,rank_method,rank_change,rank_method_title_only,rank_method_snapshot,rank_method_permanent,rank_method_fulltime
+Medisin,4280,900,4.76,2,1,1,1,1,1,1
+Psykologi (profesjonsstudium),1353,462,2.93,4,2,2,3,4,2,2
+Odontologi,420,163,2.58,8,3,5,2,2,3,3
+Sykepleie,13482,5630,2.39,1,4,-3,4,5,4,4
+Fysioterapi,824,460,1.79,5,5,0,5,8,7,5
+Vernepleie,1960,1195,1.64,3,6,-3,9,6,5,6
+Ergoterapi,474,297,1.6,7,7,0,7,9,6,8
+Bioingeniør,562,427,1.32,6,8,-2,8,10,8,7
+Tannpleie,140,110,1.27,10,9,1,6,3,10,9
+Klinisk ernæring,105,92,1.14,11,10,1,11,11,9,11
+Radiografi / audiografi,235,230,1.02,9,11,-2,10,7,11,10
