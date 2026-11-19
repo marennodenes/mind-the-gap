@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mind the gap</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --muted: #898781;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --border: rgba(11,11,11,0.10);
+  --wash: rgba(42,120,214,0.08);
+  --bar: #86b6ef;
+  --bar-sel: #2a78d6;
+  --s1: #2a78d6;
+  --s2: #eb6834;
+  --neutral: #c3c2b7;
+  --top: #cde2fb;
+  --warn-bg: #fff4dc;
+  --warn-ink: #6b4a00;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --text: #f0efec; --text-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --wash: rgba(57,135,229,0.12);
+    --bar: #1c5cab; --bar-sel: #5598e7; --s1: #3987e5; --s2: #d95926; --neutral: #52514e;
+    --top: #184f95; --warn-bg: #3a2c08; --warn-ink: #fad27a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --text: #f0efec; --text-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --wash: rgba(57,135,229,0.12);
+  --bar: #1c5cab; --bar-sel: #5598e7; --s1: #3987e5; --s2: #d95926; --neutral: #52514e;
+  --top: #184f95; --warn-bg: #3a2c08; --warn-ink: #fad27a;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--page); color: var(--text);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.wrap { max-width: 1240px; margin: 0 auto; padding: 28px 24px 48px; }
+header { display: flex; gap: 24px; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; }
+h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.01em; }
+h1 span { color: var(--s1); }
+.lede { margin: 0; color: var(--text-2); max-width: 760px; }
+h2 { font-size: 20px; margin: 36px 0 12px; }
+h3 { font-size: 16px; margin: 0 0 2px; }
+.sub { color: var(--text-2); font-size: 13px; margin: 0 0 14px; }
+.controls { display: flex; gap: 10px; align-items: center; }
+
+.seg { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 3px; }
+.seg button {
+  font: inherit; font-size: 13px; border: 0; background: transparent; color: var(--text-2);
+  padding: 5px 12px; border-radius: 6px; cursor: pointer;
+}
+.seg button[aria-pressed="true"] { background: var(--s1); color: #fff; font-weight: 600; }
+.iconbtn {
+  font: inherit; font-size: 13px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2);
+  padding: 6px 10px; border-radius: 8px; cursor: pointer;
+}
+.selwrap { position: relative; display: inline-block; max-width: 100%; }
+.selwrap::after {
+  content: ""; position: absolute; right: 16px; top: 50%; width: 7px; height: 7px; pointer-events: none;
+  border-right: 2px solid var(--text-2); border-bottom: 2px solid var(--text-2); transform: translateY(-70%) rotate(45deg);
+}
+select {
+  appearance: none; -webkit-appearance: none; font: inherit; font-size: 15px; font-weight: 600;
+  padding: 8px 44px 8px 14px; min-width: 280px; max-width: 100%; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); cursor: pointer;
+}
+select:hover { border-color: var(--axis); }
+
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 24px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; min-width: 0; }
+.kpi .label { color: var(--text-2); font-size: 13px; }
+.kpi .value { font-size: 30px; font-weight: 650; margin: 4px 0 2px; letter-spacing: -0.01em; }
+.kpi .note { color: var(--muted); font-size: 13px; }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.grid3 { display: grid; grid-template-columns: 1.1fr 1.1fr 1fr; gap: 14px; }
+.grid-profile { grid-template-columns: 1.45fr 1fr; margin-top: 14px; }
+.grid2 > *, .grid3 > * { min-width: 0; }
+.cardhead { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+
+/* ranking */
+.rank-list { position: relative; }
+.rrow {
+  position: absolute; left: 0; right: 0; height: 34px; display: grid;
+  grid-template-columns: 28px minmax(120px, 230px) 1fr 64px; align-items: center; gap: 10px;
+  transition: transform 700ms cubic-bezier(.2,.8,.2,1); cursor: pointer; border-radius: 6px; padding: 0 4px;
+}
+.rrow:hover { background: var(--wash); }
+.rrow .rk { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; font-size: 13px; }
+.rrow.top .rk { color: var(--text); font-weight: 700; }
+.rrow .nm { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 14px; }
+.rrow.sel .nm { font-weight: 650; }
+.track { height: 20px; position: relative; }
+.fill {
+  height: 100%; background: var(--bar); border-radius: 0 4px 4px 0;
+  transition: width 700ms cubic-bezier(.2,.8,.2,1), background 200ms;
+}
+.rrow.sel .fill { background: var(--bar-sel); }
+.rrow .val { font-variant-numeric: tabular-nums; text-align: right; font-size: 14px; color: var(--text-2); }
+.rrow.sel .val { color: var(--text); font-weight: 600; }
+.callout { margin-top: 14px; padding: 10px 12px; border-left: 3px solid var(--s1); background: var(--wash); border-radius: 0 8px 8px 0; font-size: 14px; }
+.hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
+
+/* scatter + slope */
+svg { display: block; overflow: visible; }
+svg text { fill: var(--text-2); font-size: 12px; font-family: inherit; }
+svg .axis-title { fill: var(--muted); font-size: 12px; }
+svg .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+svg .gridline { stroke: var(--grid); stroke-width: 1; }
+svg .refline { stroke: var(--axis); stroke-width: 1; }
+svg .reflabel { fill: var(--muted); font-size: 11px; }
+svg .dot { fill: var(--bar); stroke: var(--surface); stroke-width: 2; cursor: pointer; transition: fill 200ms; }
+svg .dot.sel { fill: var(--bar-sel); }
+svg .dotlabel { fill: var(--text-2); font-size: 12px; pointer-events: none; }
+svg .dotlabel.sel { fill: var(--text); font-weight: 650; }
+svg .slope { stroke: var(--neutral); stroke-width: 2; fill: none; }
+svg .slope.sel { stroke: var(--s1); stroke-width: 3; }
+svg .sdot { fill: var(--neutral); stroke: var(--surface); stroke-width: 2; }
+svg .sdot.sel { fill: var(--s1); }
+svg .slabel.sel { fill: var(--text); font-weight: 650; }
+svg .hit { fill: transparent; cursor: pointer; }
+
+/* profile */
+.stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 14px 0 4px; }
+.stat { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+.stat .label { font-size: 12px; color: var(--text-2); }
+.stat .value { font-size: 22px; font-weight: 650; }
+.warn { margin-top: 10px; padding: 8px 12px; border-radius: 8px; background: var(--warn-bg); color: var(--warn-ink); font-size: 13px; }
+.warn::before { content: "⚠ "; }
+
+.hbars { display: grid; gap: 4px; }
+.hb { display: grid; grid-template-columns: minmax(0, 46%) 1fr 44px; gap: 10px; align-items: center; min-height: 26px; border-radius: 6px; padding: 1px 4px; }
+.hb:hover { background: var(--wash); }
+.hb .lab { font-size: 13px; line-height: 1.25; overflow-wrap: anywhere; }
+.hb .bar { height: 16px; border-radius: 0 4px 4px 0; transition: width 500ms cubic-bezier(.2,.8,.2,1); }
+.hb .num { font-size: 13px; color: var(--text-2); text-align: right; font-variant-numeric: tabular-nums; }
+.hb.county { grid-template-columns: 130px 1fr 36px; min-height: 22px; }
+.hb.county .bar { height: 14px; background: var(--s1); }
+
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--text-2); margin: 0 0 10px; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.check { font-size: 13px; color: var(--text-2); display: inline-flex; gap: 6px; align-items: center; cursor: pointer; user-select: none; }
+.check input { accent-color: var(--s1); width: 16px; height: 16px; }
+
+/* robustness table */
+table.rob { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 2px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.rob th { font-weight: 500; hyphens: manual; color: var(--text-2); font-size: 11px; text-align: center; vertical-align: bottom; padding: 0 2px 4px; line-height: 1.2; }
+.rob th:first-child { text-align: left; width: 36%; }
+.rob td { text-align: center; padding: 3px 0; border-radius: 4px; }
+.rob td:first-child { text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 6px; }
+.rob td.top { background: var(--top); font-weight: 700; color: var(--text); }
+.rob tr { cursor: pointer; }
+.rob tr.sel td:first-child { font-weight: 650; }
+.rob tr:hover td:first-child { color: var(--s1); }
+
+.pr .grp { margin-bottom: 14px; }
+.pr .grp > div:first-child { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+.pr .hb { grid-template-columns: 120px 1fr 44px; }
+
+.tooltip {
+  position: fixed; pointer-events: none; z-index: 10; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 13px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12); opacity: 0; transition: opacity 120ms; max-width: 280px;
+}
+.tooltip b { display: block; margin-bottom: 2px; }
+.tooltip .row { display: flex; justify-content: space-between; gap: 16px; color: var(--text-2); }
+.tooltip .row span:last-child { color: var(--text); font-variant-numeric: tabular-nums; }
+footer { margin-top: 36px; color: var(--muted); font-size: 12px; }
+
+@media (max-width: 1240px) {
+  .grid3 { grid-template-columns: 1fr 1fr; }
+  .grid3 > .pr { grid-column: 1 / -1; }
+}
+@media (max-width: 980px) {
+  .grid2, .grid3, .grid-profile { grid-template-columns: 1fr; }
+  .kpis { grid-template-columns: repeat(2, 1fr); }
+  .stats { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 560px) {
+  .wrap { padding: 20px 16px 40px; }
+  .kpis, .stats { grid-template-columns: 1fr 1fr; }
+  .rrow { grid-template-columns: 22px 110px 1fr 52px; gap: 6px; }
+  .hb.county { grid-template-columns: 100px 1fr 32px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Mind the <span>gap</span></h1>
+      <p class="lede" data-t="lede"></p>
+    </div>
+    <div class="controls">
+      <button class="iconbtn" id="themeBtn"></button>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis"></section>
+
+  <h2 data-t="h_rank"></h2>
+  <div class="grid2">
+    <div class="card">
+      <div class="cardhead">
+        <div><h3 data-t="rank_title"></h3><p class="sub" data-t="rank_sub" style="margin:0"></p></div>
+        <div class="seg" role="group">
+          <button data-mode="ppp" data-t="mode_ppp"></button><button data-mode="raw" data-t="mode_raw"></button>
+        </div>
+      </div>
+      <div class="rank-list" id="rankList"></div>
+      <div class="callout" id="rankNote"></div>
+      <div class="hint" data-t="hint"></div>
+    </div>
+    <div class="card">
+      <h3 data-t="sc_title"></h3>
+      <p class="sub" data-t="sc_sub"></p>
+      <div id="scatter"></div>
+    </div>
+  </div>
+
+  <h2 data-t="h_profile"></h2>
+  <div class="card">
+    <div class="cardhead" style="margin-bottom:0">
+      <span class="selwrap"><select id="progSelect" aria-label="Programme"></select></span>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div id="warn"></div>
+  </div>
+  <div class="grid2 grid-profile">
+    <div class="card">
+      <div class="cardhead" style="margin-bottom:6px">
+        <div><h3 data-t="sk_title"></h3><p class="sub" data-t="sk_sub" style="margin:0"></p></div>
+        <label class="check"><input type="checkbox" id="onlyEsco"><span data-t="sk_only"></span></label>
+      </div>
+      <div class="legend" id="skLegend"></div>
+      <div class="hbars" id="skills"></div>
+    </div>
+    <div class="card">
+      <h3 data-t="co_title"></h3>
+      <p class="sub" id="coSub"></p>
+      <div class="hbars" id="counties"></div>
+    </div>
+  </div>
+
+  <h2 data-t="h_eval"></h2>
+  <div class="grid3">
+    <div class="card">
+      <h3 data-t="sl_title"></h3>
+      <p class="sub" data-t="sl_sub"></p>
+      <div id="slope"></div>
+      <div class="callout" data-t="sl_note"></div>
+    </div>
+    <div class="card">
+      <h3 data-t="rb_title"></h3>
+      <p class="sub" data-t="rb_sub"></p>
+      <table class="rob" id="rob"></table>
+      <div class="callout" data-t="rb_note"></div>
+    </div>
+    <div class="card pr">
+      <h3 data-t="pr_title"></h3>
+      <p class="sub" data-t="pr_sub"></p>
+      <div class="legend" id="prLegend"></div>
+      <div id="pr"></div>
+      <div class="callout" data-t="pr_note"></div>
+    </div>
+  </div>
+
+  <footer data-t="footer"></footer>
+</div>
+<div class="tooltip" id="tip"></div>
+
+<script>
+const DATA = {"programmes":[{"id":"Medisin","en":"Medicine","rank":1,"postings":4280,"places":900,"ppp":4.76,"applicants":4.33,"fulltime":0.89,"temporary":0.25,"n_snapshot":366,"title_precision":0.973,"title_recall":0.795,"rank_baseline":2,"ranks":{"main":1,"title_only":1,"snapshot":1,"permanent":1,"fulltime":1}},{"id":"Psykologi (profesjonsstudium)","en":"Psychology (professional degree)","rank":2,"postings":1353,"places":462,"ppp":2.93,"applicants":12.76,"fulltime":0.94,"temporary":0.04,"n_snapshot":71,"title_precision":1.0,"title_recall":0.831,"rank_baseline":4,"ranks":{"main":2,"title_only":3,"snapshot":4,"permanent":2,"fulltime":2}},{"id":"Odontologi","en":"Dentistry","rank":3,"postings":420,"places":163,"ppp":2.58,"applicants":4.57,"fulltime":0.81,"temporary":0.17,"n_snapshot":47,"title_precision":0.939,"title_recall":0.979,"rank_baseline":8,"ranks":{"main":3,"title_only":2,"snapshot":2,"permanent":3,"fulltime":3}},{"id":"Sykepleie","en":"Nursing","rank":4,"postings":13482,"places":5630,"ppp":2.39,"applicants":2.34,"fulltime":0.78,"temporary":0.18,"n_snapshot":858,"title_precision":0.929,"title_recall":0.734,"rank_baseline":1,"ranks":{"main":4,"title_only":4,"snapshot":5,"permanent":4,"fulltime":4}},{"id":"Fysioterapi","en":"Physiotherapy","rank":5,"postings":824,"places":460,"ppp":1.79,"applicants":5.71,"fulltime":0.81,"temporary":0.23,"n_snapshot":48,"title_precision":1.0,"title_recall":0.812,"rank_baseline":5,"ranks":{"main":5,"title_only":5,"snapshot":8,"permanent":7,"fulltime":5}},{"id":"Vernepleie","en":"Social education (vernepleie)","rank":6,"postings":1960,"places":1195,"ppp":1.64,"applicants":2.37,"fulltime":0.82,"temporary":0.12,"n_snapshot":136,"title_precision":0.888,"title_recall":0.522,"rank_baseline":3,"ranks":{"main":6,"title_only":9,"snapshot":6,"permanent":5,"fulltime":6}},{"id":"Ergoterapi","en":"Occupational therapy","rank":7,"postings":474,"places":297,"ppp":1.6,"applicants":1.86,"fulltime":0.74,"temporary":0.13,"n_snapshot":23,"title_precision":1.0,"title_recall":0.783,"rank_baseline":7,"ranks":{"main":7,"title_only":7,"snapshot":9,"permanent":6,"fulltime":8}},{"id":"Bioingeniør","en":"Biomedical laboratory science","rank":8,"postings":562,"places":427,"ppp":1.32,"applicants":2.5,"fulltime":1.0,"temporary":0.07,"n_snapshot":27,"title_precision":0.87,"title_recall":0.69,"rank_baseline":6,"ranks":{"main":8,"title_only":8,"snapshot":10,"permanent":8,"fulltime":7}},{"id":"Tannpleie","en":"Dental hygiene","rank":9,"postings":140,"places":110,"ppp":1.27,"applicants":4.07,"fulltime":0.82,"temporary":0.24,"n_snapshot":17,"title_precision":1.0,"title_recall":1.0,"rank_baseline":10,"ranks":{"main":9,"title_only":6,"snapshot":3,"permanent":10,"fulltime":9}},{"id":"Klinisk ernæring","en":"Clinical nutrition","rank":10,"postings":105,"places":92,"ppp":1.14,"applicants":1.75,"fulltime":0.6,"temporary":0.0,"n_snapshot":5,"title_precision":1.0,"title_recall":0.6,"rank_baseline":11,"ranks":{"main":10,"title_only":11,"snapshot":11,"permanent":9,"fulltime":11}},{"id":"Radiografi / audiografi","en":"Radiography / audiology","rank":11,"postings":235,"places":230,"ppp":1.02,"applicants":4.94,"fulltime":0.96,"temporary":0.27,"n_snapshot":26,"title_precision":0.955,"title_recall":0.808,"rank_baseline":9,"ranks":{"main":11,"title_only":10,"snapshot":7,"permanent":11,"fulltime":10}}],"skills":{"Bioingeniør":[{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.963,"n":26},{"no":"arbeide i team","en":"work in teams","rel":"none","share":0.852,"n":23},{"no":"norsk","en":"Norwegian language","rel":"none","share":0.778,"n":21},{"no":"teknikker for blodprøvetaking","en":"blood sampling techniques","rel":"essential","share":0.556,"n":15},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.481,"n":13},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.444,"n":12},{"no":"implementere kvalitetskontrollprosedyrer for biomedisinske tester","en":"implement quality control for biomedical tests","rel":"essential","share":0.407,"n":11},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":0.407,"n":11},{"no":"finne løsninger på problemer","en":"create solutions to problems","rel":"optional","share":0.37,"n":10},{"no":"kunne betjene en datamaskin","en":"computer literacy","rel":"optional","share":0.37,"n":10},{"no":"støtte blodoverføringstjenester","en":"support blood transfusion services","rel":"essential","share":0.333,"n":9},{"no":"automatiserte analysatorer i det medisinske laboratoriet","en":"automated analysers in the medical laboratory","rel":"essential","share":0.333,"n":9},{"no":"reagere på skiftende situasjoner innen helsevesenet","en":"respond to changing situations in health care","rel":"essential","share":0.296,"n":8},{"no":"laboratoriemetoder i biomedisinsk vitenskap","en":"laboratory methods in biomedical science","rel":"essential","share":0.296,"n":8},{"no":"vedlikeholde medisinsk laboratorieutstyr","en":"maintain medical laboratory equipment","rel":"essential","share":0.296,"n":8},{"no":"validere biomedisinske analyseresultater","en":"validate biomedical analysis results","rel":"essential","share":0.296,"n":8},{"no":"gjennomføre rutinemessige blodprøver","en":"perform routine blood tests","rel":"optional","share":0.296,"n":8},{"no":"diagnostiske metoder på medisinsk laboratorium","en":"diagnostic methods in the medical laboratory","rel":"essential","share":0.296,"n":8},{"no":"klinisk biokjemi","en":"clinical biochemistry","rel":"essential","share":0.296,"n":8}],"Ergoterapi":[{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":1.0,"n":23},{"no":"norsk","en":"Norwegian language","rel":"none","share":0.87,"n":20},{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.87,"n":20},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.783,"n":18},{"no":"hjelpemidler","en":"assistive devices","rel":"none","share":0.783,"n":18},{"no":"rehabilitering","en":"rehabilitation","rel":"none","share":0.652,"n":15},{"no":"hjelpe brukere av helsetjenester med å oppnå selvstendighet","en":"help healthcare users achieve independence","rel":"essential","share":0.609,"n":14},{"no":"oppfølging av personer","en":"follow-up of individuals","rel":"essential","share":0.565,"n":13},{"no":"bruke kliniske vurderingsteknikker","en":"use clinical assessment techniques","rel":"optional","share":0.478,"n":11},{"no":"planlegge","en":"planning","rel":"none","share":0.478,"n":11},{"no":"lage individuelle behandlingsopplegg","en":"create individual treatment plans","rel":"essential","share":0.435,"n":10},{"no":"fremme inkludering","en":"promote inclusion","rel":"essential","share":0.391,"n":9},{"no":"utstyre personer med hjelpeteknologi","en":"provide people with assistive technology","rel":"essential","share":0.391,"n":9},{"no":"gi opplæring om forebygging av sykdom","en":"educate on the prevention of illness","rel":"essential","share":0.348,"n":8},{"no":"bruke e-helse og mobil helseteknologi","en":"use e-health and mobile health technologies","rel":"essential","share":0.348,"n":8},{"no":"faglig dokumentasjon i helsevesenet","en":"professional documentation in health care","rel":"essential","share":0.304,"n":7},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.261,"n":6},{"no":"utvikle en terapeutisk samarbeidsrelasjon","en":"develop a collaborative therapeutic relationship","rel":"essential","share":0.261,"n":6},{"no":"gi råd om miljømessige endringer","en":"advise on environmental modifications","rel":"essential","share":0.217,"n":5},{"no":"bruke teknikker for å øke pasientenes motivasjon","en":"use techniques to increase patients' motivation","rel":"essential","share":0.217,"n":5},{"no":"reagere på skiftende situasjoner innen helsevesenet","en":"respond to changing situations in health care","rel":"essential","share":0.217,"n":5}],"Fysioterapi":[{"no":"fysioterapi","en":"physiotherapy","rel":"none","share":0.938,"n":45},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":0.917,"n":44},{"no":"norsk","en":"Norwegian language","rel":"none","share":0.896,"n":43},{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.896,"n":43},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.833,"n":40},{"no":"rehabilitering","en":"rehabilitation","rel":"essential","share":0.625,"n":30},{"no":"gjennomføre fysioterapivurdering","en":"conduct physiotherapy assessment","rel":"essential","share":0.604,"n":29},{"no":"bidra i rehabiliteringsprosessen","en":"contribute to the rehabilitation process","rel":"essential","share":0.521,"n":25},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.521,"n":25},{"no":"planlegge","en":"planning","rel":"none","share":0.479,"n":23},{"no":"digitalisering","en":"digitalisation","rel":"none","share":0.479,"n":23},{"no":"utvikle fysioterapitjenester","en":"develop physiotherapy services","rel":"essential","share":0.458,"n":22},{"no":"hjelpemidler","en":"assistive devices","rel":"none","share":0.375,"n":18},{"no":"finne løsninger på problemer","en":"create solutions to problems","rel":"essential","share":0.354,"n":17},{"no":"bruke e-helse og mobil helseteknologi","en":"use e-health and mobile health technologies","rel":"essential","share":0.354,"n":17},{"no":"veilede fysioterapistudenter","en":"supervise physiotherapy students","rel":"essential","share":0.333,"n":16},{"no":"vurdere kunders fysiske tilstand","en":"assess clients' physical condition","rel":"essential","share":0.312,"n":15},{"no":"fremme helse","en":"promote health","rel":"essential","share":0.312,"n":15},{"no":"gi lærestøtte innen helsevesenet","en":"provide learning support in health care","rel":"essential","share":0.312,"n":15},{"no":"tilpasse fysioterapiintervensjoner","en":"adapt physiotherapy interventions","rel":"essential","share":0.312,"n":15},{"no":"gi opplæring om forebygging av sykdom","en":"educate on the prevention of illness","rel":"essential","share":0.271,"n":13},{"no":"bidra til kvalitetsforbedringer på fysioterapitjenester","en":"contribute to quality physiotherapy services","rel":"essential","share":0.208,"n":10}],"Klinisk ernæring":[{"no":"ernæring","en":"nutrition","rel":"none","share":0.8,"n":4},{"no":"norsk","en":"Norwegian language","rel":"none","share":0.6,"n":3},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.6,"n":3},{"no":"lære opp medisinsk personell innen ernæring","en":"train medical staff in nutrition","rel":"essential","share":0.4,"n":2},{"no":"gi råd om diettrelaterte problemstillinger","en":"advise on diet-related concerns","rel":"essential","share":0.4,"n":2},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":0.4,"n":2},{"no":"reagere på skiftende situasjoner innen helsevesenet","en":"respond to changing situations in health care","rel":"essential","share":0.4,"n":2},{"no":"oppfølging av personer","en":"follow-up of individuals","rel":"essential","share":0.4,"n":2},{"no":"anvende organisatoriske teknikker","en":"apply organisational techniques","rel":"essential","share":0.4,"n":2},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.4,"n":2},{"no":"mathygieneregler","en":"food hygiene rules","rel":"essential","share":0.4,"n":2},{"no":"rådgivingsmetoder","en":"counselling methods","rel":"essential","share":0.4,"n":2},{"no":"still dietetisk diagnose","en":"make a dietetic diagnosis","rel":"essential","share":0.2,"n":1},{"no":"rehabilitering","en":"rehabilitation","rel":"essential","share":0.2,"n":1},{"no":"matvitenskap","en":"food science","rel":"essential","share":0.2,"n":1},{"no":"ernæringsmessig tilstrekkelighet av matinntak","en":"nutritional adequacy of food intake","rel":"essential","share":0.2,"n":1},{"no":"faglig dokumentasjon i helsevesenet","en":"professional documentation in health care","rel":"essential","share":0.2,"n":1},{"no":"gi helsetjenestebrukere informasjon om ernæring","en":"provide healthcare users with nutrition information","rel":"essential","share":0.2,"n":1}],"Medisin":[{"no":"samarbeide med kolleger","en":"cooperate with colleagues","rel":"none","share":0.872,"n":319},{"no":"norsk","en":"Norwegian language","rel":"none","share":0.822,"n":301},{"no":"arbeide i team","en":"work in teams","rel":"none","share":0.792,"n":290},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.702,"n":257},{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.697,"n":255},{"no":"gi veiledning","en":"provide guidance","rel":"none","share":0.434,"n":159},{"no":"ta avgjørelser","en":"make decisions","rel":"none","share":0.276,"n":101},{"no":"allmennmedisin","en":"general practice","rel":"optional","share":0.26,"n":95},{"no":"psykiatri","en":"psychiatry","rel":"optional","share":0.235,"n":86},{"no":"akuttbehandling","en":"emergency care","rel":"none","share":0.227,"n":83},{"no":"legge til rette for personlig faglig utvikling","en":"manage personal professional development","rel":"essential","share":0.224,"n":82},{"no":"undervise i en akademisk eller yrkesfaglig kontekst","en":"teach in academic or vocational contexts","rel":"optional","share":0.21,"n":77},{"no":"håndtere flere pasienter samtidig","en":"handle multiple patients at once","rel":"optional","share":0.197,"n":72},{"no":"vise engasjement","en":"show commitment","rel":"none","share":0.186,"n":68},{"no":"digitale systemer","en":"digital systems","rel":"none","share":0.178,"n":65},{"no":"akuttmedisin","en":"emergency medicine","rel":"optional","share":0.172,"n":63},{"no":"undervise i medisin","en":"teach medicine","rel":"optional","share":0.158,"n":58},{"no":"levere helsetjenester til pasienter under behandling hos allmennpraktiserende lege","en":"provide care to patients of a general practitioner","rel":"essential","share":0.158,"n":58},{"no":"administrere et tverrfaglig team involvert i pasientbehandling","en":"manage a multidisciplinary team involved in patient care","rel":"optional","share":0.126,"n":46},{"no":"utføre forskningsarbeid","en":"carry out research","rel":"optional","share":0.109,"n":40},{"no":"nevrologi","en":"neurology","rel":"optional","share":0.085,"n":31},{"no":"barnepsykiatri","en":"child psychiatry","rel":"optional","share":0.074,"n":27},{"no":"levere helsetjenester til pasienter innen spesialisert medisin","en":"provide care to patients in specialised medicine","rel":"essential","share":0.068,"n":25},{"no":"behandle medisinske tilstander hos eldre personer","en":"treat medical conditions of older adults","rel":"optional","share":0.066,"n":24},{"no":"geriatri","en":"geriatrics","rel":"optional","share":0.057,"n":21}],"Odontologi":[{"no":"norsk","en":"Norwegian language","rel":"none","share":0.915,"n":43},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.723,"n":34},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":0.638,"n":30},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.532,"n":25},{"no":"utføre tannklinisk undersøkelse","en":"perform dental clinical examination","rel":"essential","share":0.34,"n":16},{"no":"følge kliniske retningslinjer","en":"follow clinical guidelines","rel":"essential","share":0.34,"n":16},{"no":"overholde lovgivning knyttet til helsevesen","en":"comply with healthcare legislation","rel":"essential","share":0.255,"n":12},{"no":"bruke e-helse og mobil helseteknologi","en":"use e-health and mobile health technologies","rel":"essential","share":0.255,"n":12},{"no":"sørge for sikkerheten til helsetjenestebrukere","en":"ensure safety of healthcare users","rel":"essential","share":0.17,"n":8},{"no":"overholde kvalitetsstandarder knyttet til helsevesenpraksis","en":"comply with quality standards in healthcare practice","rel":"essential","share":0.17,"n":8},{"no":"fremme helse- og sikkerhetsretningslinjer innen helsetjenester","en":"promote health and safety policies in health services","rel":"essential","share":0.149,"n":7},{"no":"utføre flere oppgaver samtidig","en":"multitasking","rel":"essential","share":0.149,"n":7},{"no":"administrere helsetjenestebrukernes data","en":"manage healthcare users' data","rel":"essential","share":0.149,"n":7},{"no":"utvikle en terapeutisk samarbeidsrelasjon","en":"develop a collaborative therapeutic relationship","rel":"essential","share":0.128,"n":6},{"no":"vise initiativ","en":"show initiative","rel":"none","share":0.128,"n":6},{"no":"utføre dentalhygieneintervensjoner","en":"perform dental hygiene interventions","rel":"optional","share":0.106,"n":5},{"no":"bruke kontekstspesifikk klinisk kompetanse","en":"apply context-specific clinical competences","rel":"essential","share":0.106,"n":5},{"no":"gi opplæring om forebygging av sykdom","en":"educate on the prevention of illness","rel":"essential","share":0.085,"n":4}],"Psykologi (profesjonsstudium)":[{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.845,"n":60},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":0.831,"n":59},{"no":"norsk","en":"Norwegian language","rel":"none","share":0.803,"n":57},{"no":"tverrfaglig samarbeid innen helsevesenet","en":"interprofessional collaboration in health care","rel":"essential","share":0.789,"n":56},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.789,"n":56},{"no":"veilede ansatte","en":"mentor staff","rel":"none","share":0.648,"n":46},{"no":"gjennomføre psykologisk vurdering","en":"conduct psychological assessment","rel":"essential","share":0.606,"n":43},{"no":"undervise i en akademisk eller yrkesfaglig kontekst","en":"teach in academic or vocational contexts","rel":"optional","share":0.479,"n":34},{"no":"psykologi","en":"psychology","rel":"essential","share":0.394,"n":28},{"no":"klinisk psykologisk behandling","en":"clinical psychological treatment","rel":"essential","share":0.366,"n":26},{"no":"diagnostisere psykiske lidelser","en":"diagnose mental disorders","rel":"essential","share":0.352,"n":25},{"no":"legge til rette for personlig faglig utvikling","en":"manage personal professional development","rel":"essential","share":0.282,"n":20},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.282,"n":20},{"no":"planlegge","en":"planning","rel":"none","share":0.254,"n":18},{"no":"vise engasjement","en":"show commitment","rel":"none","share":0.254,"n":18},{"no":"bygge tillit","en":"build trust","rel":"essential","share":0.197,"n":14},{"no":"håndtere akutte behandlingssituasjoner","en":"deal with emergency care situations","rel":"essential","share":0.183,"n":13},{"no":"vurdere helsetjenestebrukernes risiko for skade","en":"assess healthcare users' risk of harm","rel":"essential","share":0.169,"n":12},{"no":"arbeide med helsetjenestebrukernes sosiale nettverk","en":"work with healthcare users' social network","rel":"optional","share":0.141,"n":10},{"no":"overholde lovgivning knyttet til helsevesen","en":"comply with healthcare legislation","rel":"essential","share":0.141,"n":10},{"no":"sørge for sikkerheten til helsetjenestebrukere","en":"ensure safety of healthcare users","rel":"essential","share":0.141,"n":10}],"Radiografi / audiografi":[{"no":"norsk","en":"Norwegian language","rel":"none","share":0.923,"n":24},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":0.808,"n":21},{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.769,"n":20},{"no":"betjene medisinsk avbildningsutstyr","en":"operate medical imaging equipment","rel":"essential","share":0.769,"n":20},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.654,"n":17},{"no":"reagere på skiftende situasjoner innen helsevesenet","en":"respond to changing situations in health care","rel":"essential","share":0.308,"n":8},{"no":"radiologi","en":"radiology","rel":"none","share":0.308,"n":8},{"no":"overholde kvalitetsstandarder knyttet til helsevesenpraksis","en":"comply with quality standards in healthcare practice","rel":"essential","share":0.269,"n":7},{"no":"planlegge","en":"planning","rel":"none","share":0.269,"n":7},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.269,"n":7},{"no":"pedagogikk","en":"pedagogy","rel":"optional","share":0.231,"n":6},{"no":"følge kliniske retningslinjer","en":"follow clinical guidelines","rel":"essential","share":0.192,"n":5},{"no":"klargjøre pasienter for avbildningsprosedyrer","en":"prepare patients for imaging procedures","rel":"essential","share":0.192,"n":5},{"no":"håndtere akutte behandlingssituasjoner","en":"deal with emergency care situations","rel":"essential","share":0.115,"n":3},{"no":"sørge for sikkerheten til helsetjenestebrukere","en":"ensure safety of healthcare users","rel":"essential","share":0.115,"n":3},{"no":"utføre klinisk forskning innen radiografi","en":"perform clinical research in radiography","rel":"optional","share":0.115,"n":3},{"no":"etterbehandle medisinske bilder","en":"post-process medical images","rel":"essential","share":0.115,"n":3},{"no":"administrere radiologisk informasjonssystem","en":"manage radiology information system","rel":"essential","share":0.115,"n":3},{"no":"utføre nukleærmedisinske prosedyrer","en":"perform nuclear medicine procedures","rel":"essential","share":0.115,"n":3},{"no":"systemer for helsetjenestedata","en":"healthcare data systems","rel":"essential","share":0.115,"n":3}],"Sykepleie":[{"no":"norsk","en":"Norwegian language","rel":"none","share":0.866,"n":743},{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.774,"n":664},{"no":"arbeide i team","en":"work in teams","rel":"none","share":0.725,"n":622},{"no":"samarbeide med kolleger","en":"cooperate with colleagues","rel":"none","share":0.721,"n":619},{"no":"utføre sykepleie","en":"provide nursing care","rel":"essential","share":0.686,"n":589},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":0.684,"n":587},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.544,"n":467},{"no":"bruke elektroniske pasientjournaler innen sykepleie","en":"use electronic health records in nursing","rel":"essential","share":0.49,"n":420},{"no":"gi veiledning","en":"provide guidance","rel":"none","share":0.395,"n":339},{"no":"kunne betjene en datamaskin","en":"computer literacy","rel":"essential","share":0.386,"n":331},{"no":"vise engasjement","en":"show commitment","rel":"none","share":0.383,"n":329},{"no":"sikker håndtering av legemidler","en":"safe handling of medicines","rel":"essential","share":0.34,"n":292},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.311,"n":267},{"no":"veilede studenter","en":"supervise students","rel":"none","share":0.304,"n":261},{"no":"oppfølging av personer","en":"follow-up of individuals","rel":"none","share":0.293,"n":251},{"no":"legge til rette for personlig faglig utvikling","en":"manage personal professional development","rel":"essential","share":0.213,"n":183},{"no":"koordinere behandling","en":"coordinate care","rel":"essential","share":0.206,"n":177},{"no":"bruke e-helse og mobil helseteknologi","en":"use e-health and mobile health technologies","rel":"essential","share":0.2,"n":172},{"no":"håndtere problemer kritisk","en":"address problems critically","rel":"essential","share":0.167,"n":143},{"no":"håndtere flere pasienter samtidig","en":"handle multiple patients at once","rel":"essential","share":0.153,"n":131},{"no":"reagere på skiftende situasjoner innen helsevesenet","en":"respond to changing situations in health care","rel":"essential","share":0.149,"n":128},{"no":"løse problemer i helsevesenet","en":"solve problems in health care","rel":"essential","share":0.147,"n":126},{"no":"overholde lovgivning knyttet til helsevesen","en":"comply with healthcare legislation","rel":"essential","share":0.146,"n":125},{"no":"planlegge sykepleie","en":"plan nursing care","rel":"essential","share":0.133,"n":114}],"Tannpleie":[{"no":"norsk","en":"Norwegian language","rel":"none","share":1.0,"n":17},{"no":"arbeide i tverrfaglige helseteam","en":"work in multidisciplinary health teams","rel":"essential","share":1.0,"n":17},{"no":"kommunikasjon","en":"communication","rel":"none","share":1.0,"n":17},{"no":"vise initiativ","en":"show initiative","rel":"none","share":0.824,"n":14},{"no":"samhandle med brukere av helsetjenester","en":"interact with healthcare users","rel":"essential","share":0.765,"n":13},{"no":"utføre dentalhygieneintervensjoner","en":"perform dental hygiene interventions","rel":"essential","share":0.765,"n":13},{"no":"folkehelse","en":"public health","rel":"none","share":0.706,"n":12},{"no":"overholde lovgivning knyttet til helsevesen","en":"comply with healthcare legislation","rel":"essential","share":0.706,"n":12},{"no":"gi informasjon om oral helse og sykdomsforebygging","en":"inform on oral health and disease prevention","rel":"essential","share":0.706,"n":12},{"no":"godta egen ansvarlighet","en":"accept own accountability","rel":"essential","share":0.647,"n":11},{"no":"imøtekomme helsebrukerens behov","en":"respond to healthcare users' needs","rel":"essential","share":0.588,"n":10},{"no":"sørge for helseopplysning","en":"provide health education","rel":"essential","share":0.588,"n":10},{"no":"fremme inkludering","en":"promote inclusion","rel":"essential","share":0.412,"n":7},{"no":"bruke e-helse og mobil helseteknologi","en":"use e-health and mobile health technologies","rel":"essential","share":0.353,"n":6},{"no":"reagere på skiftende situasjoner innen helsevesenet","en":"respond to changing situations in health care","rel":"essential","share":0.353,"n":6},{"no":"kommunisere innen helsepleie","en":"communicate in health care","rel":"essential","share":0.294,"n":5},{"no":"anvende organisatoriske teknikker","en":"apply organisational techniques","rel":"essential","share":0.294,"n":5},{"no":"følge kliniske retningslinjer","en":"follow clinical guidelines","rel":"essential","share":0.294,"n":5},{"no":"utvikle en terapeutisk samarbeidsrelasjon","en":"develop a collaborative therapeutic relationship","rel":"essential","share":0.235,"n":4}],"Vernepleie":[{"no":"oppfølging av personer","en":"follow-up of individuals","rel":"essential","share":0.831,"n":113},{"no":"norsk","en":"Norwegian language","rel":"none","share":0.787,"n":107},{"no":"samarbeide med fagfolk","en":"cooperate with professionals","rel":"optional","share":0.779,"n":106},{"no":"arbeide selvstendig","en":"work independently","rel":"none","share":0.757,"n":103},{"no":"kommunikasjon","en":"communication","rel":"none","share":0.721,"n":98},{"no":"samarbeide på tverrfaglig nivå","en":"cooperate at interdisciplinary level","rel":"essential","share":0.699,"n":95},{"no":"vise engasjement","en":"show commitment","rel":"none","share":0.603,"n":82},{"no":"gi veiledning","en":"provide guidance","rel":"none","share":0.574,"n":78},{"no":"legemidler","en":"medicines","rel":"none","share":0.566,"n":77},{"no":"føre registre over arbeid med tjenestebrukere","en":"keep records of work with service users","rel":"essential","share":0.559,"n":76},{"no":"veilede ansatte","en":"mentor staff","rel":"none","share":0.456,"n":62},{"no":"bygge tillit","en":"build trust","rel":"none","share":0.449,"n":61},{"no":"planlegge","en":"planning","rel":"none","share":0.434,"n":59},{"no":"juridiske krav i sosialsektoren","en":"legal requirements in the social sector","rel":"essential","share":0.39,"n":53},{"no":"vise initiativ","en":"show initiative","rel":"none","share":0.353,"n":48},{"no":"vurdere situasjonen til brukere av sosialtjenester","en":"assess social service users' situation","rel":"essential","share":0.301,"n":41},{"no":"gjennomføre kontinuerlig faglig utvikling i sosialarbeid","en":"undertake continuous professional development in social work","rel":"essential","share":0.294,"n":40},{"no":"håndtere stress på arbeidsplassen","en":"cope with stress at work","rel":"essential","share":0.228,"n":31},{"no":"anvende personsentrert behandling","en":"apply person-centred care","rel":"essential","share":0.213,"n":29},{"no":"forholde seg empatisk","en":"relate empathetically","rel":"essential","share":0.206,"n":28},{"no":"vise lederskap i sosialtjenestetilfeller","en":"demonstrate leadership in social service cases","rel":"essential","share":0.199,"n":27},{"no":"anvende kvalitetsstandarder i sosialtjenester","en":"apply quality standards in social services","rel":"essential","share":0.154,"n":21},{"no":"støtte sosialtjenestebrukere slik at de skal kunne bo hjemme","en":"support social service users to live at home","rel":"essential","share":0.154,"n":21},{"no":"styrke enkeltpersoner, familier og grupper","en":"empower individuals, families and groups","rel":"essential","share":0.14,"n":19},{"no":"gjennomføre pedagogiske aktiviteter","en":"carry out educational activities","rel":"essential","share":0.11,"n":15}]},"counties":{"_all":{"Trøndelag":181,"Vestland":177,"Oslo":155,"Innlandet":140,"Nordland":115,"Akershus":112,"Rogaland":110,"Møre og Romsdal":106,"Agder":98,"Troms":98,"Østfold":87,"Telemark":72,"Buskerud":61,"Vestfold":58,"Finnmark":50,"Svalbard":1},"Bioingeniør":{"Akershus":4,"Finnmark":1,"Innlandet":4,"Nordland":1,"Oslo":4,"Rogaland":1,"Telemark":1,"Troms":4,"Trøndelag":4,"Vestland":3},"Ergoterapi":{"Agder":3,"Akershus":3,"Buskerud":3,"Finnmark":1,"Nordland":2,"Oslo":1,"Troms":1,"Trøndelag":5,"Vestland":3,"Østfold":1},"Fysioterapi":{"Agder":5,"Akershus":4,"Buskerud":2,"Finnmark":2,"Innlandet":5,"Møre og Romsdal":2,"Nordland":1,"Oslo":4,"Rogaland":7,"Telemark":1,"Troms":3,"Trøndelag":4,"Vestfold":2,"Vestland":4,"Østfold":2},"Klinisk ernæring":{"Oslo":2,"Rogaland":1,"Trøndelag":1,"Østfold":1},"Medisin":{"Agder":30,"Akershus":13,"Buskerud":9,"Finnmark":14,"Innlandet":41,"Møre og Romsdal":25,"Nordland":21,"Oslo":41,"Rogaland":28,"Telemark":17,"Troms":17,"Trøndelag":30,"Vestfold":12,"Vestland":50,"Østfold":17},"Odontologi":{"Agder":3,"Akershus":2,"Buskerud":3,"Innlandet":6,"Møre og Romsdal":7,"Oslo":3,"Rogaland":3,"Telemark":2,"Troms":3,"Trøndelag":4,"Vestland":6,"Østfold":5},"Psykologi (profesjonsstudium)":{"Agder":6,"Akershus":6,"Buskerud":2,"Finnmark":3,"Innlandet":3,"Nordland":6,"Oslo":9,"Rogaland":6,"Svalbard":1,"Telemark":2,"Troms":5,"Trøndelag":5,"Vestfold":5,"Vestland":11,"Østfold":1},"Radiografi / audiografi":{"Agder":2,"Akershus":1,"Buskerud":1,"Innlandet":2,"Møre og Romsdal":2,"Nordland":2,"Oslo":6,"Rogaland":3,"Telemark":1,"Troms":1,"Trøndelag":4,"Vestfold":1},"Sykepleie":{"Agder":37,"Akershus":64,"Buskerud":34,"Finnmark":27,"Innlandet":64,"Møre og Romsdal":59,"Nordland":73,"Oslo":77,"Rogaland":53,"Telemark":34,"Troms":60,"Trøndelag":108,"Vestfold":32,"Vestland":84,"Østfold":50},"Tannpleie":{"Akershus":1,"Innlandet":7,"Nordland":1,"Oslo":3,"Telemark":1,"Troms":1,"Trøndelag":2,"Vestfold":1},"Vernepleie":{"Agder":12,"Akershus":14,"Buskerud":7,"Finnmark":2,"Innlandet":8,"Møre og Romsdal":11,"Nordland":8,"Oslo":5,"Rogaland":8,"Telemark":13,"Troms":3,"Trøndelag":14,"Vestfold":5,"Vestland":16,"Østfold":10}},"eval":{"skills":{"baseline":{"precision":0.872,"recall":0.245,"f1":0.382},"llm":{"precision":0.862,"recall":0.957,"f1":0.907}},"spearman":[0.736,0.9,0.655,0.964,0.982]}};
+
+const T = {
+    lede: "Which health programmes should Norway prioritise to meet employer demand? We compare job postings from NAV (demand) with study places in Samordna opptak 2026 (supply), and find which skills employers ask for.",
+    theme_dark: "Dark", theme_light: "Light",
+    k_postings: "Job postings, last 12 months", k_postings_note: "11 health programmes",
+    k_places: "Study places 2026", k_places_note: "Samordna opptak, all institutions",
+    k_top: "Largest gap", k_top_note: v => `${v} postings per study place`,
+    k_llm: "Skills the LLM finds", k_llm_note: v => `vs ${v} with exact ESCO search`,
+    h_rank: "Which programmes to prioritise?",
+    rank_title: "Ranking", rank_sub: "Job postings in the last 12 months",
+    mode_ppp: "Per study place", mode_raw: "Number of postings",
+    note_ppp: "<b>Medicine</b> has almost five postings per study place. <b>Nursing</b> has the most postings, but also the most study places, so it comes fourth.",
+    note_raw: "Ranked by number of postings alone, <b>Nursing</b> comes first because it is the largest programme. This is the baseline.",
+    hint: "Click a programme in any chart to see its profile.",
+    sc_title: "Demand vs supply", sc_sub: "Lines show 1, 2 and 4 postings per study place. Size = first-choice applicants per place.",
+    ax_places: "Study places 2026 (log)", ax_postings: "Postings, last 12 months (log)",
+    ref: k => `${k} per place`,
+    h_profile: "Programme profile",
+    st_rank: "Rank", st_ppp: "Postings per place", st_app: "First-choice applicants per place", st_full: "Full-time", st_temp: "Temporary",
+    warn: n => `Only ${n} current postings. The shares below are uncertain.`,
+    sk_title: "Skills employers ask for", sk_sub: "Share of current postings asking for the skill (LLM method, ESCO)",
+    sk_only: "Only the ESCO profile",
+    rel_essential: "Essential in the ESCO profile", rel_optional: "Optional in the ESCO profile", rel_none: "Not in the ESCO profile",
+    co_title: "Current postings by county", co_sub: n => `${n} current postings in NAV`,
+    h_eval: "How good are the methods?",
+    sl_title: "Does the method change the decision?", sl_sub: "Rank by number of postings (baseline) and by postings per study place (method)",
+    sl_left: "Postings", sl_right: "Per place",
+    sl_note: "Yes. Only <b>Medicine</b> is in the top 3 of both. Dentistry moves from 8th to 3rd (Spearman 0.74).",
+    rb_title: "Is the top 3 stable?", rb_sub: "Rank when demand is counted in other ways: title rules without correction, current postings only, permanent jobs only, full-time jobs only. The top 3 is highlighted.",
+    rb_cols: ["Main", "Title rules", "Current", "Perma&shy;nent", "Full-time"],
+    rb_note: "The top 3 is the same in every variant except <b>current postings only</b> (a much smaller sample), where Dental hygiene replaces Psychology.",
+    pr_title: "Does the method find the skills?", pr_sub: "50 postings labelled by hand",
+    m_base: "Exact ESCO search", m_llm: "LLM (Claude)", precision: "Precision", recall: "Recall",
+    pr_note: "Equally precise, but the LLM finds almost all the skills. Recall is somewhat too high: it only counts skills a method found or we added.",
+    tt_postings: "Postings, 12 months", tt_places: "Study places", tt_ppp: "Postings per place", tt_app: "First-choice applicants per place",
+    tt_share: "Share of postings", tt_n: "Postings", tt_rank_b: "Rank, postings", tt_rank_m: "Rank, per place",
+    footer: "Sources: NAV job postings (arbeidsplassen.nav.no), Samordna opptak 2026 (HK-dir), ESCO. Built with src/build_dashboard.py.",
+};
+
+// ---------- state ----------
+const params = new URLSearchParams(location.search);
+
+const S = {
+  mode: params.get("mode") || "ppp",
+  sel: DATA.programmes[0].id,
+  onlyEsco: false,
+};
+if (params.get("theme")) document.documentElement.dataset.theme = params.get("theme");
+
+const P = DATA.programmes;
+const byId = Object.fromEntries(P.map(p => [p.id, p]));
+const t = k => T[k];
+const name = p => p.en;
+const fmt = (v, d = 0) => v.toLocaleString("en-GB", { minimumFractionDigits: d, maximumFractionDigits: d });
+const pct = v => `${fmt(v * 100)}%`;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const $ = id => document.getElementById(id);
+const NS = "http://www.w3.org/2000/svg";
+function svgEl(tag, attrs, parent) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(e);
+  return e;
+}
+
+// ---------- tooltip ----------
+const tip = $("tip");
+function showTip(ev, title, rows) {
+  tip.innerHTML = `<b>${esc(title)}</b>` + rows.map(([k, v]) => `<div class="row"><span>${esc(k)}</span><span>${esc(v)}</span></div>`).join("");
+  tip.style.opacity = 1;
+  moveTip(ev);
+}
+function moveTip(ev) {
+  const r = tip.getBoundingClientRect();
+  let x = ev.clientX + 14, y = ev.clientY + 14;
+  if (x + r.width > innerWidth - 8) x = ev.clientX - r.width - 14;
+  if (y + r.height > innerHeight - 8) y = ev.clientY - r.height - 14;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.style.opacity = 0; }
+function progTip(ev, p) {
+  showTip(ev, name(p), [
+    [t("tt_postings"), fmt(p.postings)], [t("tt_places"), fmt(p.places)],
+    [t("tt_ppp"), fmt(p.ppp, 2)], [t("tt_app"), fmt(p.applicants, 2)],
+  ]);
+}
+function bindHover(el, fn) {
+  el.addEventListener("mouseenter", fn);
+  el.addEventListener("mousemove", moveTip);
+  el.addEventListener("mouseleave", hideTip);
+}
+
+// ---------- static text ----------
+function renderText() {
+  document.querySelectorAll("[data-t]").forEach(el => { el.innerHTML = t(el.dataset.t); });
+  document.querySelectorAll("[data-mode]").forEach(b => b.setAttribute("aria-pressed", b.dataset.mode === S.mode));
+  $("themeBtn").textContent = isDark() ? "☀ " + t("theme_light") : "☾ " + t("theme_dark");
+}
+function isDark() {
+  const th = document.documentElement.dataset.theme;
+  return th ? th === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+}
+
+// ---------- KPIs ----------
+function renderKpis() {
+  const postings = P.reduce((s, p) => s + p.postings, 0);
+  const places = P.reduce((s, p) => s + p.places, 0);
+  const top = P[0];
+  const ev = DATA.eval.skills;
+  const tiles = [
+    [t("k_postings"), fmt(postings), t("k_postings_note")],
+    [t("k_places"), fmt(places), t("k_places_note")],
+    [t("k_top"), name(top), t("k_top_note")(fmt(top.ppp, 2))],
+    [t("k_llm"), pct(ev.llm.recall), t("k_llm_note")(pct(ev.baseline.recall))],
+  ];
+  $("kpis").innerHTML = tiles.map(([l, v, n]) =>
+    `<div class="card kpi"><div class="label">${esc(l)}</div><div class="value">${esc(v)}</div><div class="note">${esc(n)}</div></div>`).join("");
+}
+
+// ---------- ranking ----------
+const ROW_H = 36;
+function buildRanking() {
+  const list = $("rankList");
+  list.style.height = P.length * ROW_H + "px";
+  P.forEach(p => {
+    const row = document.createElement("div");
+    row.className = "rrow";
+    row.dataset.id = p.id;
+    row.innerHTML = `<span class="rk"></span><span class="nm"></span><div class="track"><div class="fill"></div></div><span class="val"></span>`;
+    row.addEventListener("click", () => select(p.id));
+    bindHover(row, ev => progTip(ev, p));
+    list.appendChild(row);
+  });
+}
+function renderRanking() {
+  const key = S.mode === "ppp" ? "ppp" : "postings";
+  const rankKey = S.mode === "ppp" ? "rank" : "rank_baseline";
+  const max = Math.max(...P.map(p => p[key]));
+  document.querySelectorAll(".rrow").forEach(row => {
+    const p = byId[row.dataset.id];
+    const r = p[rankKey];
+    row.style.transform = `translateY(${(r - 1) * ROW_H}px)`;
+    row.classList.toggle("top", r <= 3);
+    row.classList.toggle("sel", p.id === S.sel);
+    row.querySelector(".rk").textContent = r;
+    row.querySelector(".nm").textContent = name(p);
+    row.querySelector(".fill").style.width = (p[key] / max * 100) + "%";
+    row.querySelector(".val").textContent = S.mode === "ppp" ? fmt(p.ppp, 2) : fmt(p.postings);
+  });
+  $("rankNote").innerHTML = t(S.mode === "ppp" ? "note_ppp" : "note_raw");
+}
+
+// ---------- scatter ----------
+function renderScatter() {
+  const box = $("scatter");
+  box.innerHTML = "";
+  const W = box.clientWidth, H = Math.max(320, Math.min(440, W * 0.78));
+  const m = { l: 56, r: 16, t: 10, b: 44 };
+  const xs = [60, 10000], ys = [60, 30000];
+  const lx = v => m.l + (Math.log10(v) - Math.log10(xs[0])) / (Math.log10(xs[1]) - Math.log10(xs[0])) * (W - m.l - m.r);
+  const ly = v => H - m.b - (Math.log10(v) - Math.log10(ys[0])) / (Math.log10(ys[1]) - Math.log10(ys[0])) * (H - m.t - m.b);
+  const svg = svgEl("svg", { width: W, height: H }, box);
+  const clip = svgEl("clipPath", { id: "plotclip" }, svgEl("defs", {}, svg));
+  svgEl("rect", { x: m.l, y: m.t, width: W - m.l - m.r, height: H - m.t - m.b }, clip);
+
+  [100, 1000, 10000].forEach(v => {
+    svgEl("line", { class: "gridline", x1: lx(v), x2: lx(v), y1: m.t, y2: H - m.b }, svg);
+    svgEl("text", { class: "tick", x: lx(v), y: H - m.b + 16, "text-anchor": "middle" }, svg).textContent = fmt(v);
+  });
+  [100, 1000, 10000].forEach(v => {
+    svgEl("line", { class: "gridline", x1: m.l, x2: W - m.r, y1: ly(v), y2: ly(v) }, svg);
+    svgEl("text", { class: "tick", x: m.l - 8, y: ly(v) + 4, "text-anchor": "end" }, svg).textContent = fmt(v);
+  });
+  svgEl("text", { class: "axis-title", x: (W + m.l) / 2, y: H - 6, "text-anchor": "middle" }, svg).textContent = t("ax_places");
+  svgEl("text", { class: "axis-title", transform: `translate(14 ${(H - m.b + m.t) / 2}) rotate(-90)`, "text-anchor": "middle" }, svg).textContent = t("ax_postings");
+
+  const g = svgEl("g", { "clip-path": "url(#plotclip)" }, svg);
+  [1, 2, 4].forEach(k => {
+    svgEl("line", { class: "refline", x1: lx(xs[0]), y1: ly(xs[0] * k), x2: lx(xs[1]), y2: ly(xs[1] * k) }, g);
+    const x0 = { 1: 3000, 2: 2000, 4: 1500 }[k];
+    const angle = Math.atan2(ly(x0 * 2 * k) - ly(x0 * k), lx(x0 * 2) - lx(x0)) * 180 / Math.PI;
+    svgEl("text", { class: "reflabel", transform: `translate(${lx(x0)} ${ly(x0 * k)}) rotate(${angle}) translate(0 13)` }, svg).textContent = t("ref")(k);
+  });
+
+  const rad = p => 4 + 2.1 * Math.sqrt(p.applicants);
+  const sorted = [...P].sort((a, b) => b.applicants - a.applicants);
+  sorted.forEach(p => {
+    const c = svgEl("circle", { class: "dot" + (p.id === S.sel ? " sel" : ""), cx: lx(p.places), cy: ly(p.postings), r: rad(p) }, svg);
+    c.addEventListener("click", () => select(p.id));
+    bindHover(c, ev => progTip(ev, p));
+  });
+  P.forEach(p => {
+    const x = lx(p.places), y = ly(p.postings), r = rad(p);
+    const left = p.places > 3000 || p.id === "Odontologi";
+    const below = ["Klinisk ernæring", "Ergoterapi"].includes(p.id);
+    const lab = svgEl("text", {
+      class: "dotlabel" + (p.id === S.sel ? " sel" : ""),
+      x: left ? x - r - 5 : x + r + (below ? -2 : 5), y: below ? y + r + 11 : y + 4, "text-anchor": left ? "end" : "start",
+    }, svg);
+    lab.textContent = name(p);
+  });
+}
+
+// ---------- profile ----------
+function renderSelect() {
+  $("progSelect").innerHTML = P.map(p => `<option value="${esc(p.id)}">${p.rank}. ${esc(name(p))}</option>`).join("");
+  $("progSelect").value = S.sel;
+}
+function renderProfile() {
+  const p = byId[S.sel];
+  const stats = [
+    [t("st_rank"), `${p.rank} / ${P.length}`], [t("st_ppp"), fmt(p.ppp, 2)], [t("st_app"), fmt(p.applicants, 2)],
+    [t("st_full"), pct(p.fulltime)], [t("st_temp"), pct(p.temporary)],
+  ];
+  $("stats").innerHTML = stats.map(([l, v]) => `<div class="stat"><div class="label">${esc(l)}</div><div class="value">${esc(v)}</div></div>`).join("");
+  $("warn").innerHTML = p.n_snapshot < 50 ? `<div class="warn">${esc(t("warn")(p.n_snapshot))}</div>` : "";
+
+  // skills
+  const relColor = { essential: "var(--s1)", optional: "var(--s2)", none: "var(--neutral)" };
+  $("skLegend").innerHTML = ["essential", "optional", "none"]
+    .filter(r => !(S.onlyEsco && r === "none"))
+    .map(r => `<span><i style="background:${relColor[r]}"></i>${esc(t("rel_" + r))}</span>`).join("");
+  let sk = DATA.skills[p.id] || [];
+  if (S.onlyEsco) sk = sk.filter(s => s.rel !== "none");
+  sk = sk.slice(0, 15);
+  const max = Math.max(0.01, ...sk.map(s => s.share));
+  const skBox = $("skills");
+  skBox.innerHTML = "";
+  sk.forEach(s => {
+    const row = document.createElement("div");
+    row.className = "hb";
+    const label = s.en;
+    row.innerHTML = `<span class="lab">${esc(label)}</span><div><div class="bar" style="width:0;background:${relColor[s.rel]}"></div></div><span class="num">${pct(s.share)}</span>`;
+    bindHover(row, ev => showTip(ev, label, [
+      [t("tt_share"), pct(s.share)], [t("tt_n"), fmt(s.n)], ["ESCO", t("rel_" + s.rel)],
+      ["ESCO (Norwegian)", s.no],
+    ]));
+    skBox.appendChild(row);
+    requestAnimationFrame(() => { row.querySelector(".bar").style.width = (s.share / max * 100) + "%"; });
+  });
+
+  // counties
+  const co = Object.entries(DATA.counties[p.id] || {}).sort((a, b) => b[1] - a[1]);
+  const total = co.reduce((s, [, n]) => s + n, 0);
+  $("coSub").textContent = t("co_sub")(fmt(total));
+  const cmax = Math.max(1, ...co.map(c => c[1]));
+  $("counties").innerHTML = co.map(([c, n]) =>
+    `<div class="hb county"><span class="lab">${esc(c)}</span><div><div class="bar" style="width:${n / cmax * 100}%"></div></div><span class="num">${fmt(n)}</span></div>`).join("");
+}
+
+// ---------- slope ----------
+function renderSlope() {
+  const box = $("slope");
+  box.innerHTML = "";
+  const W = box.clientWidth, rowH = 26, H = P.length * rowH + 30;
+  const labW = Math.min(150, W * 0.36);
+  const x1 = labW + 6, x2 = W - labW - 6;
+  const y = r => 28 + (r - 1) * rowH;
+  const svg = svgEl("svg", { width: W, height: H }, box);
+  svgEl("text", { class: "axis-title", x: x1, y: 10, "text-anchor": "middle" }, svg).textContent = t("sl_left");
+  svgEl("text", { class: "axis-title", x: x2, y: 10, "text-anchor": "middle" }, svg).textContent = t("sl_right");
+  const ordered = [...P].sort((a, b) => (a.id === S.sel) - (b.id === S.sel));
+  ordered.forEach(p => {
+    const sel = p.id === S.sel ? " sel" : "";
+    svgEl("line", { class: "slope" + sel, x1, y1: y(p.rank_baseline), x2, y2: y(p.rank) }, svg);
+  });
+  ordered.forEach(p => {
+    const sel = p.id === S.sel ? " sel" : "";
+    svgEl("circle", { class: "sdot" + sel, cx: x1, cy: y(p.rank_baseline), r: 4.5 }, svg);
+    svgEl("circle", { class: "sdot" + sel, cx: x2, cy: y(p.rank), r: 4.5 }, svg);
+    const l = svgEl("text", { class: "slabel" + sel, x: x1 - 10, y: y(p.rank_baseline) + 4, "text-anchor": "end" }, svg);
+    l.textContent = `${name(p)} ${p.rank_baseline}`;
+    const r = svgEl("text", { class: "slabel" + sel, x: x2 + 10, y: y(p.rank) + 4 }, svg);
+    r.textContent = `${p.rank} ${name(p)}`;
+    [l, r].forEach(el => fitText(el, labW - 8));
+  });
+  // hit areas: one band per programme on each side
+  P.forEach(p => {
+    [[0, y(p.rank_baseline)], [x2, y(p.rank)]].forEach(([x, cy]) => {
+      const h = svgEl("rect", { class: "hit", x, y: cy - rowH / 2, width: x === 0 ? x1 + 8 : W - x2, height: rowH }, svg);
+      h.addEventListener("click", () => select(p.id));
+      bindHover(h, ev => showTip(ev, name(p), [[t("tt_rank_b"), p.rank_baseline], [t("tt_rank_m"), p.rank]]));
+    });
+  });
+}
+function fitText(el, maxW) {
+  let s = el.textContent;
+  while (el.getComputedTextLength() > maxW && s.length > 4) {
+    s = s.slice(0, -1);
+    el.textContent = s.trimEnd() + "…";
+  }
+}
+
+// ---------- robustness ----------
+const VARIANTS = ["main", "title_only", "snapshot", "permanent", "fulltime"];
+function renderRob() {
+  const head = `<tr><th></th>${t("rb_cols").map(c => `<th>${c}</th>`).join("")}</tr>`;
+  const rows = P.map(p => `<tr data-id="${esc(p.id)}" class="${p.id === S.sel ? "sel" : ""}"><td title="${esc(name(p))}">${esc(name(p))}</td>${
+    VARIANTS.map(v => { const r = p.ranks[v]; return `<td class="${r <= 3 ? "top" : ""}">${r}</td>`; }).join("")}</tr>`).join("");
+  $("rob").innerHTML = head + rows;
+  $("rob").querySelectorAll("tr[data-id]").forEach(tr => tr.addEventListener("click", () => select(tr.dataset.id)));
+}
+
+// ---------- precision / recall ----------
+function renderPR() {
+  const ev = DATA.eval.skills;
+  const methods = [["baseline", t("m_base"), "var(--s2)"], ["llm", t("m_llm"), "var(--s1)"]];
+  $("prLegend").innerHTML = methods.map(([, l, c]) => `<span><i style="background:${c}"></i>${esc(l)}</span>`).join("");
+  $("pr").innerHTML = ["precision", "recall"].map(k => `<div class="grp"><div>${esc(t(k))}</div>${
+    methods.map(([m, l, c]) => `<div class="hb"><span class="lab">${esc(l)}</span><div><div class="bar" style="width:${ev[m][k] * 100}%;background:${c}"></div></div><span class="num">${fmt(ev[m][k], 2)}</span></div>`).join("")
+  }</div>`).join("");
+}
+
+// ---------- wiring ----------
+function select(id) {
+  S.sel = id;
+  $("progSelect").value = id;
+  renderRanking(); renderScatter(); renderProfile(); renderSlope(); renderRob();
+}
+function renderAll() {
+  renderText(); renderKpis(); renderRanking(); renderScatter(); renderSelect();
+  renderProfile(); renderSlope(); renderRob(); renderPR();
+}
+
+document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => {
+  S.mode = b.dataset.mode; renderText(); renderRanking();
+}));
+$("themeBtn").addEventListener("click", () => {
+  document.documentElement.dataset.theme = isDark() ? "light" : "dark";
+  renderText();
+});
+$("progSelect").addEventListener("change", e => select(e.target.value));
+$("onlyEsco").addEventListener("change", e => { S.onlyEsco = e.target.checked; renderProfile(); });
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "SELECT" || e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    const i = P.findIndex(p => p.id === S.sel) + (e.key === "ArrowDown" ? 1 : -1);
+    if (i >= 0 && i < P.length) { e.preventDefault(); select(P[i].id); }
+  }
+});
+let rt;
+addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderScatter(); renderSlope(); }, 120); });
+
+buildRanking();
+renderAll();
+</script>
+</body>
+</html>

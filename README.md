@@ -77,6 +77,19 @@ python src/evaluate_ranking.py    # compares the ranking with the baseline
 
 The results are saved as CSV files in `data/processed/` and `data/eval/`.
 
+## Dashboard
+
+Open `dashboard/index.html` in a browser to explore the results. It needs no
+server or internet. Click a programme in any chart to see its skills and
+counties, and switch the ranking between postings per study place and number
+of postings. Rebuild it after changing the data with:
+
+```bash
+python src/build_dashboard.py
+```
+
+The English skill names are in `src/dashboard_translations.py`.
+
 ## Folders
 
 | Folder | Contents |
